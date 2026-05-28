@@ -1,0 +1,913 @@
+# Stock Visual Note - Content Catalog
+# 100개 용어 글 중앙 관리 목록
+
+terms:
+  # Level 1: 주식 기본 언어
+  - id: 1
+    slug: stock
+    ko: 주식
+    title: "주식 뜻, 회사의 일부를 산다는 의미"
+    level: 1
+    topic: basic
+    status: draft
+    related: [stock-price, market-cap, common-stock, preferred-stock]
+
+  - id: 2
+    slug: stock-price
+    ko: 주가
+    title: "주가 뜻, 가격표만 보면 안 되는 이유"
+    level: 1
+    topic: basic
+    status: draft
+    related: [market-cap, trading-volume, per]
+
+  - id: 3
+    slug: market-cap
+    ko: 시가총액
+    title: "시가총액 뜻, 주가보다 먼저 봐야 하는 이유"
+    level: 1
+    topic: basic
+    status: draft
+    related: [stock-price, per, pbr]
+
+  - id: 4
+    slug: trading-volume
+    ko: 거래량
+    title: "거래량 뜻, 주가 움직임을 읽는 첫 단서"
+    level: 1
+    topic: basic
+    status: draft
+    related: [stock-price, foreign-net-buying, execution]
+
+  - id: 5
+    slug: upper-limit
+    ko: 상한가
+    title: "상한가 뜻, 하루에 주가가 오를 수 있는 한계"
+    level: 1
+    topic: basic
+    status: draft
+    related: [lower-limit, trading-volume, kospi]
+
+  - id: 6
+    slug: lower-limit
+    ko: 하한가
+    title: "하한가 뜻, 하루에 주가가 빠질 수 있는 한계"
+    level: 1
+    topic: basic
+    status: draft
+    related: [upper-limit, stop-loss, short-selling]
+
+  - id: 7
+    slug: kospi
+    ko: 코스피
+    title: "코스피 뜻, 한국 대표 주식시장을 이해하기"
+    level: 1
+    topic: basic
+    status: draft
+    related: [kosdaq, market-cap, stock]
+
+  - id: 8
+    slug: kosdaq
+    ko: 코스닥
+    title: "코스닥 뜻, 성장기업 시장을 이해하기"
+    level: 1
+    topic: basic
+    status: draft
+    related: [kospi, growth-stock, market-cap]
+
+  - id: 9
+    slug: common-stock
+    ko: 보통주
+    title: "보통주 뜻, 일반 주주가 보유하는 주식"
+    level: 1
+    topic: basic
+    status: draft
+    related: [preferred-stock, dividend, stock]
+
+  - id: 10
+    slug: preferred-stock
+    ko: 우선주
+    title: "우선주 뜻, 배당은 우선이지만 의결권은 다를 수 있다"
+    level: 1
+    topic: basic
+    status: draft
+    related: [common-stock, dividend, dividend-yield]
+
+  # Level 2: 시장과 거래
+  - id: 11
+    slug: foreign-net-buying
+    ko: 외국인 순매수
+    title: "외국인 순매수 뜻, 외국인이 사면 주가가 오를까"
+    level: 2
+    topic: market-trading
+    status: draft
+    related: [institutional-net-buying, individual-net-buying, trading-volume]
+
+  - id: 12
+    slug: institutional-net-buying
+    ko: 기관 순매수
+    title: "기관 순매수 뜻, 기관 투자자의 매매를 보는 법"
+    level: 2
+    topic: market-trading
+    status: draft
+    related: [foreign-net-buying, individual-net-buying, block-deal]
+
+  - id: 13
+    slug: individual-net-buying
+    ko: 개인 순매수
+    title: "개인 순매수 뜻, 개인 투자자 수급을 해석하는 법"
+    level: 2
+    topic: market-trading
+    status: draft
+    related: [foreign-net-buying, institutional-net-buying, margin-trading]
+
+  - id: 14
+    slug: short-selling
+    ko: 공매도
+    title: "공매도 뜻, 주가 하락에 투자하는 방식"
+    level: 2
+    topic: market-trading
+    status: draft
+    related: [margin-trading, lower-limit, stop-loss]
+
+  - id: 15
+    slug: margin-trading
+    ko: 신용거래
+    title: "신용거래 뜻, 빚을 내서 주식을 사는 구조"
+    level: 2
+    topic: market-trading
+    status: draft
+    related: [unsettled-trading, short-selling, stop-loss]
+
+  - id: 16
+    slug: unsettled-trading
+    ko: 미수거래
+    title: "미수거래 뜻, 초보자가 조심해야 하는 이유"
+    level: 2
+    topic: market-trading
+    status: draft
+    related: [margin-trading, execution, buy-sell]
+
+  - id: 17
+    slug: order-book
+    ko: 호가
+    title: "호가 뜻, 주식을 사고파는 가격표 읽기"
+    level: 2
+    topic: market-trading
+    status: draft
+    related: [limit-market-order, execution, buy-sell]
+
+  - id: 18
+    slug: buy-sell
+    ko: 매수·매도
+    title: "매수와 매도 뜻, 주식 거래의 기본"
+    level: 2
+    topic: market-trading
+    status: draft
+    related: [order-book, limit-market-order, execution]
+
+  - id: 19
+    slug: limit-market-order
+    ko: 지정가·시장가
+    title: "지정가와 시장가 차이, 주문 방식 쉽게 이해하기"
+    level: 2
+    topic: market-trading
+    status: draft
+    related: [order-book, execution, buy-sell]
+
+  - id: 20
+    slug: execution
+    ko: 체결
+    title: "체결 뜻, 주문이 실제 거래가 되는 순간"
+    level: 2
+    topic: market-trading
+    status: draft
+    related: [order-book, limit-market-order, trading-volume]
+
+  # Level 3: 재무제표 기초
+  - id: 21
+    slug: revenue
+    ko: 매출액
+    title: "매출액 뜻, 회사가 벌어들인 전체 돈"
+    level: 3
+    topic: financial-statements
+    status: draft
+    related: [gross-profit, operating-income, psr]
+
+  - id: 22
+    slug: gross-profit
+    ko: 매출총이익
+    title: "매출총이익 뜻, 원가를 빼고 남은 돈"
+    level: 3
+    topic: financial-statements
+    status: draft
+    related: [revenue, gross-margin, operating-income]
+
+  - id: 23
+    slug: operating-income
+    ko: 영업이익
+    title: "영업이익 뜻, 본업으로 남긴 돈"
+    level: 3
+    topic: financial-statements
+    status: draft
+    related: [net-income, operating-margin, revenue]
+
+  - id: 24
+    slug: net-income
+    ko: 순이익
+    title: "순이익 뜻, 최종적으로 남은 돈"
+    level: 3
+    topic: financial-statements
+    status: draft
+    related: [operating-income, eps, net-margin]
+
+  - id: 25
+    slug: operating-vs-net-income
+    ko: 영업이익 vs 순이익
+    title: "영업이익과 순이익 차이, 기업분석에서 중요한 이유"
+    level: 3
+    topic: financial-statements
+    status: draft
+    related: [operating-income, net-income, operating-margin]
+
+  - id: 26
+    slug: assets
+    ko: 자산
+    title: "자산 뜻, 기업이 가진 모든 것"
+    level: 3
+    topic: financial-statements
+    status: draft
+    related: [liabilities, equity, roa]
+
+  - id: 27
+    slug: liabilities
+    ko: 부채
+    title: "부채 뜻, 기업이 갚아야 할 돈"
+    level: 3
+    topic: financial-statements
+    status: draft
+    related: [assets, equity, debt-ratio]
+
+  - id: 28
+    slug: equity
+    ko: 자본
+    title: "자본 뜻, 주주에게 남는 몫"
+    level: 3
+    topic: financial-statements
+    status: draft
+    related: [assets, liabilities, roe, bps]
+
+  - id: 29
+    slug: cash-flow
+    ko: 현금흐름
+    title: "현금흐름 뜻, 실제로 들어오고 나간 돈"
+    level: 3
+    topic: financial-statements
+    status: draft
+    related: [fcf, operating-income, net-income]
+
+  - id: 30
+    slug: fcf
+    ko: 잉여현금흐름
+    title: "잉여현금흐름 FCF 뜻, 기업이 자유롭게 쓸 수 있는 돈"
+    level: 3
+    topic: financial-statements
+    status: draft
+    related: [cash-flow, capex, dividend]
+
+  # Level 4: 수익성·안정성 지표
+  - id: 31
+    slug: operating-margin
+    ko: 영업이익률
+    title: "영업이익률 뜻, 본업의 수익성을 보는 지표"
+    level: 4
+    topic: ratios
+    status: draft
+    related: [operating-income, net-margin, gross-margin]
+
+  - id: 32
+    slug: net-margin
+    ko: 순이익률
+    title: "순이익률 뜻, 최종 수익성을 보는 지표"
+    level: 4
+    topic: ratios
+    status: draft
+    related: [net-income, operating-margin, roe]
+
+  - id: 33
+    slug: gross-margin
+    ko: 매출총이익률
+    title: "매출총이익률 뜻, 제품 경쟁력을 보는 첫 지표"
+    level: 4
+    topic: ratios
+    status: draft
+    related: [gross-profit, operating-margin, revenue]
+
+  - id: 34
+    slug: roe
+    ko: ROE
+    title: "ROE 뜻, 좋은 기업을 판단할 때 중요한 이유"
+    level: 4
+    topic: ratios
+    status: draft
+    related: [roa, net-income, equity, pbr]
+
+  - id: 35
+    slug: roa
+    ko: ROA
+    title: "ROA 뜻, 자산을 얼마나 잘 쓰는지 보는 지표"
+    level: 4
+    topic: ratios
+    status: draft
+    related: [roe, assets, net-income]
+
+  - id: 36
+    slug: debt-ratio
+    ko: 부채비율
+    title: "부채비율 뜻, 기업 재무 안정성을 보는 법"
+    level: 4
+    topic: ratios
+    status: draft
+    related: [liabilities, equity, current-ratio, interest-coverage]
+
+  - id: 37
+    slug: current-ratio
+    ko: 유동비율
+    title: "유동비율 뜻, 단기 지급 능력을 보는 지표"
+    level: 4
+    topic: ratios
+    status: draft
+    related: [debt-ratio, assets, liabilities]
+
+  - id: 38
+    slug: interest-coverage
+    ko: 이자보상배율
+    title: "이자보상배율 뜻, 이자를 감당할 수 있는지 보는 법"
+    level: 4
+    topic: ratios
+    status: draft
+    related: [operating-income, debt-ratio, liabilities]
+
+  - id: 39
+    slug: inventory-turnover
+    ko: 재고자산회전율
+    title: "재고자산회전율 뜻, 재고가 잘 팔리는지 보는 지표"
+    level: 4
+    topic: ratios
+    status: draft
+    related: [receivables-turnover, revenue, inventory-adjustment]
+
+  - id: 40
+    slug: receivables-turnover
+    ko: 매출채권회전율
+    title: "매출채권회전율 뜻, 외상값을 잘 회수하는지 보는 법"
+    level: 4
+    topic: ratios
+    status: draft
+    related: [inventory-turnover, revenue, cash-flow]
+
+  # Level 5: 밸류에이션
+  - id: 41
+    slug: per
+    ko: PER
+    title: "PER 뜻, 주식 초보가 반드시 알아야 하는 이유"
+    level: 5
+    topic: valuation
+    status: draft
+    related: [eps, pbr, peg, multiple]
+
+  - id: 42
+    slug: pbr
+    ko: PBR
+    title: "PBR 뜻, 자산가치로 주가를 보는 방법"
+    level: 5
+    topic: valuation
+    status: draft
+    related: [bps, per, roe]
+
+  - id: 43
+    slug: psr
+    ko: PSR
+    title: "PSR 뜻, 매출 대비 주가를 보는 지표"
+    level: 5
+    topic: valuation
+    status: draft
+    related: [per, revenue, growth-stock]
+
+  - id: 44
+    slug: eps
+    ko: EPS
+    title: "EPS 뜻, 주당순이익이 주가에 중요한 이유"
+    level: 5
+    topic: valuation
+    status: draft
+    related: [per, net-income, peg]
+
+  - id: 45
+    slug: bps
+    ko: BPS
+    title: "BPS 뜻, 주당순자산을 보는 이유"
+    level: 5
+    topic: valuation
+    status: draft
+    related: [pbr, equity, assets]
+
+  - id: 46
+    slug: ev-ebitda
+    ko: EV/EBITDA
+    title: "EV/EBITDA 뜻, 기업가치를 영업현금창출력으로 보는 법"
+    level: 5
+    topic: valuation
+    status: draft
+    related: [per, operating-income, multiple]
+
+  - id: 47
+    slug: peg
+    ko: PEG
+    title: "PEG 뜻, PER과 성장률을 함께 보는 지표"
+    level: 5
+    topic: valuation
+    status: draft
+    related: [per, eps, growth-stock]
+
+  - id: 48
+    slug: multiple
+    ko: 멀티플
+    title: "멀티플 뜻, 주식시장에서 몇 배로 평가한다는 의미"
+    level: 5
+    topic: valuation
+    status: draft
+    related: [per, pbr, rerating, derating]
+
+  - id: 49
+    slug: rerating
+    ko: 리레이팅
+    title: "리레이팅 뜻, 기업의 평가 배수가 높아지는 순간"
+    level: 5
+    topic: valuation
+    status: draft
+    related: [derating, multiple, momentum]
+
+  - id: 50
+    slug: derating
+    ko: 디레이팅
+    title: "디레이팅 뜻, 좋은 기업도 주가가 눌릴 수 있는 이유"
+    level: 5
+    topic: valuation
+    status: draft
+    related: [rerating, multiple, value-trap]
+
+  # Level 6: 배당과 주주환원
+  - id: 51
+    slug: dividend
+    ko: 배당
+    title: "배당 뜻, 기업이 이익을 주주에게 나누는 방식"
+    level: 6
+    topic: events
+    status: draft
+    related: [dividend-yield, payout-ratio, ex-dividend]
+
+  - id: 52
+    slug: dividend-yield
+    ko: 배당수익률
+    title: "배당수익률 뜻, 배당주를 볼 때 조심해야 할 점"
+    level: 6
+    topic: events
+    status: draft
+    related: [dividend, payout-ratio, preferred-stock]
+
+  - id: 53
+    slug: payout-ratio
+    ko: 배당성향
+    title: "배당성향 뜻, 배당이 지속 가능한지 보는 법"
+    level: 6
+    topic: events
+    status: draft
+    related: [dividend, net-income, fcf]
+
+  - id: 54
+    slug: ex-dividend
+    ko: 배당락
+    title: "배당락 뜻, 배당을 받아도 주가가 빠지는 이유"
+    level: 6
+    topic: events
+    status: draft
+    related: [record-date, dividend, ex-rights]
+
+  - id: 55
+    slug: ex-rights
+    ko: 권리락
+    title: "권리락 뜻, 신주나 배당 권리가 사라지는 날"
+    level: 6
+    topic: events
+    status: draft
+    related: [ex-dividend, paid-in-capital-increase, free-capital-increase]
+
+  - id: 56
+    slug: share-buyback
+    ko: 자사주 매입
+    title: "자사주 매입 뜻, 회사가 자기 주식을 사는 이유"
+    level: 6
+    topic: events
+    status: draft
+    related: [share-cancellation, dividend, eps]
+
+  - id: 57
+    slug: share-cancellation
+    ko: 자사주 소각
+    title: "자사주 소각 뜻, 주식 수가 줄면 왜 중요한가"
+    level: 6
+    topic: events
+    status: draft
+    related: [share-buyback, eps, capital-reduction]
+
+  - id: 58
+    slug: interim-dividend
+    ko: 중간배당
+    title: "중간배당 뜻, 1년에 한 번만 배당하지 않는 기업"
+    level: 6
+    topic: events
+    status: draft
+    related: [dividend, record-date, special-dividend]
+
+  - id: 59
+    slug: special-dividend
+    ko: 특별배당
+    title: "특별배당 뜻, 일회성 배당을 해석하는 법"
+    level: 6
+    topic: events
+    status: draft
+    related: [dividend, payout-ratio, interim-dividend]
+
+  - id: 60
+    slug: record-date
+    ko: 배당기준일
+    title: "배당기준일 뜻, 배당을 받으려면 언제까지 사야 할까"
+    level: 6
+    topic: events
+    status: draft
+    related: [ex-dividend, dividend, interim-dividend]
+
+  # Level 7: 공시·자본 이벤트
+  - id: 61
+    slug: paid-in-capital-increase
+    ko: 유상증자
+    title: "유상증자 뜻, 주가에 악재로 보는 이유와 예외"
+    level: 7
+    topic: earnings
+    status: draft
+    related: [free-capital-increase, capital-reduction, ex-rights]
+
+  - id: 62
+    slug: free-capital-increase
+    ko: 무상증자
+    title: "무상증자 뜻, 공짜 주식이 정말 공짜일까"
+    level: 7
+    topic: earnings
+    status: draft
+    related: [paid-in-capital-increase, stock-split, ex-rights]
+
+  - id: 63
+    slug: capital-reduction
+    ko: 감자
+    title: "감자 뜻, 주식 수를 줄이는 일이 왜 위험할 수 있나"
+    level: 7
+    topic: earnings
+    status: draft
+    related: [share-cancellation, paid-in-capital-increase, equity]
+
+  - id: 64
+    slug: stock-split
+    ko: 액면분할
+    title: "액면분할 뜻, 주식 가격이 싸져 보이는 이유"
+    level: 7
+    topic: earnings
+    status: draft
+    related: [reverse-stock-split, free-capital-increase, trading-volume]
+
+  - id: 65
+    slug: reverse-stock-split
+    ko: 액면병합
+    title: "액면병합 뜻, 주식 수를 합치는 이유"
+    level: 7
+    topic: earnings
+    status: draft
+    related: [stock-split, capital-reduction]
+
+  - id: 66
+    slug: convertible-bond
+    ko: 전환사채
+    title: "전환사채 CB 뜻, 주식으로 바뀔 수 있는 채권"
+    level: 7
+    topic: earnings
+    status: draft
+    related: [bond-with-warrant, paid-in-capital-increase, eps]
+
+  - id: 67
+    slug: bond-with-warrant
+    ko: 신주인수권부사채
+    title: "신주인수권부사채 BW 뜻, 새 주식을 살 권리가 붙은 채권"
+    level: 7
+    topic: earnings
+    status: draft
+    related: [convertible-bond, paid-in-capital-increase]
+
+  - id: 68
+    slug: lock-up
+    ko: 보호예수
+    title: "보호예수 뜻, 묶여 있던 주식이 풀리는 날"
+    level: 7
+    topic: earnings
+    status: draft
+    related: [block-deal, trading-volume, short-selling]
+
+  - id: 69
+    slug: block-deal
+    ko: 블록딜
+    title: "블록딜 뜻, 대량 주식 거래가 주가에 미치는 영향"
+    level: 7
+    topic: earnings
+    status: draft
+    related: [lock-up, institutional-net-buying, trading-volume]
+
+  - id: 70
+    slug: tender-offer
+    ko: 공개매수
+    title: "공개매수 뜻, 특정 가격에 주식을 사겠다는 제안"
+    level: 7
+    topic: earnings
+    status: draft
+    related: [block-deal, share-buyback, market-cap]
+
+  # Level 8: 실적·컨센서스
+  - id: 71
+    slug: consensus
+    ko: 컨센서스
+    title: "컨센서스 뜻, 실적 발표 때 주가가 움직이는 이유"
+    level: 8
+    topic: industry-macro
+    status: draft
+    related: [earnings-surprise, earnings-shock, guidance]
+
+  - id: 72
+    slug: earnings-surprise
+    ko: 어닝서프라이즈
+    title: "어닝서프라이즈 뜻, 실적이 좋은데도 주가가 빠질 수 있다"
+    level: 8
+    topic: industry-macro
+    status: draft
+    related: [consensus, earnings-shock, guidance]
+
+  - id: 73
+    slug: earnings-shock
+    ko: 어닝쇼크
+    title: "어닝쇼크 뜻, 실적이 기대보다 나쁠 때 생기는 일"
+    level: 8
+    topic: industry-macro
+    status: draft
+    related: [consensus, earnings-surprise, stop-loss]
+
+  - id: 74
+    slug: guidance
+    ko: 가이던스
+    title: "가이던스 뜻, 회사가 직접 말하는 미래 전망"
+    level: 8
+    topic: industry-macro
+    status: draft
+    related: [consensus, earnings-season, peak-out]
+
+  - id: 75
+    slug: earnings-season
+    ko: 실적 시즌
+    title: "실적 시즌 뜻, 기업들이 성적표를 공개하는 시기"
+    level: 8
+    topic: industry-macro
+    status: draft
+    related: [consensus, guidance, earnings-surprise]
+
+  - id: 76
+    slug: peak-out
+    ko: 피크아웃
+    title: "피크아웃 뜻, 실적이 정점을 지났다는 말"
+    level: 8
+    topic: industry-macro
+    status: draft
+    related: [turnaround, derating, cyclical]
+
+  - id: 77
+    slug: turnaround
+    ko: 턴어라운드
+    title: "턴어라운드 뜻, 적자 기업이 다시 살아나는 과정"
+    level: 8
+    topic: industry-macro
+    status: draft
+    related: [peak-out, operating-income, momentum]
+
+  - id: 78
+    slug: base-effect
+    ko: 기저효과
+    title: "기저효과 뜻, 실적 증가율을 착각하게 만드는 요인"
+    level: 8
+    topic: industry-macro
+    status: draft
+    related: [earnings-surprise, revenue, operating-income]
+
+  - id: 79
+    slug: margin-improvement
+    ko: 마진 개선
+    title: "마진 개선 뜻, 이익률이 좋아지는 신호"
+    level: 8
+    topic: industry-macro
+    status: draft
+    related: [operating-margin, gross-margin, rerating]
+
+  - id: 80
+    slug: inventory-adjustment
+    ko: 재고 조정
+    title: "재고 조정 뜻, 반도체와 제조업에서 중요한 이유"
+    level: 8
+    topic: industry-macro
+    status: draft
+    related: [inventory-turnover, semiconductor-cycle, cyclical]
+
+  # Level 9: 산업·매크로
+  - id: 81
+    slug: growth-stock
+    ko: 성장주
+    title: "성장주 뜻, 미래 이익에 높은 기대를 받는 주식"
+    level: 9
+    topic: strategy-risk
+    status: draft
+    related: [value-stock, per, peg, psr]
+
+  - id: 82
+    slug: value-stock
+    ko: 가치주
+    title: "가치주 뜻, 현재 가치보다 싸게 평가받는 주식"
+    level: 9
+    topic: strategy-risk
+    status: draft
+    related: [growth-stock, pbr, value-trap, margin-of-safety]
+
+  - id: 83
+    slug: cyclical-stock
+    ko: 경기민감주
+    title: "경기민감주 뜻, 경기 흐름에 따라 움직이는 주식"
+    level: 9
+    topic: strategy-risk
+    status: draft
+    related: [defensive-stock, cyclical, semiconductor-cycle]
+
+  - id: 84
+    slug: defensive-stock
+    ko: 방어주
+    title: "방어주 뜻, 경기와 상관없이 버티는 주식"
+    level: 9
+    topic: strategy-risk
+    status: draft
+    related: [cyclical-stock, dividend, portfolio]
+
+  - id: 85
+    slug: cyclical
+    ko: 시클리컬
+    title: "시클리컬 뜻, 업황 사이클을 타는 기업"
+    level: 9
+    topic: strategy-risk
+    status: draft
+    related: [cyclical-stock, semiconductor-cycle, peak-out]
+
+  - id: 86
+    slug: semiconductor-cycle
+    ko: 반도체 사이클
+    title: "반도체 사이클 뜻, 메모리 기업을 볼 때 중요한 이유"
+    level: 9
+    topic: strategy-risk
+    status: draft
+    related: [cyclical, inventory-adjustment, capex]
+
+  - id: 87
+    slug: capex
+    ko: CAPEX
+    title: "CAPEX 뜻, 기업의 미래 투자를 읽는 지표"
+    level: 9
+    topic: strategy-risk
+    status: draft
+    related: [fcf, cash-flow, semiconductor-cycle]
+
+  - id: 88
+    slug: order-backlog
+    ko: 수주잔고
+    title: "수주잔고 뜻, 조선·건설 기업을 볼 때 중요한 이유"
+    level: 9
+    topic: strategy-risk
+    status: draft
+    related: [revenue, guidance, cyclical]
+
+  - id: 89
+    slug: interest-rate-sensitive
+    ko: 금리 민감주
+    title: "금리 민감주 뜻, 금리가 오르면 왜 움직일까"
+    level: 9
+    topic: strategy-risk
+    status: draft
+    related: [defensive-stock, debt-ratio, exchange-rate-beneficiary]
+
+  - id: 90
+    slug: exchange-rate-beneficiary
+    ko: 환율 수혜주
+    title: "환율 수혜주 뜻, 원달러 환율과 기업 실적의 관계"
+    level: 9
+    topic: strategy-risk
+    status: draft
+    related: [interest-rate-sensitive, revenue, operating-income]
+
+  # Level 10: 투자전략·기업분석 연결
+  - id: 91
+    slug: margin-of-safety
+    ko: 안전마진
+    title: "안전마진 뜻, 좋은 기업을 싸게 사야 하는 이유"
+    level: 10
+    topic: company-analysis
+    status: draft
+    related: [value-trap, per, pbr, investment-thesis]
+
+  - id: 92
+    slug: value-trap
+    ko: 밸류트랩
+    title: "밸류트랩 뜻, 싸 보여도 위험한 주식"
+    level: 10
+    topic: company-analysis
+    status: draft
+    related: [margin-of-safety, per, derating, turnaround]
+
+  - id: 93
+    slug: momentum
+    ko: 모멘텀
+    title: "모멘텀 뜻, 주가가 움직이는 힘을 보는 법"
+    level: 10
+    topic: company-analysis
+    status: draft
+    related: [rerating, earnings-surprise, consensus]
+
+  - id: 94
+    slug: portfolio
+    ko: 포트폴리오
+    title: "포트폴리오 뜻, 여러 종목을 나눠 담는 이유"
+    level: 10
+    topic: company-analysis
+    status: draft
+    related: [diversification, concentration, defensive-stock]
+
+  - id: 95
+    slug: diversification
+    ko: 분산투자
+    title: "분산투자 뜻, 위험을 나누는 가장 기본적인 방법"
+    level: 10
+    topic: company-analysis
+    status: draft
+    related: [portfolio, concentration, stop-loss]
+
+  - id: 96
+    slug: concentration
+    ko: 집중투자
+    title: "집중투자 뜻, 적은 종목에 크게 투자하는 방식"
+    level: 10
+    topic: company-analysis
+    status: draft
+    related: [diversification, portfolio, margin-of-safety]
+
+  - id: 97
+    slug: stop-loss
+    ko: 손절
+    title: "손절 뜻, 손실을 인정하는 기준이 필요한 이유"
+    level: 10
+    topic: company-analysis
+    status: draft
+    related: [investment-thesis, diversification, margin-of-safety]
+
+  - id: 98
+    slug: dollar-cost-averaging
+    ko: 분할매수
+    title: "분할매수 뜻, 한 번에 사지 않는 이유"
+    level: 10
+    topic: company-analysis
+    status: draft
+    related: [stop-loss, portfolio, margin-of-safety]
+
+  - id: 99
+    slug: investment-thesis
+    ko: 투자 아이디어
+    title: "투자 아이디어 뜻, 왜 이 기업을 보는지 정리하는 법"
+    level: 10
+    topic: company-analysis
+    status: draft
+    related: [stop-loss, margin-of-safety, company-analysis-framework]
+
+  - id: 100
+    slug: company-analysis-framework
+    ko: 기업분석 프레임워크
+    title: "기업분석 프레임워크, 초보가 기업을 보는 순서"
+    level: 10
+    topic: company-analysis
+    status: draft
+    related: [investment-thesis, margin-of-safety, roe, per]
