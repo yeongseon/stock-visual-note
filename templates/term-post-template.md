@@ -1,4 +1,6 @@
 ---
+id: {id}
+slug: "{slug}"
 title: "{용어} 뜻, 주식 초보가 반드시 알아야 하는 이유"
 seo_title: "{용어} 뜻 쉽게 이해하기"
 category: "stock-terms"
