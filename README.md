@@ -22,7 +22,7 @@ content/stock-terms/ko/
 └── level-10-company-analysis/     # 투자전략·기업분석 (10개)
 ```
 
-현재 **100개 글 작성 완료** (Level 1~10, 레벨당 10개, status: draft)
+현재 **101개 글 작성 완료** (개념 100 + 데이터 실습 1, Level 1~10, status: draft)
 
 ## 콘텐츠 로드맵
 
@@ -47,7 +47,7 @@ content/stock-terms/ko/
 1. 한 줄 정의
 2. 아주 쉽게 말하면
 3. 왜 중요한가
-4. 그림으로 이해하기 (ASCII 다이어그램)
+4. 그림으로 이해하기 (Mermaid 다이어그램)
 5. 숫자로 보는 예시
 6. 표로 비교하기
 7. 초보자가 자주 하는 오해 (2개)

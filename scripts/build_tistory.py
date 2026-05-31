@@ -5,13 +5,18 @@ Usage:
     python3 scripts/build_tistory.py content/.../stock.md     # single file
     python3 scripts/build_tistory.py --all --status published # all published
     python3 scripts/build_tistory.py --output-dir dist/       # output directory
+    python3 scripts/build_tistory.py --all --dry-run          # preview without writing
 
 Output: HTML file ready for Tistory editor (HTML mode paste).
+Mermaid blocks are rendered as inline SVG (requires mmdc CLI).
 """
 
 import argparse
 import re
+import shutil
+import subprocess
 import sys
+import tempfile
 import yaml
 from pathlib import Path
 
@@ -25,6 +30,9 @@ except ImportError:
 CONTENT_ROOT = Path(__file__).parent.parent / "content"
 DEFAULT_OUTPUT = Path(__file__).parent.parent / "dist"
 
+# Tistory URL mapping: slug -> full URL
+TISTORY_BASE = "https://stockvisualnote.tistory.com"
+
 
 def parse_frontmatter(text: str) -> tuple[dict, str]:
     """Parse YAML frontmatter and return (metadata, body)."""
@@ -36,16 +44,88 @@ def parse_frontmatter(text: str) -> tuple[dict, str]:
     return fm, body
 
 
+def has_mmdc() -> bool:
+    """Check if mermaid-cli (mmdc) is available."""
+    return shutil.which("mmdc") is not None
+
+
+def render_mermaid_svg(mermaid_code: str) -> str | None:
+    """Render Mermaid code to SVG string using mmdc CLI."""
+    if not has_mmdc():
+        return None
+
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".mmd", delete=False) as f:
+        f.write(mermaid_code)
+        input_path = f.name
+
+    output_path = input_path.replace(".mmd", ".svg")
+    try:
+        result = subprocess.run(
+            [
+                "mmdc",
+                "-i",
+                input_path,
+                "-o",
+                output_path,
+                "--backgroundColor",
+                "transparent",
+            ],
+            capture_output=True,
+            text=True,
+            timeout=30,
+        )
+        if result.returncode == 0 and Path(output_path).exists():
+            svg = Path(output_path).read_text(encoding="utf-8")
+            return svg
+    except (subprocess.TimeoutExpired, FileNotFoundError):
+        pass
+    finally:
+        Path(input_path).unlink(missing_ok=True)
+        Path(output_path).unlink(missing_ok=True)
+
+    return None
+
+
+def rewrite_md_links(html: str) -> str:
+    """Rewrite relative .md links to Tistory entry URLs.
+
+    Pattern: href="../level-xx-topic/slug.md" -> href="/entry/slug"
+    """
+
+    def replace_link(match):
+        full = match.group(0)
+        path = match.group(1)
+        # Extract slug from path like "../level-05-valuation/per.md"
+        slug = Path(path).stem
+        return full.replace(path, f"{TISTORY_BASE}/entry/{slug}")
+
+    return re.sub(r'href="([^"]*\.md)"', replace_link, html)
+
+
 def markdown_to_html(body: str) -> str:
-    """Convert markdown body to HTML."""
+    """Convert markdown body to HTML with Mermaid SVG rendering."""
+
+    # Extract and render mermaid blocks before markdown conversion
+    def mermaid_replacer(match):
+        code = match.group(1)
+        svg = render_mermaid_svg(code)
+        if svg:
+            return f'\n<div class="mermaid-diagram">\n{svg}\n</div>\n'
+        # Fallback: keep as code block for client-side rendering
+        return f'\n<div class="mermaid">\n{code}\n</div>\n'
+
+    body = re.sub(r"```mermaid\n(.*?)```", mermaid_replacer, body, flags=re.DOTALL)
+
     if HAS_MARKDOWN:
-        return markdown.markdown(
+        html = markdown.markdown(
             body,
             extensions=["tables", "fenced_code", "toc"],
             output_format="html5",
         )
-    # Fallback: basic conversion without library
-    return fallback_convert(body)
+    else:
+        html = fallback_convert(body)
+
+    return html
 
 
 def fallback_convert(body: str) -> str:
@@ -81,7 +161,7 @@ def fallback_convert(body: str) -> str:
         # Table rows
         elif line.startswith("|"):
             if "|---" in line or "| ---" in line:
-                continue  # skip separator
+                continue
             cells = [c.strip() for c in line.split("|")[1:-1]]
             if not in_table:
                 html_lines.append("<table>")
@@ -93,7 +173,6 @@ def fallback_convert(body: str) -> str:
             if in_table:
                 html_lines.append("</table>")
                 in_table = False
-            # Blockquotes
             if line.startswith("> "):
                 html_lines.append(f"<blockquote>{line[2:]}</blockquote>")
             elif line.startswith("- "):
@@ -113,11 +192,19 @@ def build_tistory_html(filepath: Path) -> str:
     fm, body = parse_frontmatter(text)
 
     html_body = markdown_to_html(body)
+    html_body = rewrite_md_links(html_body)
 
-    # Wrap with Tistory-friendly structure
     title = fm.get("title", "Untitled")
     tags = fm.get("tags", [])
     description = fm.get("description", "")
+
+    # Add Mermaid client-side renderer fallback (when mmdc not available)
+    mermaid_script = ""
+    if '<div class="mermaid">' in html_body:
+        mermaid_script = (
+            '\n<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>'
+            "\n<script>mermaid.initialize({startOnLoad:true});</script>\n"
+        )
 
     html = f"""<!-- 
   Title: {title}
@@ -127,7 +214,7 @@ def build_tistory_html(filepath: Path) -> str:
 <div class="stock-visual-note">
 {html_body}
 </div>
-"""
+{mermaid_script}"""
     return html
 
 
@@ -141,10 +228,14 @@ def main():
     parser.add_argument(
         "--output-dir", default=str(DEFAULT_OUTPUT), help="Output directory"
     )
+    parser.add_argument(
+        "--dry-run", action="store_true", help="Preview without writing files"
+    )
     args = parser.parse_args()
 
     output_dir = Path(args.output_dir)
-    output_dir.mkdir(parents=True, exist_ok=True)
+    if not args.dry_run:
+        output_dir.mkdir(parents=True, exist_ok=True)
 
     if args.all:
         files = sorted(CONTENT_ROOT.rglob("*.md"))
@@ -168,8 +259,13 @@ def main():
                 continue
 
         html = build_tistory_html(filepath)
-        out_path = output_dir / filepath.with_suffix(".html").name
-        out_path.write_text(html, encoding="utf-8")
+
+        if args.dry_run:
+            print(f"  [dry-run] {filepath.name} → {filepath.stem}.html")
+        else:
+            out_path = output_dir / filepath.with_suffix(".html").name
+            out_path.write_text(html, encoding="utf-8")
+
         built += 1
 
     print(f"Built {built} HTML files → {output_dir}/")

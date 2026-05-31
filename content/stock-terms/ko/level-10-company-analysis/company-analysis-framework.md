@@ -17,7 +17,7 @@ description: "기업분석 프레임워크(Company Analysis Framework)을 초보
 analysis_type: "concept"
 review_status: "needs_review"
 search_intent: "종합 기업분석 방법"
-primary_keyword: "기업분석 프레임워크(Company Analysis Framework)"
+primary_keyword: "기업분석"
 ---
 
 # 기업분석 프레임워크(Company Analysis Framework)
@@ -39,26 +39,15 @@ primary_keyword: "기업분석 프레임워크(Company Analysis Framework)"
 
 ## 그림으로 이해하기
 
-```
-기업분석 5단계 프레임워크
-
-Step 1          Step 2          Step 3
-사업 이해       산업 분석       재무 분석
-┌─────────┐    ┌─────────┐    ┌─────────┐
-│뭘 파는가│───▶│시장 크기│───▶│매출·이익│
-│어떻게   │    │성장률   │    │현금흐름 │
-│돈 버는가│    │경쟁 구도│    │부채 수준│
-└─────────┘    └─────────┘    └─────────┘
-                                    │
-                    ┌───────────────┘
-                    ▼
-Step 4          Step 5
-밸류에이션      투자 판단
-┌─────────┐    ┌─────────┐
-│PER·PBR  │───▶│아이디어 │
-│적정가치 │    │매수 기준│
-│안전마진 │    │손절 기준│
-└─────────┘    └─────────┘
+```mermaid
+graph TD
+    ROOT(("COMPANY-ANALYSIS-FRAMEWORK")
+    ROOT --> G0["기업분석 5단계 프레임워크"]
+    G0 --- G0_0["뭘 파는가▶시장 크기▶매출"]
+    G0 --- G0_1["이익"]
+    ROOT --> G1["Step 4          Step 5"]
+    G1 --- G1_0["PER"]
+    G1 --- G1_1["PBR  ▶아이디어"]
 ```
 
 ## 숫자로 보는 예시

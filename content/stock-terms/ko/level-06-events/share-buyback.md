@@ -12,7 +12,7 @@ status: draft
 tags: [자사주매입, 자기주식, 주주환원, EPS, 소각]
 last_reviewed: "2026-05-27"
 content_type: "concept"
-source_policy: "hypothetical"
+source_policy: "cited"
 description: "자사주 매입 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
@@ -36,22 +36,23 @@ primary_keyword: "자사주 매입"
 
 ## 그림으로 이해하기
 
-```
-자사주 매입 효과:
-
-[Before]                    [After]
-순이익: 1,000억              순이익: 1,000억 (동일)
-주식수: 1억 주               주식수: 9,000만 주 (-10%)
-EPS: 1,000원                EPS: 1,111원 (+11%)
-
-자사주 처리 방법:
-┌────────────┐
-│ 매입한 자사주│
-├────────┬───┤
-│ 소각   │보유│
-│(영구적)│(일시)│
-│EPS↑확정│추후 재활용│
-└────────┴───┘
+```mermaid
+graph TD
+    N0["자사주 매입 효과:"]
+    N1["[Before] [After]"]
+    N2["순이익: 1,000억 순이익: 1,000억 （동일）"]
+    N3["주식수: 1억 주 주식수: 9,000만 주 （-10%）"]
+    N4["EPS: 1,000원 EPS: 1,111원 （+11%）"]
+    N5["자사주 처리 방법:"]
+    N6["매입한 자사주"]
+    N7["소각 보유"]
+    N0 --> N1
+    N1 --> N2
+    N2 --> N3
+    N3 --> N4
+    N4 --> N5
+    N5 --> N6
+    N6 --> N7
 ```
 
 ## 숫자로 보는 예시

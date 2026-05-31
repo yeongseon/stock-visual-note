@@ -5,6 +5,7 @@ on:
     paths:
       - 'content/**'
       - 'scripts/validate.py'
+      - 'scripts/build_tistory.py'
       - 'templates/**'
       - 'STYLE_GUIDE.md'
       - 'content-catalog.yaml'
@@ -12,6 +13,7 @@ on:
     paths:
       - 'content/**'
       - 'scripts/validate.py'
+      - 'scripts/build_tistory.py'
       - 'templates/**'
       - 'STYLE_GUIDE.md'
       - 'content-catalog.yaml'
@@ -28,11 +30,10 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install pyyaml
-
-      - name: Run validator
-        run: python scripts/validate.py
+        run: pip install -r requirements.txt
 
       - name: Run validator (strict)
         run: python scripts/validate.py --strict
-        run: python scripts/validate.py --strict
+
+      - name: Build smoke test (dry-run)
+        run: python scripts/build_tistory.py --all --dry-run

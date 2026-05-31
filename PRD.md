@@ -14,7 +14,7 @@
 ## 핵심 가치
 
 1. **쉬움** — 초등학생도 첫 문장은 이해할 수 있어야 한다
-2. **시각화** — 모든 글에 ASCII 다이어그램 + 표가 필수
+2. **시각화** — 모든 글에 Mermaid 다이어그램 + 표가 필수
 3. **연결** — 용어 하나가 기업분석까지 이어지는 학습 경로
 4. **중립** — 투자 권유 없음. 교육 목적만.
 
@@ -45,6 +45,8 @@ content_type: string  # concept | data-practice
 language: "ko"
 status: string        # draft | review | published
 source_policy: string # hypothetical | cited
+search_intent: string # 사용자 검색 의도 (예: "PER 뜻", "주식 PER이란")
+primary_keyword: string # 핵심 키워드 (seo_title에 반드시 포함)
 tags: string[]        # 5개 태그 (한국어)
 last_reviewed: date   # 마지막 검토일
 ```
@@ -65,7 +67,7 @@ ticker_used: string[] # 예시 종목 티커 (예: ["005930"])
 | 1 | 한 줄 정의 | 사전적 정의 |
 | 2 | 아주 쉽게 말하면 | 비유·일상어 설명 |
 | 3 | 왜 중요한가 | 투자에서의 의미 |
-| 4 | 그림으로 이해하기 | ASCII 다이어그램 |
+| 4 | 그림으로 이해하기 | Mermaid 다이어그램 |
 | 5 | 숫자로 보는 예시 | 가상 기업 수치 |
 | 6 | 표로 비교하기 | 개념 비교 테이블 |
 | 7 | 초보자가 자주 하는 오해 | 2개 오해 + 해소 |
