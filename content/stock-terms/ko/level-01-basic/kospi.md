@@ -121,9 +121,9 @@ _시가총액이 큰 대형주가 코스피 지수 방향에 큰 영향을 줍�
 
 - [코스닥 뜻](../level-01-basic/kosdaq.md)
 - [시가총액 뜻](../level-01-basic/market-cap.md)
-- [외국인 순매수 뜻](../level-02-market/foreign-net-buying.md)
+- [외국인 순매수 뜻](../level-02-market-trading/foreign-net-buying.md)
 - [PER 뜻](../level-05-valuation/per.md)
-- [성장주 뜻](../level-09-industry/growth-stock.md)
+- [성장주 뜻](../level-09-strategy-risk/growth-stock.md)
 
 ## 정리
 

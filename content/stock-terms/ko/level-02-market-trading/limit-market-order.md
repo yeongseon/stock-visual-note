@@ -129,13 +129,13 @@ _지정가는 가격을 내가 정하고, 시장가는 시장이 정합니다._
 - [체결 뜻](../level-02-market-trading/execution.md)
 - [매수와 매도 뜻](../level-02-market-trading/buy-sell.md)
 - [거래량 뜻](../level-01-basic/trading-volume.md)
-- [분할매수 뜻](../level-10-strategy/dollar-cost-averaging.md)
+- [분할매수 뜻](../level-10-company-analysis/dollar-cost-averaging.md)
 
 ## 정리
 
 - 지정가는 내가 원하는 가격을 정하는 주문 (체결 불확실, 가격 확정)이다.
 - 시장가는 즉시 체결되는 주문 (체결 확실, 가격 불확실)이다.
-- 초보자는 지정가를 기본으로 사용하고, 급할 때만 시장가를 쓰는 것이 안전하다.
+- 초보자는 지정가를 기본으로 사용하고, 급할 때만 시장가를 쓰는 편이 실수를 줄일 수 있다.
 
 ## 한 줄 요약
 

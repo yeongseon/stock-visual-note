@@ -125,13 +125,13 @@ _매수 후 2영업일 내에 돈을 내지 않으면 강제 매도됩니다._
 - [체결 뜻](../level-02-market-trading/execution.md)
 - [매수와 매도 뜻](../level-02-market-trading/buy-sell.md)
 - [하한가 뜻](../level-01-basic/lower-limit.md)
-- [손절 뜻](../level-10-strategy/stop-loss.md)
+- [손절 뜻](../level-10-company-analysis/stop-loss.md)
 
 ## 정리
 
 - 미수거래는 결제 대금을 아직 내지 않은 상태의 매수이다.
 - 2영업일 내에 미입금하면 시장가로 강제 매도(반대매매)된다.
-- 자기도 모르게 발생할 수 있으므로, 증거금률 설정을 100%로 바꾸는 것이 안전하다.
+- 자기도 모르게 발생할 수 있으므로, 증거금률 설정을 100%로 바꾸는 편이 실수를 줄일 수 있다.
 
 ## 한 줄 요약
 

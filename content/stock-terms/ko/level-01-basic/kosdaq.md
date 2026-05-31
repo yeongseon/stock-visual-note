@@ -124,7 +124,7 @@ _코스피와 코스닥은 같은 한국거래소에서 운영하는 별도 시�
 - [코스피 뜻](../level-01-basic/kospi.md)
 - [시가총액 뜻](../level-01-basic/market-cap.md)
 - [거래량 뜻](../level-01-basic/trading-volume.md)
-- [성장주 뜻](../level-09-industry/growth-stock.md)
+- [성장주 뜻](../level-09-strategy-risk/growth-stock.md)
 - [PSR 뜻](../level-05-valuation/psr.md)
 
 ## 정리

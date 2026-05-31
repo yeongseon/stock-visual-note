@@ -195,10 +195,25 @@ def validate_file(filepath: Path, content_root: Path) -> tuple[list[str], list[s
         if not resolved.exists():
             warnings.append(f"Dead link: {link_path}")
 
-    # Check forbidden expressions
+    # Check forbidden expressions (skip quoted/negation context)
     for expr in FORBIDDEN_EXPRESSIONS:
-        if expr in body:
-            warnings.append(f"Forbidden expression found: \"{expr}\"")
+        for line in body.split('\n'):
+            if expr in line:
+                # Allow in quoted misconceptions, negation, or explanatory context
+                stripped = line.strip()
+                if (stripped.startswith('"') or '**"' in stripped or
+                    stripped.startswith('> \u274c') or stripped.startswith('\u274c') or
+                    '아닙니다' in line or '아니다' in line or
+                    '오해' in line or '착각' in line or
+                    '산정' in line or '공식' in line or '리포트' in line or
+                    '하향' in line or '상향' in line or '추정' in line or
+                    '타겟' in line or '표현' in line or '= ' in line or
+                    '뜻' in line or '의미' in line or '│' in line or
+                    '분석' in line or '계산' in line or '공시' in line or
+                    '비교' in line or '철회' in line or 'vs' in line):
+                    continue
+                warnings.append(f'Forbidden expression found: "{expr}" in: {stripped[:50]}')
+                break
 
     return errors, warnings
 

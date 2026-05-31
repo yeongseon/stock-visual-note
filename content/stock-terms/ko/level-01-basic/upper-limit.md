@@ -119,8 +119,8 @@ _하루 거래 가격은 전일 종가의 ±30% 안에서만 움직일 수 있�
 - [하한가 뜻](../level-01-basic/lower-limit.md)
 - [주가 뜻](../level-01-basic/stock-price.md)
 - [거래량 뜻](../level-01-basic/trading-volume.md)
-- [체결 뜻](../level-02-market/execution.md)
-- [어닝서프라이즈 뜻](../level-08-earnings/earnings-surprise.md)
+- [체결 뜻](../level-02-market-trading/execution.md)
+- [어닝서프라이즈 뜻](../level-08-industry-macro/earnings-surprise.md)
 
 ## 정리
 

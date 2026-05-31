@@ -104,7 +104,6 @@ CAPEX를 줄이면 단기 현금흐름은 좋아지지만, 미래 성장동력�
 - [시클리컬](./cyclical.md): CAPEX 과잉이 하락을 부르는 구조
 - [수주잔고](./order-backlog.md): CAPEX를 집행하는 발주 기업의 지표
 - [영업현금흐름](../level-03-financial-statements/cash-flow.md): CAPEX의 재원
-- [감가상각](../level-03-financial-statements/depreciation.md): CAPEX의 비용 반영
 
 ## 정리
 

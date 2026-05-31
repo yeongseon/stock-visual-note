@@ -122,8 +122,8 @@ A주식 투자 과정:
 - [지정가와 시장가 뜻](../level-02-market-trading/limit-market-order.md)
 - [체결 뜻](../level-02-market-trading/execution.md)
 - [호가 뜻](../level-02-market-trading/order-book.md)
-- [손절 뜻](../level-10-strategy/stop-loss.md)
-- [분할매수 뜻](../level-10-strategy/dollar-cost-averaging.md)
+- [손절 뜻](../level-10-company-analysis/stop-loss.md)
+- [분할매수 뜻](../level-10-company-analysis/dollar-cost-averaging.md)
 
 ## 정리
 

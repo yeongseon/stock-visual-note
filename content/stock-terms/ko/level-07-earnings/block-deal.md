@@ -107,7 +107,7 @@ F기업 대주주가 블록딜로 200만 주를 매도합니다.
 - [공개매수](./tender-offer.md): 대량 매수의 또 다른 방식
 - [유상증자](./paid-in-capital-increase.md): 주식 수 증가의 다른 원인
 - [시가총액](../level-01-basic/market-cap.md): 블록딜 규모와 비교할 기준
-- [거래량](../level-02-market-trading/volume.md): 블록딜 소화 가능성 판단 지표
+- [거래량](../level-01-basic/trading-volume.md): 블록딜 소화 가능성 판단 지표
 
 ## 정리
 

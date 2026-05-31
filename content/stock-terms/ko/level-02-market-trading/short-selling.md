@@ -125,7 +125,7 @@ A주식 공매도 시나리오:
 - [거래량 뜻](../level-01-basic/trading-volume.md)
 - [주가 뜻](../level-01-basic/stock-price.md)
 - [외국인 순매수 뜻](../level-02-market-trading/foreign-net-buying.md)
-- [어닝쇼크 뜻](../level-08-earnings/earnings-shock.md)
+- [어닝쇼크 뜻](../level-08-industry-macro/earnings-shock.md)
 
 ## 정리
 

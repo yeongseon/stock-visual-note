@@ -121,9 +121,9 @@ A회사의 평소 하루 거래량이 10만 주라고 가정합니다.
 ## 함께 보면 좋은 용어
 
 - [주가 뜻](../level-01-basic/stock-price.md)
-- [체결 뜻](../level-02-market/execution.md)
-- [호가 뜻](../level-02-market/order-book.md)
-- [매수와 매도 뜻](../level-02-market/buy-sell.md)
+- [체결 뜻](../level-02-market-trading/execution.md)
+- [호가 뜻](../level-02-market-trading/order-book.md)
+- [매수와 매도 뜻](../level-02-market-trading/buy-sell.md)
 - [상한가 뜻](../level-01-basic/upper-limit.md)
 
 ## 정리

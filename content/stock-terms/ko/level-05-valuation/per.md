@@ -97,6 +97,7 @@ Q기업:
 - [PSR](./psr.md) — 매출 기준 밸류에이션 (적자 기업용)
 - [PEG](./peg.md) — PER ÷ 성장률로 성장 반영
 - [밸류 트랩](../level-10-company-analysis/value-trap.md) — 낮은 PER의 함정
+- [파이썬으로 계산해보기](./per-data-practice.md) — 실제 데이터로 PER 직접 계산
 
 ## 정리
 

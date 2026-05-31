@@ -131,7 +131,7 @@ _같은 주가 변동이라도 레버리지로 인해 수익률이 2배로 움�
 - [미수거래 뜻](../level-02-market-trading/unsettled-trading.md)
 - [공매도 뜻](../level-02-market-trading/short-selling.md)
 - [주가 뜻](../level-01-basic/stock-price.md)
-- [손절 뜻](../level-10-strategy/stop-loss.md)
+- [손절 뜻](../level-10-company-analysis/stop-loss.md)
 - [거래량 뜻](../level-01-basic/trading-volume.md)
 
 ## 정리

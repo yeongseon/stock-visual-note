@@ -5,10 +5,16 @@ on:
     paths:
       - 'content/**'
       - 'scripts/validate.py'
+      - 'templates/**'
+      - 'STYLE_GUIDE.md'
+      - 'content-catalog.yaml'
   pull_request:
     paths:
       - 'content/**'
       - 'scripts/validate.py'
+      - 'templates/**'
+      - 'STYLE_GUIDE.md'
+      - 'content-catalog.yaml'
 
 jobs:
   validate:
@@ -29,4 +35,4 @@ jobs:
 
       - name: Run validator (strict)
         run: python scripts/validate.py --strict
-        continue-on-error: true
+        run: python scripts/validate.py --strict

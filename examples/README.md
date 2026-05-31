@@ -6,15 +6,15 @@
 
 ```
 examples/
-├── per_calculation.py      # PER 계산 예제
-├── common/
-│   └── font_setup.py       # matplotlib 한글 폰트 설정
 └── README.md
 ```
 
+> 예제 파일은 데이터 실습형 글이 추가될 때마다 함께 생성됩니다.
+> 현재는 [PER 계산 실습](../content/stock-terms/ko/level-05-valuation/per-data-practice.md) 글에 코드가 포함되어 있습니다.
+
 ## 실행 환경
 
-- Python 3.9+
+- Python 3.10+
 - pykrx >= 1.0.34
 - matplotlib (차트 포함 시)
 - pandas

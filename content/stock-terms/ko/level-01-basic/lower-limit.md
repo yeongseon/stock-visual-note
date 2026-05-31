@@ -124,8 +124,8 @@ _하한가에 도달하면 매도 물량만 쌓이고 매수자가 나타나지 
 - [상한가 뜻](../level-01-basic/upper-limit.md)
 - [주가 뜻](../level-01-basic/stock-price.md)
 - [거래량 뜻](../level-01-basic/trading-volume.md)
-- [어닝쇼크 뜻](../level-08-earnings/earnings-shock.md)
-- [손절 뜻](../level-10-strategy/stop-loss.md)
+- [어닝쇼크 뜻](../level-08-industry-macro/earnings-shock.md)
+- [손절 뜻](../level-10-company-analysis/stop-loss.md)
 
 ## 정리
 

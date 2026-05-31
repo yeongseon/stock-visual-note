@@ -100,7 +100,6 @@ B기업이 10:1 액면병합을 실시합니다.
 
 - [액면분할](./stock-split.md): 반대 개념, 주식을 쪼개는 것
 - [감자](./capital-reduction.md): 주식 수를 줄이는 또 다른 방식
-- [관리종목](../level-02-market-trading/trading-halt.md): 상장유지 요건 미달 시 지정
 - [시가총액](../level-01-basic/market-cap.md): 병합 전후 변하지 않는 지표
 - [유상증자](./paid-in-capital-increase.md): 병합과 함께 진행되기도 하는 자본 이벤트
 
