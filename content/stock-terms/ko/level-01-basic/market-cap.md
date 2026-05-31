@@ -18,6 +18,9 @@ tags:
   - 주식초보
   - 기업규모
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "시가총액 뜻, 주가보다 먼저 봐야 하는 이유을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 시가총액 뜻, 주가보다 먼저 봐야 하는 이유

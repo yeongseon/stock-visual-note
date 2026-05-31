@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [ROA, 총자산이익률, 순이익, 총자산, 자산효율]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "ROA 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # ROA 뜻 — 전체 자산으로 얼마를 벌었나

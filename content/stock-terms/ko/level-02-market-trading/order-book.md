@@ -18,6 +18,9 @@ tags:
   - 주식초보
   - 주식용어
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "호가 뜻, 주식을 사고파는 가격표 읽기을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 호가 뜻, 주식을 사고파는 가격표 읽기

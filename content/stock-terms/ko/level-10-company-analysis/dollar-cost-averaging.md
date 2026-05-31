@@ -6,13 +6,16 @@ seo_title: "분할매수 뜻 – 한 번에 사지 않는 이유"
 category: 투자전략·기업분석 연결
 topic: company-analysis
 level: 10
-difficulty: 중급
+difficulty: intermediate
 language: ko
 status: draft
 diagram_required: true
 table_required: true
 tags: [분할매수, 적립식투자, DCA, 평균단가, 매수전략]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "분할매수(Dollar Cost Averaging)을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 분할매수(Dollar Cost Averaging)

@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [재고조정, 재고순환, 반도체사이클, 디스토킹, 리스토킹]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "재고 조정 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 재고 조정 뜻 — 쌓인 재고를 줄이거나 다시 채우는 과정

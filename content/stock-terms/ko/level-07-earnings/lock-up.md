@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [보호예수, 락업, 의무보유, 물량출회, IPO]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "보호예수 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 보호예수 뜻 — 일정 기간 주식 매도를 금지하는 것

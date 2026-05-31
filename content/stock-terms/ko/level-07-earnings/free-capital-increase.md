@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [무상증자, 이익잉여금, 자본전입, 주식분할효과, 호재]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "무상증자 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 무상증자 뜻 — 공짜로 새 주식을 받는 것

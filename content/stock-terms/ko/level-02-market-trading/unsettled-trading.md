@@ -18,6 +18,9 @@ tags:
   - 주식초보
   - 주식용어
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "미수거래 뜻, 초보자가 조심해야 하는 이유을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 미수거래 뜻, 초보자가 조심해야 하는 이유

@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [어닝쇼크, 실적부진, 컨센서스, 하향조정, 주가급락]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "어닝쇼크 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 어닝쇼크 뜻 — 실적이 시장 기대에 크게 못 미친 것

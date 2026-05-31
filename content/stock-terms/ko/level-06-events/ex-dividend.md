@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [배당락, 배당기준일, 권리락, 주가조정, 배당투자]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "배당락 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 배당락 뜻 — 배당 권리가 빠진 날

@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [이자보상배율, 영업이익, 이자비용, 재무안정성, 한계기업]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "이자보상배율 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 이자보상배율 뜻 — 이자를 몇 번 갚을 수 있나

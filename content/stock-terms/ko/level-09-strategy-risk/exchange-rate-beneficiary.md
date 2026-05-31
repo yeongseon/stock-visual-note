@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [환율수혜주, 원달러환율, 수출주, 환차익, 매크로]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "환율 수혜주 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 환율 수혜주 뜻 — 원화 약세(환율 상승) 시 이익이 늘어나는 주식

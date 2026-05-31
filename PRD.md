@@ -29,19 +29,33 @@
 
 ### 메타데이터 스키마 (Frontmatter)
 
+#### 공통 필드 (모든 글 필수)
+
 ```yaml
 id: number            # 글 번호 (1~500)
 slug: string          # URL용 영문 식별자
 title: string         # 글 제목
 seo_title: string     # 검색 최적화 제목
 description: string   # SEO 메타 설명 (120자 이내)
+category: string      # stock-terms | company-analysis
 topic: string         # 주제 분류 (basic, market-trading, financial-statements, ratios, valuation, events, earnings, industry-macro, strategy-risk, company-analysis)
 level: number         # 난이도 레벨 (1~10)
 difficulty: string    # beginner | intermediate | advanced
+content_type: string  # concept | data-practice
 language: "ko"
 status: string        # draft | review | published
+source_policy: string # hypothetical | cited
 tags: string[]        # 5개 태그 (한국어)
 last_reviewed: date   # 마지막 검토일
+```
+
+#### 데이터 실습형 추가 필드 (content_type: data-practice)
+
+```yaml
+concept_slug: string  # 연결할 기본 설명형 글의 slug (예: per)
+data_source: string[] # 사용 라이브러리 (예: [pykrx])
+data_as_of: date      # 데이터 기준일 (예: 2026-05-31)
+ticker_used: string[] # 예시 종목 티커 (예: ["005930"])
 ```
 
 ### 12섹션 구조 (용어 글)
@@ -160,15 +174,19 @@ PER을 Python으로 계산해보기, 삼성전자 데이터 예시  → 데이�
 
 ### 데이터 실습형 메타데이터
 
-기본 설명형과 구분하기 위해 frontmatter에 아래 필드를 추가한다:
+기본 설명형과 구분하기 위해 frontmatter에 아래 필드를 추가한다 (위 "데이터 실습형 추가 필드" 참조):
 
 ```yaml
-analysis_type: "data-practice"  # concept(기본) | data-practice(실습)
+content_type: "data-practice"
+concept_slug: "per"            # 연결할 개념 글 slug
 data_source:
-  - pykrx                        # 사용한 데이터 라이브러리
+  - pykrx
+data_as_of: "2026-05-31"
+ticker_used:
+  - "005930"
 ```
 
-기본 설명형 글은 `analysis_type` 필드를 생략하거나 `"concept"`으로 설정한다.
+기본 설명형 글은 `content_type: "concept"`으로 설정한다.
 
 ### 데이터 라이브러리
 

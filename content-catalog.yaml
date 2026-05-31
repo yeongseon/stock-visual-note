@@ -911,3 +911,51 @@ terms:
     topic: company-analysis
     status: draft
     related: [investment-thesis, margin-of-safety, roe, per]
+
+# --- Taxonomy Mapping ---
+# Maps topic slugs to Korean labels and level ranges
+taxonomy:
+  basic:
+    ko: 주식 기본 언어
+    levels: [1]
+  market-trading:
+    ko: 시장과 거래
+    levels: [2]
+  financial-statements:
+    ko: 재무제표 기초
+    levels: [3]
+  ratios:
+    ko: 수익성·안정성 지표
+    levels: [4]
+  valuation:
+    ko: 밸류에이션
+    levels: [5]
+  events:
+    ko: 배당과 주주환원
+    levels: [6]
+  earnings:
+    ko: 공시·자본 이벤트
+    levels: [7]
+  industry-macro:
+    ko: 실적·컨센서스
+    levels: [8]
+  strategy-risk:
+    ko: 산업·매크로
+    levels: [9]
+  company-analysis:
+    ko: 투자전략·기업분석 연결
+    levels: [10]
+
+# --- Data Practice Articles ---
+# Articles that pair Python code + real stock data with concept explanations
+data-practice:
+  - id: dp-1
+    slug: per-data-practice
+    title: "PER 직접 계산해보기 — pykrx로 삼성전자 PER 구하기"
+    concept_slug: per
+    level: 5
+    topic: valuation
+    data_source: pykrx
+    ticker_used: "005930"
+    status: draft
+    related: [per, eps, pbr]

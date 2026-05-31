@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [컨센서스, 애널리스트, 실적전망, 시장기대, 주가반응]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "컨센서스 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 컨센서스 뜻 — 시장이 예상하는 실적 평균치

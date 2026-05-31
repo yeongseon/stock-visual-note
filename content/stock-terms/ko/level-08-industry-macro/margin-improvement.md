@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [마진개선, 영업이익률, 수익성, 원가절감, 이익레버리지]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "마진 개선 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 마진 개선 뜻 — 매출 대비 이익 비율이 높아지는 것

@@ -18,6 +18,9 @@ tags:
   - 주식초보
   - 주식용어
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "주가 뜻, 가격표만 보면 안 되는 이유을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 주가 뜻, 가격표만 보면 안 되는 이유

@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [영업이익률, 수익성, 영업이익, 매출액, 마진]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "영업이익률 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 영업이익률 뜻 — 매출 중 본업으로 남긴 비율

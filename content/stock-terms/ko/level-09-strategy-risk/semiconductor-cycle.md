@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [반도체사이클, DRAM, 메모리, 공급과잉, 업황]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "반도체 사이클 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 반도체 사이클 뜻 — 메모리 반도체 업황이 반복적으로 등락하는 주기

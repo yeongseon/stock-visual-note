@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [리레이팅, 밸류에이션, 멀티플, PER상향, 주가상승]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "리레이팅 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 리레이팅 뜻 — 시장이 더 높은 가치를 인정할 때

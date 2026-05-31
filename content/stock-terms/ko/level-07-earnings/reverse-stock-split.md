@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [액면병합, 주식병합, 액면가, 관리종목, 주가관리]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "액면병합 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 액면병합 뜻 — 여러 주를 합쳐 1주로 만드는 것

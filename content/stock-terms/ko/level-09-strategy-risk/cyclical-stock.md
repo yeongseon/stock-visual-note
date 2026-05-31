@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [경기민감주, 경기순환, 시클리컬, 업황, 매크로]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "경기민감주 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 경기민감주 뜻 — 경기 흐름에 따라 실적이 크게 변하는 주식

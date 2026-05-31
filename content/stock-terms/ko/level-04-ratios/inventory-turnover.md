@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [재고자산회전율, 재고, 매출원가, 효율성, 재고관리]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "재고자산회전율 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 재고자산회전율 뜻 — 재고가 얼마나 빨리 팔리나

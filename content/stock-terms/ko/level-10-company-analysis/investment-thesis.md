@@ -6,13 +6,16 @@ seo_title: "투자 아이디어 뜻 – 왜 이 기업을 보는지 정리하는
 category: 투자전략·기업분석 연결
 topic: company-analysis
 level: 10
-difficulty: 중급
+difficulty: intermediate
 language: ko
 status: draft
 diagram_required: true
 table_required: true
 tags: [투자아이디어, 투자논리, 인베스트먼트씨시스, 매수근거, 기업분석]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "투자 아이디어(Investment Thesis)을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 투자 아이디어(Investment Thesis)

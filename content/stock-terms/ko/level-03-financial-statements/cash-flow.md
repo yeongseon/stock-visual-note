@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [현금흐름, 영업활동현금흐름, 투자활동현금흐름, 재무활동현금흐름, 현금흐름표]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "현금흐름 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 현금흐름 뜻 — 기업의 실제 돈 움직임

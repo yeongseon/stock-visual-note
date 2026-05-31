@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [피크아웃, 실적정점, 성장둔화, 사이클, 주가선반영]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "피크아웃 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 피크아웃 뜻 — 실적이 정점을 지나 하락하기 시작하는 것

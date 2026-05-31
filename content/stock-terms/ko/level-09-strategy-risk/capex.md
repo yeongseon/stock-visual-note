@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [CAPEX, 설비투자, 감가상각, 자본지출, 성장투자]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "CAPEX 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # CAPEX 뜻 — 기업이 미래를 위해 쓰는 설비투자 비용

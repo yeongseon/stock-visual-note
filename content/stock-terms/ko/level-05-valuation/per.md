@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [PER, 주가수익비율, EPS, 밸류에이션, 저평가]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "PER 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # PER 뜻 — 이익 대비 주가가 몇 배인가

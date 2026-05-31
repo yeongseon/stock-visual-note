@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [모멘텀, 실적모멘텀, 주가추세, 카탈리스트, 상승동력]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "모멘텀 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 모멘텀 뜻 — 주가를 움직이는 힘 또는 계기

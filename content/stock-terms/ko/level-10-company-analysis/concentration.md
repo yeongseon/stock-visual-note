@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [집중투자, 확신투자, 포지션사이징, 고위험고수익, 몰빵]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "집중투자 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 집중투자 뜻 — 소수 종목에 큰 비중을 싣는 전략

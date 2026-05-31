@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [금리민감주, 금리, 은행주, 성장주, 채권]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "금리 민감주 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 금리 민감주 뜻 — 금리 변화에 따라 주가가 크게 반응하는 주식

@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [밸류트랩, 가치함정, 저PER, 저PBR, 만년저평가]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "밸류트랩 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 밸류트랩 뜻 — 싸 보이지만 계속 싼 채로 머무는 함정

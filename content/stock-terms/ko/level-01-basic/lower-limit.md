@@ -18,6 +18,9 @@ tags:
   - 주식초보
   - 주식용어
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "하한가 뜻, 하루에 주가가 빠질 수 있는 한계을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 하한가 뜻, 하루에 주가가 빠질 수 있는 한계

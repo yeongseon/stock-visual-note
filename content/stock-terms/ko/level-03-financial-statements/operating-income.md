@@ -18,6 +18,9 @@ tags:
   - 주식초보
   - 기업분석
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "영업이익 뜻, 본업으로 남긴 돈을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 영업이익 뜻, 본업으로 남긴 돈

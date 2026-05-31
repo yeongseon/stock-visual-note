@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [공개매수, 경영권, 프리미엄, 의무공개매수, M&A]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "공개매수 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 공개매수 뜻 — 특정 가격에 주식을 사겠다고 공개 제안하는 것

@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [턴어라운드, 적자전환, 흑자전환, 구조조정, 실적회복]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "턴어라운드 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 턴어라운드 뜻 — 부진하던 기업이 다시 실적을 회복하는 것

@@ -6,13 +6,16 @@ seo_title: "기업분석 프레임워크 – 초보가 기업을 보는 순서"
 category: 투자전략·기업분석 연결
 topic: company-analysis
 level: 10
-difficulty: 중급
+difficulty: intermediate
 language: ko
 status: draft
 diagram_required: true
 table_required: true
 tags: [기업분석, 프레임워크, 분석순서, 펀더멘털분석, 투자분석]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "기업분석 프레임워크(Company Analysis Framework)을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 기업분석 프레임워크(Company Analysis Framework)

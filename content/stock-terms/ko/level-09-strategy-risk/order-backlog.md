@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [수주잔고, 수주, 백로그, 조선, 건설]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "수주잔고 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 수주잔고 뜻 — 아직 수행하지 않은 계약 금액의 합계

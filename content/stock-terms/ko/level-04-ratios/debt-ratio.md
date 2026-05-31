@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [부채비율, 재무건전성, 부채, 자본, 레버리지]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "부채비율 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 부채비율 뜻 — 빚이 자본의 몇 배인가

@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [감자, 자본감소, 무상감자, 유상감자, 자본잠식]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "감자 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 감자 뜻 — 주식 수를 강제로 줄이는 것

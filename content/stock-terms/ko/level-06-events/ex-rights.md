@@ -13,6 +13,9 @@ diagram_required: true
 table_required: true
 tags: [권리락, 유상증자, 무상증자, 신주인수권, 주가조정]
 last_reviewed: "2026-05-27"
+content_type: "concept"
+source_policy: "hypothetical"
+description: "권리락 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
 ---
 
 # 권리락 뜻 — 증자 권리가 빠진 날
