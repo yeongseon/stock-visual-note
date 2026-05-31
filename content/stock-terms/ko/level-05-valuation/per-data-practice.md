@@ -25,6 +25,10 @@ tags:
   - 밸류에이션
   - 데이터분석
 last_reviewed: "2025-05-31"
+analysis_type: "data-practice"
+review_status: "needs_review"
+search_intent: "기업 가치평가 방법"
+primary_keyword: "PER을 Python으로 계산해보기"
 ---
 
 # PER을 Python으로 계산해보기

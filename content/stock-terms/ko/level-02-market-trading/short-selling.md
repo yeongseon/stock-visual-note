@@ -9,8 +9,6 @@ level: 2
 difficulty: "beginner"
 language: "ko"
 status: "draft"
-diagram_required: true
-table_required: true
 tags:
   - 공매도
   - 공매도뜻
@@ -21,6 +19,10 @@ last_reviewed: "2026-05-27"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "공매도 뜻, 주가 하락에 투자하는 방식을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+analysis_type: "concept"
+review_status: "needs_review"
+search_intent: "주식 매매 방법 이해"
+primary_keyword: "공매도"
 ---
 
 # 공매도 뜻, 주가 하락에 투자하는 방식
@@ -72,6 +74,8 @@ description: "공매도 뜻, 주가 하락에 투자하는 방식을 초보자�
 _빌려서 비싸게 팔고, 싸게 사서 갚으면 차익이 발생합니다._
 
 ## 숫자로 보는 예시
+
+> ⚠️ 아래 숫자는 개념 설명을 위한 **가상 예시**이며, 실제 투자 데이터가 아닙니다.
 
 A주식 공매도 시나리오:
 
@@ -139,6 +143,6 @@ A주식 공매도 시나리오:
 
 ---
 
-이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.
+*면책 조항: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
 
 Tags: 공매도, 공매도뜻, 주식거래, 주식초보, 주식용어

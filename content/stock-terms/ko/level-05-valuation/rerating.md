@@ -9,13 +9,15 @@ level: 5
 difficulty: beginner
 language: ko
 status: draft
-diagram_required: true
-table_required: true
 tags: [리레이팅, 밸류에이션, 멀티플, PER상향, 주가상승]
 last_reviewed: "2026-05-27"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "리레이팅 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+analysis_type: "concept"
+review_status: "needs_review"
+search_intent: "기업 가치평가 방법"
+primary_keyword: "리레이팅"
 ---
 
 # 리레이팅 뜻 — 시장이 더 높은 가치를 인정할 때
@@ -54,6 +56,8 @@ PER: 10배                   PER: 15배 (상향!)
 ```
 
 ## 숫자로 보는 예시
+
+> ⚠️ 아래 숫자는 개념 설명을 위한 **가상 예시**이며, 실제 투자 데이터가 아닙니다.
 
 W기업 주가 분해:
 | 구분 | EPS | PER | 주가 | 변동 |
@@ -109,6 +113,6 @@ W기업 주가 분해:
 
 ---
 
-*면책 고지: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
+*면책 조항: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
 
 Tags: 리레이팅, 밸류에이션, 멀티플, PER상향, 주가상승

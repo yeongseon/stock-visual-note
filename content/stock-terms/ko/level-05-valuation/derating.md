@@ -9,13 +9,15 @@ level: 5
 difficulty: beginner
 language: ko
 status: draft
-diagram_required: true
-table_required: true
 tags: [디레이팅, 밸류에이션, 멀티플하락, PER하향, 주가하락]
 last_reviewed: "2026-05-27"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "디레이팅 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+analysis_type: "concept"
+review_status: "needs_review"
+search_intent: "기업 가치평가 방법"
+primary_keyword: "디레이팅"
 ---
 
 # 디레이팅 뜻 — 시장이 가치를 깎아 내릴 때
@@ -53,6 +55,8 @@ PER: 20배                   PER: 12배 (↓40%)
 ```
 
 ## 숫자로 보는 예시
+
+> ⚠️ 아래 숫자는 개념 설명을 위한 **가상 예시**이며, 실제 투자 데이터가 아닙니다.
 
 X기업 (성장 둔화로 디레이팅):
 | 연도 | EPS | EPS성장률 | PER | 주가 |
@@ -106,6 +110,6 @@ X기업 (성장 둔화로 디레이팅):
 
 ---
 
-*면책 고지: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
+*면책 조항: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
 
 Tags: 디레이팅, 밸류에이션, 멀티플하락, PER하향, 주가하락

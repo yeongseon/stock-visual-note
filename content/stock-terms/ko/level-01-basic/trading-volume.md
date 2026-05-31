@@ -9,8 +9,6 @@ level: 1
 difficulty: "beginner"
 language: "ko"
 status: "draft"
-diagram_required: true
-table_required: true
 tags:
   - 거래량
   - 거래량뜻
@@ -21,6 +19,10 @@ last_reviewed: "2026-05-27"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "거래량 뜻, 주가 움직임을 읽는 첫 단서을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+analysis_type: "concept"
+review_status: "needs_review"
+search_intent: "주식 기초 용어 학습"
+primary_keyword: "거래량"
 ---
 
 # 거래량 뜻, 주가 움직임을 읽는 첫 단서
@@ -74,6 +76,8 @@ description: "거래량 뜻, 주가 움직임을 읽는 첫 단서을 초보자�
 _주가 방향과 거래량을 함께 보면 움직임의 강도를 판단할 수 있습니다._
 
 ## 숫자로 보는 예시
+
+> ⚠️ 아래 숫자는 개념 설명을 위한 **가상 예시**이며, 실제 투자 데이터가 아닙니다.
 
 A회사의 평소 하루 거래량이 10만 주라고 가정합니다.
 
@@ -138,6 +142,6 @@ A회사의 평소 하루 거래량이 10만 주라고 가정합니다.
 
 ---
 
-이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.
+*면책 조항: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
 
 Tags: 거래량, 거래량뜻, 주식거래, 주식초보, 주식용어

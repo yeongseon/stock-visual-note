@@ -9,8 +9,6 @@ level: 3
 difficulty: "beginner"
 language: "ko"
 status: "draft"
-diagram_required: true
-table_required: true
 tags:
   - 매출총이익
   - 매출총이익뜻
@@ -21,6 +19,10 @@ last_reviewed: "2026-05-27"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "매출총이익 뜻, 원가를 빼고 남은 돈을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+analysis_type: "concept"
+review_status: "needs_review"
+search_intent: "재무제표 읽는 법"
+primary_keyword: "매출총이익"
 ---
 
 # 매출총이익 뜻, 원가를 빼고 남은 돈
@@ -74,6 +76,8 @@ description: "매출총이익 뜻, 원가를 빼고 남은 돈을 초보자도 �
 _매출에서 원가를 빼면 매출총이익, 이를 비율로 나타내면 매출총이익률입니다._
 
 ## 숫자로 보는 예시
+
+> ⚠️ 아래 숫자는 개념 설명을 위한 **가상 예시**이며, 실제 투자 데이터가 아닙니다.
 
 업종별 매출총이익률 차이:
 
@@ -138,6 +142,6 @@ _매출에서 원가를 빼면 매출총이익, 이를 비율로 나타내면 �
 
 ---
 
-이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.
+*면책 조항: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
 
 Tags: 매출총이익, 매출총이익뜻, 재무제표, 주식초보, 기업분석

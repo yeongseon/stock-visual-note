@@ -9,13 +9,15 @@ level: 10
 difficulty: intermediate
 language: ko
 status: draft
-diagram_required: true
-table_required: true
 tags: [투자아이디어, 투자논리, 인베스트먼트씨시스, 매수근거, 기업분석]
 last_reviewed: "2026-05-27"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "투자 아이디어(Investment Thesis)을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+analysis_type: "concept"
+review_status: "needs_review"
+search_intent: "종합 기업분석 방법"
+primary_keyword: "투자 아이디어(Investment Thesis)"
 ---
 
 # 투자 아이디어(Investment Thesis)
@@ -66,6 +68,8 @@ description: "투자 아이디어(Investment Thesis)을 초보자도 이해할 �
 ```
 
 ## 숫자로 보는 예시
+
+> ⚠️ 아래 숫자는 개념 설명을 위한 **가상 예시**이며, 실제 투자 데이터가 아닙니다.
 
 | 항목 | 내용 |
 |------|------|

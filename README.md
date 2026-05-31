@@ -72,13 +72,40 @@ Python 코드 + pykrx 데이터로 개념을 실제 주식 데이터에서 확�
 - 용어에서 시작해 기업분석으로 연결
 - 투자 권유가 아닌 교육 목적 콘텐츠
 
+## 발행 현황
+
+| 레벨 | 글 수 | status | review_status |
+|------|-------|--------|---------------|
+| Level 1 (기본) | 10 | draft | needs_review |
+| Level 2 (매매) | 10 | draft | needs_review |
+| Level 3 (재무제표) | 10 | draft | needs_review |
+| Level 4 (비율) | 10 | draft | needs_review |
+| Level 5 (밸류에이션) | 11 | draft | needs_review |
+| Level 6 (배당) | 10 | draft | needs_review |
+| Level 7 (공시) | 10 | draft | needs_review |
+| Level 8 (실적) | 10 | draft | needs_review |
+| Level 9 (전략) | 10 | draft | needs_review |
+| Level 10 (기업분석) | 10 | draft | needs_review |
+
+## 학습 경로
+
+순서대로 학습할 수 있는 코스를 제공합니다: [학습 경로 보기](./docs/learning-paths/README.md)
+
 ## 관련 문서
 
 - [PRD.md](./PRD.md) — 프로젝트 정의서
 - [STYLE_GUIDE.md](./STYLE_GUIDE.md) — 작성 스타일 가이드
 - [DIAGRAM_GUIDE.md](./DIAGRAM_GUIDE.md) — 다이어그램 작성 가이드
-- [content-catalog.yaml](./content-catalog.yaml) — 콘텐츠 카탈로그 (100개 용어 메타데이터)
+- [content-catalog.yaml](./content-catalog.yaml) — 콘텐츠 카탈로그
 - [docs/quality-checklist.md](./docs/quality-checklist.md) — 발행 전 품질 체크리스트
+- [docs/publishing-workflow.md](./docs/publishing-workflow.md) — 발행 워크플로우
+- [docs/learning-paths/](./docs/learning-paths/) — 학습 경로 가이드
+
+## 기여 워크플로우
+
+1. 이슈 또는 `content-catalog.yaml`에서 작성할 용어 선택
+2. 템플릿 복사 → 작성 → `python3 scripts/validate.py --strict` 통과
+3. PR 생성 → CI 통과 → 리뷰 → 머지
 
 ## 라이선스
 

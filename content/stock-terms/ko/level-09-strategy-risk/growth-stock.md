@@ -9,13 +9,15 @@ level: 9
 difficulty: beginner
 language: ko
 status: draft
-diagram_required: true
-table_required: true
 tags: [성장주, 고PER, 매출성장, 테크주, 밸류에이션]
 last_reviewed: "2026-05-27"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "성장주 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+analysis_type: "concept"
+review_status: "needs_review"
+search_intent: "투자전략·리스크 이해"
+primary_keyword: "성장주"
 ---
 
 # 성장주 뜻 — 미래 이익 성장에 높은 프리미엄을 받는 주식
@@ -55,6 +57,8 @@ description: "성장주 뜻을 초보자도 이해할 수 있게 그림과 표�
 ```
 
 ## 숫자로 보는 예시
+
+> ⚠️ 아래 숫자는 개념 설명을 위한 **가상 예시**이며, 실제 투자 데이터가 아닙니다.
 
 성장주 A기업 vs 가치주 B기업:
 
@@ -120,6 +124,6 @@ PER 50배라도 이익이 매년 50% 성장하면 2년 후 PER은 22배가 됩�
 
 ---
 
-**면책 고지**: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.
+*면책 조항: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
 
 Tags: 성장주, 고PER, 매출성장, 테크주, 밸류에이션

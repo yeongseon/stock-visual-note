@@ -9,8 +9,6 @@ level: 1
 difficulty: "beginner"
 language: "ko"
 status: "draft"
-diagram_required: true
-table_required: true
 tags:
   - 시가총액
   - 시가총액뜻
@@ -21,6 +19,10 @@ last_reviewed: "2026-05-27"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "시가총액 뜻, 주가보다 먼저 봐야 하는 이유을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+analysis_type: "concept"
+review_status: "needs_review"
+search_intent: "주식 기초 용어 학습"
+primary_keyword: "시가총액"
 ---
 
 # 시가총액 뜻, 주가보다 먼저 봐야 하는 이유
@@ -70,6 +72,8 @@ description: "시가총액 뜻, 주가보다 먼저 봐야 하는 이유을 초�
 _주가와 발행 주식 수를 곱하면 시장이 매기는 회사 전체 가격이 됩니다._
 
 ## 숫자로 보는 예시
+
+> ⚠️ 아래 숫자는 개념 설명을 위한 **가상 예시**이며, 실제 투자 데이터가 아닙니다.
 
 | 회사 | 주가 | 발행 주식 수 | 시가총액 |
 |---|---|---|---|
@@ -137,6 +141,6 @@ _주가와 발행 주식 수를 곱하면 시장이 매기는 회사 전체 가�
 
 ---
 
-이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.
+*면책 조항: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
 
 Tags: 시가총액, 시가총액뜻, 주식용어, 주식초보, 기업규모

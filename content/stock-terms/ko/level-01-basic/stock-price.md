@@ -9,8 +9,6 @@ level: 1
 difficulty: "beginner"
 language: "ko"
 status: "draft"
-diagram_required: true
-table_required: true
 tags:
   - 주가
   - 주가뜻
@@ -21,6 +19,10 @@ last_reviewed: "2026-05-27"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "주가 뜻, 가격표만 보면 안 되는 이유을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+analysis_type: "concept"
+review_status: "needs_review"
+search_intent: "주식 기초 용어 학습"
+primary_keyword: "주가"
 ---
 
 # 주가 뜻, 가격표만 보면 안 되는 이유
@@ -75,6 +77,8 @@ description: "주가 뜻, 가격표만 보면 안 되는 이유을 초보자도 
 _매수·매도 주문이 만나는 지점에서 주가가 결정됩니다._
 
 ## 숫자로 보는 예시
+
+> ⚠️ 아래 숫자는 개념 설명을 위한 **가상 예시**이며, 실제 투자 데이터가 아닙니다.
 
 A회사와 B회사를 비교해봅시다.
 
@@ -138,6 +142,6 @@ A회사와 B회사를 비교해봅시다.
 
 ---
 
-이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.
+*면책 조항: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
 
 Tags: 주가, 주가뜻, 주식가격, 주식초보, 주식용어

@@ -9,13 +9,15 @@ level: 7
 difficulty: beginner
 language: ko
 status: draft
-diagram_required: true
-table_required: true
 tags: [무상증자, 이익잉여금, 자본전입, 주식분할효과, 호재]
 last_reviewed: "2026-05-27"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "무상증자 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+analysis_type: "concept"
+review_status: "needs_review"
+search_intent: "자본변동·공시 이해"
+primary_keyword: "무상증자"
 ---
 
 # 무상증자 뜻 — 공짜로 새 주식을 받는 것
@@ -50,6 +52,8 @@ After:  200주 × 25,000원 = 500만 원 (동일!)
 ```
 
 ## 숫자로 보는 예시
+
+> ⚠️ 아래 숫자는 개념 설명을 위한 **가상 예시**이며, 실제 투자 데이터가 아닙니다.
 
 II기업 무상증자 50% (2주당 1주):
 - 기존: 1,000만 주 × 60,000원 = 시총 6,000억
@@ -102,6 +106,6 @@ II기업 무상증자 50% (2주당 1주):
 
 ---
 
-*면책 고지: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
+*면책 조항: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
 
 Tags: 무상증자, 이익잉여금, 자본전입, 주식분할효과, 호재

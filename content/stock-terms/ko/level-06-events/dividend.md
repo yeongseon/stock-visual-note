@@ -9,13 +9,15 @@ level: 6
 difficulty: beginner
 language: ko
 status: draft
-diagram_required: true
-table_required: true
 tags: [배당, 배당금, 주주환원, 현금배당, 주식배당]
 last_reviewed: "2026-05-27"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "배당 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+analysis_type: "concept"
+review_status: "needs_review"
+search_intent: "주주환원·이벤트 이해"
+primary_keyword: "배당"
 ---
 
 # 배당 뜻 — 기업이 주주에게 나눠주는 이익
@@ -51,6 +53,8 @@ description: "배당 뜻을 초보자도 이해할 수 있게 그림과 표로 �
 ```
 
 ## 숫자로 보는 예시
+
+> ⚠️ 아래 숫자는 개념 설명을 위한 **가상 예시**이며, 실제 투자 데이터가 아닙니다.
 
 Y기업:
 - 당기순이익: 1,000억 원
@@ -105,6 +109,6 @@ Y기업:
 
 ---
 
-*면책 고지: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
+*면책 조항: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
 
 Tags: 배당, 배당금, 주주환원, 현금배당, 주식배당

@@ -9,13 +9,15 @@ level: 4
 difficulty: beginner
 language: ko
 status: draft
-diagram_required: true
-table_required: true
 tags: [ROA, 총자산이익률, 순이익, 총자산, 자산효율]
 last_reviewed: "2026-05-27"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "ROA 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+analysis_type: "concept"
+review_status: "needs_review"
+search_intent: "재무비율 분석 방법"
+primary_keyword: "ROA"
 ---
 
 # ROA 뜻 — 전체 자산으로 얼마를 벌었나
@@ -55,6 +57,8 @@ ROE는 부채 레버리지에 영향받지만, ROA는 자본 구조에 관계없
 ```
 
 ## 숫자로 보는 예시
+
+> ⚠️ 아래 숫자는 개념 설명을 위한 **가상 예시**이며, 실제 투자 데이터가 아닙니다.
 
 J기업 vs K기업:
 | | J기업 | K기업 |
@@ -112,6 +116,6 @@ ROA는 총자산 대비 순이익률로, 부채 레버리지 효과를 제거한
 
 ---
 
-*면책 고지: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
+*면책 조항: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
 
 Tags: ROA, 총자산이익률, 순이익, 총자산, 자산효율

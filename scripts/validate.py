@@ -31,6 +31,8 @@ COMMON_REQUIRED_FIELDS = [
     "source_policy",
     "tags",
     "last_reviewed",
+    "analysis_type",
+    "review_status",
 ]
 
 DATA_PRACTICE_EXTRA_FIELDS = [
@@ -55,6 +57,8 @@ VALID_STATUSES = ["draft", "review", "published"]
 VALID_DIFFICULTIES = ["beginner", "intermediate", "advanced"]
 VALID_CONTENT_TYPES = ["concept", "data-practice"]
 VALID_SOURCE_POLICIES = ["hypothetical", "cited"]
+VALID_ANALYSIS_TYPES = ["concept", "data-practice"]
+VALID_REVIEW_STATUSES = ["needs_review", "reviewed", "approved"]
 
 # --- Sections by content type ---
 
@@ -102,6 +106,13 @@ FORBIDDEN_EXPRESSIONS = [
     "매수 신호",
     "매도 신호",
     "안전하다",
+    "지금이 매수 기회",
+    "저평가가 확실",
+    "고평가가 확실",
+    "반드시 매수",
+    "반드시 매도",
+    "수익이 보장",
+    "원금 보장",
 ]
 
 DISCLAIMER = "이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다."
@@ -154,8 +165,12 @@ def validate_file(filepath: Path, content_root: Path) -> tuple[list[str], list[s
         errors.append(f"Invalid source_policy: {fm['source_policy']}")
     if fm.get("language") != "ko":
         errors.append(f"Language should be 'ko', got: {fm.get('language')}")
-    if fm.get("tags") and len(fm["tags"]) != 5:
-        errors.append(f"Expected 5 tags, got {len(fm['tags'])}")
+    if fm.get("analysis_type") and fm["analysis_type"] not in VALID_ANALYSIS_TYPES:
+        errors.append(f"Invalid analysis_type: {fm['analysis_type']}")
+    if fm.get("review_status") and fm["review_status"] not in VALID_REVIEW_STATUSES:
+        errors.append(f"Invalid review_status: {fm['review_status']}")
+    if fm.get("tags") and not (3 <= len(fm["tags"]) <= 7):
+        errors.append(f"Expected 3-7 tags, got {len(fm['tags'])}")
     if fm.get("level") and not (1 <= fm["level"] <= 10):
         errors.append(f"Level out of range: {fm['level']}")
     if fm.get("description") and len(fm["description"]) > 120:

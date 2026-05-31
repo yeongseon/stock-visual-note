@@ -9,13 +9,15 @@ level: 4
 difficulty: beginner
 language: ko
 status: draft
-diagram_required: true
-table_required: true
 tags: [재고자산회전율, 재고, 매출원가, 효율성, 재고관리]
 last_reviewed: "2026-05-27"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "재고자산회전율 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+analysis_type: "concept"
+review_status: "needs_review"
+search_intent: "재무비율 분석 방법"
+primary_keyword: "재고자산회전율"
 ---
 
 # 재고자산회전율 뜻 — 재고가 얼마나 빨리 팔리나
@@ -47,6 +49,8 @@ description: "재고자산회전율 뜻을 초보자도 이해할 수 있게 그
 ```
 
 ## 숫자로 보는 예시
+
+> ⚠️ 아래 숫자는 개념 설명을 위한 **가상 예시**이며, 실제 투자 데이터가 아닙니다.
 
 O기업 (전자제품 제조):
 - 매출원가: 6,000억 원
@@ -102,6 +106,6 @@ O기업 (전자제품 제조):
 
 ---
 
-*면책 고지: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
+*면책 조항: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
 
 Tags: 재고자산회전율, 재고, 매출원가, 효율성, 재고관리

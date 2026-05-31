@@ -9,8 +9,6 @@ level: 2
 difficulty: "beginner"
 language: "ko"
 status: "draft"
-diagram_required: true
-table_required: true
 tags:
   - 미수거래
   - 미수거래뜻
@@ -21,6 +19,10 @@ last_reviewed: "2026-05-27"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "미수거래 뜻, 초보자가 조심해야 하는 이유을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+analysis_type: "concept"
+review_status: "needs_review"
+search_intent: "주식 매매 방법 이해"
+primary_keyword: "미수거래"
 ---
 
 # 미수거래 뜻, 초보자가 조심해야 하는 이유
@@ -73,6 +75,8 @@ description: "미수거래 뜻, 초보자가 조심해야 하는 이유을 초�
 _매수 후 2영업일 내에 돈을 내지 않으면 강제 매도됩니다._
 
 ## 숫자로 보는 예시
+
+> ⚠️ 아래 숫자는 개념 설명을 위한 **가상 예시**이며, 실제 투자 데이터가 아닙니다.
 
 미수거래 후 반대매매 시나리오:
 
@@ -139,6 +143,6 @@ _매수 후 2영업일 내에 돈을 내지 않으면 강제 매도됩니다._
 
 ---
 
-이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.
+*면책 조항: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
 
 Tags: 미수거래, 미수거래뜻, 반대매매, 주식초보, 주식용어

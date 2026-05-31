@@ -9,8 +9,6 @@ level: 2
 difficulty: "beginner"
 language: "ko"
 status: "draft"
-diagram_required: true
-table_required: true
 tags:
   - 개인순매수
   - 개인투자자
@@ -21,6 +19,10 @@ last_reviewed: "2026-05-27"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "개인 순매수 뜻, 개인 투자자 수급을 해석하는 법을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+analysis_type: "concept"
+review_status: "needs_review"
+search_intent: "주식 매매 방법 이해"
+primary_keyword: "개인 순매수"
 ---
 
 # 개인 순매수 뜻, 개인 투자자 수급을 해석하는 법
@@ -136,6 +138,6 @@ _주체별 순매수를 모두 합하면 항상 0입니다. 누군가의 매수�
 
 ---
 
-이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.
+*면책 조항: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
 
 Tags: 개인순매수, 개인투자자, 수급, 주식초보, 주식용어

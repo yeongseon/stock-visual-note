@@ -9,8 +9,6 @@ level: 1
 difficulty: "beginner"
 language: "ko"
 status: "draft"
-diagram_required: true
-table_required: true
 tags:
   - 하한가
   - 하한가뜻
@@ -21,6 +19,10 @@ last_reviewed: "2026-05-27"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "하한가 뜻, 하루에 주가가 빠질 수 있는 한계을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+analysis_type: "concept"
+review_status: "needs_review"
+search_intent: "주식 기초 용어 학습"
+primary_keyword: "하한가"
 ---
 
 # 하한가 뜻, 하루에 주가가 빠질 수 있는 한계
@@ -71,6 +73,8 @@ description: "하한가 뜻, 하루에 주가가 빠질 수 있는 한계을 초
 _하한가에 도달하면 매도 물량만 쌓이고 매수자가 나타나지 않을 수 있습니다._
 
 ## 숫자로 보는 예시
+
+> ⚠️ 아래 숫자는 개념 설명을 위한 **가상 예시**이며, 실제 투자 데이터가 아닙니다.
 
 전일 종가가 30,000원인 종목이 3일 연속 하한가를 맞으면:
 
@@ -139,6 +143,6 @@ _하한가에 도달하면 매도 물량만 쌓이고 매수자가 나타나지 
 
 ---
 
-이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.
+*면책 조항: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
 
 Tags: 하한가, 하한가뜻, 가격제한폭, 주식초보, 주식용어

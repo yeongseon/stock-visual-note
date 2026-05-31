@@ -9,13 +9,15 @@ level: 6
 difficulty: beginner
 language: ko
 status: draft
-diagram_required: true
-table_required: true
 tags: [배당락, 배당기준일, 권리락, 주가조정, 배당투자]
 last_reviewed: "2026-05-27"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "배당락 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+analysis_type: "concept"
+review_status: "needs_review"
+search_intent: "주주환원·이벤트 이해"
+primary_keyword: "배당락"
 ---
 
 # 배당락 뜻 — 배당 권리가 빠진 날
@@ -51,6 +53,8 @@ description: "배당락 뜻을 초보자도 이해할 수 있게 그림과 표�
 ```
 
 ## 숫자로 보는 예시
+
+> ⚠️ 아래 숫자는 개념 설명을 위한 **가상 예시**이며, 실제 투자 데이터가 아닙니다.
 
 AA기업:
 - 배당 기준일: 12월 31일
@@ -103,6 +107,6 @@ AA기업:
 
 ---
 
-*면책 고지: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
+*면책 조항: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
 
 Tags: 배당락, 배당기준일, 권리락, 주가조정, 배당투자
