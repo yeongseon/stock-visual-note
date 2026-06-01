@@ -20,11 +20,17 @@ ticker_used:
   - "{티커}"
 tags:
   - {용어}
-  - Python
+  - 파이썬
   - {관련용어1}
   - {관련용어2}
   - 데이터분석
 last_reviewed: "YYYY-MM-DD"
+analysis_type: "data-practice"
+review_status: "needs_review"
+search_intent:
+  - "{용어} Python 계산 방법"
+  - "{용어} 실제 데이터 확인"
+primary_keyword: "{용어}"
 ---
 
 # {용어}를 Python으로 계산해보기
@@ -146,6 +152,6 @@ plt.show()
 
 ---
 
-*면책 조항: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
+이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.
 
 Tags: {용어}, Python, {관련용어1}, {관련용어2}, 데이터분석

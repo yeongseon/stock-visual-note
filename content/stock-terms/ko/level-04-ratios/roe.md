@@ -9,11 +9,11 @@ level: 4
 difficulty: beginner
 language: ko
 status: review
-tags: [ROE, 자기자본이익률, 순이익, 자본, 듀퐁분석]
+tags: [자기자본수익률, 자기자본이익률, 순이익, 자본, 듀퐁분석]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "ROE의 계산법, 듀팁분석, 높은 ROE의 함정을 쉽게 설명합니다."
+description: "ROE의 계산법, 듀퐁분석, 높은 ROE의 함정을 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "reviewed"
 search_intent: "ROE가 뭔지, 높을수록 좋은 건지 알고 싶다"
@@ -39,7 +39,7 @@ ROE(Return on Equity)는 주주가 투자한 자본 대비 얼마의 순이익�
 ```mermaid
 graph TD
     A["ROE"]
-    A --> B["듀팁분해"]
+    A --> B["듀퐁분해"]
     B --> C["순이익률"]
     B --> D["자산회전율"]
     B --> E["레버리지"]
@@ -112,6 +112,6 @@ ROE는 주주 자본 대비 수익률로, 기업의 자본 효율성을 측정�
 
 ---
 
-*면책 조항: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
+이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.
 
-Tags: ROE, 자기자본이익률, 순이익, 자본, 듀퐁분석
+Tags: 자기자본수익률, 자기자본이익률, 순이익, 자본, 듀퐁분석

@@ -121,7 +121,7 @@ FORBIDDEN_EXPRESSIONS = [
     "원금 보장",
 ]
 
-DISCLAIMER = "이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다."
+DISCLAIMER = "이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다."
 
 
 def validate_file(filepath: Path, content_root: Path) -> tuple[list[str], list[str]]:
@@ -349,6 +349,10 @@ def validate_catalog_sync(content_root: Path) -> list[str]:
 
 
 def main():
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print(__doc__.strip())
+        return 0
+
     content_root = Path(__file__).parent.parent / "content" / "stock-terms" / "ko"
     strict = "--strict" in sys.argv
     args = [a for a in sys.argv[1:] if not a.startswith("--")]

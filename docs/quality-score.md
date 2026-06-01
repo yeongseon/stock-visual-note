@@ -2,7 +2,7 @@
 
 ## 개요
 
-각 글의 품질을 0~100점으로 자동 산정합니다. `scripts/validate.py` 실행 시 선택적으로 점수를 출력합니다.
+각 글의 품질을 0~100점으로 산정하는 기준입니다. 현재는 수동 체크리스트로 운영하며, 자동 점수 산정은 추후 구현 예정입니다.
 
 ## 점수 산정 기준
 
@@ -32,11 +32,14 @@
 ## 사용법
 
 ```bash
-# 전체 점수 확인 (추후 구현)
-python3 scripts/validate.py --score
+# 전체 검증
+python3 scripts/validate.py
 
-# 특정 파일
-python3 scripts/validate.py --score content/.../per.md
+# 특정 파일 검증
+python3 scripts/validate.py content/.../per.md
+
+# 엄격 모드 (경고도 에러 처리)
+python3 scripts/validate.py --strict
 ```
 
 ## 발행 기준

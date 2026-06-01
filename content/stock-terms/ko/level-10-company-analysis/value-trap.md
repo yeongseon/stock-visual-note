@@ -9,7 +9,7 @@ level: 10
 difficulty: beginner
 language: ko
 status: review
-tags: [밸류트랩, 가치함정, 저PER, 저PBR, 만년저평가]
+tags: [밸류트랩, 가치함정, 저주가수익비율, 저주가순자산비율, 만년저평가]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
@@ -118,6 +118,6 @@ graph TD
 
 ---
 
-*면책 조항: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
+이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.
 
-Tags: 밸류트랩, 가치함정, 저PER, 저PBR, 만년저평가
+Tags: 밸류트랩, 가치함정, 저주가수익비율, 저주가순자산비율, 만년저평가

@@ -5,7 +5,7 @@ Operations:
 1. Remove diagram_required and table_required from frontmatter
 2. Add analysis_type: "concept" (or "data-practice" for data-practice articles)
 3. Add review_status: "needs_review"
-4. Unify footer to: *면책 조항: ...*
+4. Unify footer to exact disclaimer text (no prefix)
 5. Add "가상 예시" disclaimer after ## 숫자로 보는 예시 heading
 """
 
@@ -20,7 +20,7 @@ DISCLAIMER_SENTENCE = (
     "교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다."
 )
 
-UNIFIED_FOOTER = f"*면책 조항: {DISCLAIMER_SENTENCE}*"
+UNIFIED_FOOTER = DISCLAIMER_SENTENCE
 
 HYPOTHETICAL_DISCLAIMER = (
     "> ⚠️ 아래 숫자는 개념 설명을 위한 **가상 예시**이며, 실제 투자 데이터가 아닙니다."

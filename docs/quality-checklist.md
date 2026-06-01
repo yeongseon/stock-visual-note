@@ -36,7 +36,7 @@
 ### 메타데이터
 
 - [ ] frontmatter의 category, topic, level, tags가 정확한가?
-- [ ] status가 "published"로 변경되었는가?
+- [ ] status가 "review"에서 "published"로 변경 준비가 되었는가?
 - [ ] last_reviewed 날짜가 오늘인가?
 
 ---

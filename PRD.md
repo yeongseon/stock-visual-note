@@ -80,7 +80,7 @@ ticker_used: string[] # 예시 종목 티커 (예: ["005930"])
 ### 필수 푸터
 
 ```
-*면책 조항: 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.*
+이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.
 
 Tags: tag1, tag2, tag3, tag4, tag5
 ```
@@ -97,7 +97,7 @@ Tags: tag1, tag2, tag3, tag4, tag5
 | 6 | level-06-events | 배당과 주주환원 | events |
 | 7 | level-07-earnings | 공시·자본 이벤트 | earnings |
 | 8 | level-08-industry-macro | 실적·컨센서스 | industry-macro |
-| 9 | level-09-strategy-risk | 산업·매크로 | strategy-risk |
+| 9 | level-09-strategy-risk | 투자전략·리스크 | strategy-risk |
 | 10 | level-10-company-analysis | 투자전략·기업분석 연결 | company-analysis |
 
 > **참고**: Level 7-9의 영문 폴더명(earnings, industry-macro, strategy-risk)은 초기 설계 시 정해진 식별자입니다. 실제 콘텐츠 주제는 한국어 설명을 따릅니다. 폴더명 변경 시 100개 글의 상호 링크가 깨지므로 현행 유지합니다.
