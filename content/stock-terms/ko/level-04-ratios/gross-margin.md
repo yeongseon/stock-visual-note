@@ -2,7 +2,7 @@
 id: 33
 slug: gross-margin
 title: "매출총이익률 뜻"
-seo_title: "매출총이익률 완벽 정리 — 원가 경쟁력의 첨 번째 관문"
+seo_title: "매출총이익률 완벽 정리 — 원가 경쟁력의 첫 번째 관문"
 category: stock-terms
 topic: ratios
 level: 4

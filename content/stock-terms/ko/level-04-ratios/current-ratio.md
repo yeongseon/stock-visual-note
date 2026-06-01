@@ -2,7 +2,7 @@
 id: 37
 slug: current-ratio
 title: "유동비율 뜻"
-seo_title: "유동비율 완벽 정리 — 단기 빚 개을 능력을 판단하는 법"
+seo_title: "유동비율 완벽 정리 — 단기 빚 갚을 능력을 판단하는 법"
 category: stock-terms
 topic: ratios
 level: 4

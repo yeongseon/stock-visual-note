@@ -1,14 +1,15 @@
 ---
+id: {id}
+slug: "{slug}"
 title: "{기업명} 기업분석, 초보자가 봐야 할 핵심 포인트"
 seo_title: "{기업명} 기업분석 완벽 정리 — 초보자가 봐야 할 핵심 포인트"
+description: "{기업명}의 사업 구조, 재무 지표, 밸류에이션을 초보자 눈높이로 설명합니다."
 category: "company-analysis"
 topic: "{industry}"
 level: 10
 difficulty: "intermediate"
 language: "ko"
 status: "review"
-diagram_required: true
-table_required: true
 tags:
   - {기업명}
   - 기업분석
@@ -18,6 +19,7 @@ tags:
 last_reviewed: "YYYY-MM-DD"
 content_type: "concept"
 source_policy: "hypothetical"
+analysis_type: "concept"
 review_status: "reviewed"
 search_intent: "{기업명} 기업분석을 어떻게 하는지 알고 싶다"
 primary_keyword: "{기업명} 기업분석"

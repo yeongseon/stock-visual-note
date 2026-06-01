@@ -17,8 +17,8 @@ content/stock-terms/ko/
 ├── level-05-valuation/            # 밸류에이션 (10개)
 ├── level-06-events/               # 배당과 주주환원 (10개)
 ├── level-07-earnings/             # 공시·자본 이벤트 (10개)
-├── level-08-industry-macro/       # 실적·컨센서스 (10개)
-├── level-09-strategy-risk/        # 산업·매크로 (10개)
+├── level-08-industry-macro/       # 실적·업황·매크로 (10개)
+├── level-09-strategy-risk/        # 투자전략·리스크 (10개)
 └── level-10-company-analysis/     # 투자전략·기업분석 (10개)
 ```
 

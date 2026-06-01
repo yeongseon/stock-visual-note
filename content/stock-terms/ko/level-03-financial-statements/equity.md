@@ -2,7 +2,7 @@
 id: 28
 slug: equity
 title: "자본 뜻"
-seo_title: "자본 완벽 정리 — 자산에서 부채를 뺀 주주의 몷"
+seo_title: "자본 완벽 정리 — 자산에서 부채를 뼐 주주의 몲"
 category: stock-terms
 topic: financial-statements
 level: 3
