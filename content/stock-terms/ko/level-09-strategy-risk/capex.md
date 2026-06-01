@@ -9,7 +9,7 @@ level: 9
 difficulty: beginner
 language: ko
 status: review
-tags: [설비투자, 설비투자, 감가상각, 자본지출, 성장투자]
+tags: [설비투자, 자본적지출, 감가상각, 성장투자, 기업분석]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
@@ -118,4 +118,4 @@ CAPEX는 기업이 미래 성장을 위해 투자하는 설비 자본 지출입�
 
 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.
 
-Tags: 설비투자, 설비투자, 감가상각, 자본지출, 성장투자
+Tags: 설비투자, 자본적지출, 감가상각, 성장투자, 기업분석

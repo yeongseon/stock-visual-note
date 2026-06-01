@@ -9,7 +9,7 @@ level: 7
 difficulty: beginner
 language: ko
 status: review
-tags: [전환사채, 전환사채, 전환가액, 희석, 메자닌]
+tags: [전환사채, 주식전환, 자금조달, 희석효과, 채권투자]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
@@ -118,4 +118,4 @@ C기업이 CB 100억 원(전환가 10,000원)을 발행합니다.
 
 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.
 
-Tags: 전환사채, 전환사채, 전환가액, 희석, 메자닌
+Tags: 전환사채, 주식전환, 자금조달, 희석효과, 채권투자

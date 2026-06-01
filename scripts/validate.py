@@ -179,6 +179,8 @@ def validate_file(filepath: Path, content_root: Path) -> tuple[list[str], list[s
         errors.append(f"Invalid review_status: {fm['review_status']}")
     if fm.get("tags") and len(fm["tags"]) != 5:
         errors.append(f"Expected exactly 5 tags, got {len(fm['tags'])}")
+    if fm.get("tags") and len(fm["tags"]) != len(set(fm["tags"])):
+        errors.append("Duplicate tags in frontmatter")
     if fm.get("level") and not (1 <= fm["level"] <= 10):
         errors.append(f"Level out of range: {fm['level']}")
     if fm.get("description") and len(fm["description"]) > 120:
@@ -219,9 +221,11 @@ def validate_file(filepath: Path, content_root: Path) -> tuple[list[str], list[s
                     f"H1/title mismatch: H1='{h1[:40]}' vs title='{title[:40]}'"
                 )
 
-    # Check disclaimer
+    # Check disclaimer (must appear as standalone plain text, not wrapped in * or **)
     if DISCLAIMER not in body:
         errors.append("Missing disclaimer footer")
+    elif f"*{DISCLAIMER}*" in body or f"**{DISCLAIMER}**" in body:
+        errors.append("Disclaimer must be plain text, not italic/bold")
 
     # Check Tags footer
     tags_match = re.search(r"^Tags:\s*(.+)$", body, re.MULTILINE)

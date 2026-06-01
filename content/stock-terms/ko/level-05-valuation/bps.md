@@ -9,7 +9,7 @@ level: 5
 difficulty: beginner
 language: ko
 status: review
-tags: [주당순자산, 주당순자산, 자본, 주가순자산비율, 청산가치]
+tags: [주당순자산, 순자산가치, 주가순자산비율, 자본총계, 기업가치]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
@@ -110,4 +110,4 @@ BPS는 주식 1주당 장부상 순자산으로, 기업 가치의 하한선 역�
 
 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.
 
-Tags: 주당순자산, 주당순자산, 자본, 주가순자산비율, 청산가치
+Tags: 주당순자산, 순자산가치, 주가순자산비율, 자본총계, 기업가치

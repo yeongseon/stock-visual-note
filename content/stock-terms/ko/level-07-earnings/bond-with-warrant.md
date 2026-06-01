@@ -9,7 +9,7 @@ level: 7
 difficulty: beginner
 language: ko
 status: review
-tags: [신주인수권부사채, 신주인수권부사채, 워런트, 희석, 메자닌]
+tags: [신주인수권부사채, 신주인수권, 자금조달, 희석효과, 채권투자]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
@@ -119,4 +119,4 @@ CB는 채권 자체가 주식이 되지만, BW는 채권은 그대로 두고 별
 
 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.
 
-Tags: 신주인수권부사채, 신주인수권부사채, 워런트, 희석, 메자닌
+Tags: 신주인수권부사채, 신주인수권, 자금조달, 희석효과, 채권투자

@@ -5,7 +5,7 @@ title: "{기업명} 기업분석, 초보자가 봐야 할 핵심 포인트"
 seo_title: "{기업명} 기업분석 완벽 정리 — 초보자가 봐야 할 핵심 포인트"
 description: "{기업명}의 사업 구조, 재무 지표, 밸류에이션을 초보자 눈높이로 설명합니다."
 category: "company-analysis"
-topic: "{industry}"
+topic: "company-analysis"
 level: 10
 difficulty: "intermediate"
 language: "ko"

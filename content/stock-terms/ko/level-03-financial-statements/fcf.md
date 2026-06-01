@@ -9,7 +9,7 @@ level: 3
 difficulty: beginner
 language: ko
 status: review
-tags: [잉여현금흐름, 잉여현금흐름, 영업현금흐름, 설비투자, 주주환원]
+tags: [잉여현금흐름, 현금흐름, 설비투자, 배당여력, 기업분석]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
@@ -107,4 +107,4 @@ FCF는 영업으로 번 현금에서 필수 투자를 뺀 '진짜 여유 자금'
 
 이 글은 투자 권유가 아니라 주식 용어와 기업분석 방법을 설명하기 위한 교육 콘텐츠입니다. 특정 종목의 매수·매도 판단은 독자 본인의 책임입니다.
 
-Tags: 잉여현금흐름, 잉여현금흐름, 영업현금흐름, 설비투자, 주주환원
+Tags: 잉여현금흐름, 현금흐름, 설비투자, 배당여력, 기업분석
