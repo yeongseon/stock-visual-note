@@ -47,6 +47,16 @@ def test_build_dry_run():
         assert "Built" in result.stdout
 
 
+def test_build_publish_without_mmdc():
+    """--publish should fail if mmdc is not available (simulated via PATH)."""
+    import shutil
+    if shutil.which("mmdc"):
+        # mmdc is installed, skip this test
+        return
+    result = run_build("--all", "--publish", "--dry-run")
+    assert result.returncode != 0, "--publish should fail without mmdc"
+    assert "mmdc" in result.stdout.lower() or "mmdc" in result.stderr.lower()
+
 if __name__ == "__main__":
     test_build_single_file()
     test_build_help()

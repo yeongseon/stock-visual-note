@@ -244,6 +244,10 @@ def validate_file(filepath: Path, content_root: Path) -> tuple[list[str], list[s
         else:
             errors.append("No code block found (expected Python code)")
 
+    # Check code fence parity (odd count means broken formatting)
+    fence_count = body.count('```')
+    if fence_count % 2 != 0:
+        errors.append(f"Odd number of code fences ({fence_count}): broken formatting")
     # Check for table
     if "|---" not in body and "| ---" not in body:
         errors.append("No markdown table found")
