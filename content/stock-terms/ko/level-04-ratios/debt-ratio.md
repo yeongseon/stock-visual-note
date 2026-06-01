@@ -8,14 +8,14 @@ topic: ratios
 level: 4
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [부채비율, 재무건전성, 부채, 자본, 레버리지]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "부채비율의 계산법, 업종별 기준, 높을 때 위험신호를 쉽게 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "부채비율이 뭔지, 몇 %부터 나쁜 건지 알고 싶다"
 primary_keyword: "부채비율"
 ---

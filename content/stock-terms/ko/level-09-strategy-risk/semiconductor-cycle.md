@@ -8,14 +8,14 @@ topic: strategy-risk
 level: 9
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [반도체사이클, DRAM, 메모리, 공급과잉, 업황]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "반도체 사이클의 뜻, 발생 메커니즘, 투자 타이밍 판단법을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "반도체 사이클이 뭔지, 삼성전자·SK하이닉스 투자 타이밍을 어떻게 잡는지 알고 싶다"
 primary_keyword: "반도체 사이클"
 ---

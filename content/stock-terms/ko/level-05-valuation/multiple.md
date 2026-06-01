@@ -8,14 +8,14 @@ topic: valuation
 level: 5
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [멀티플, 배수, PER, PBR, 밸류에이션]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "멀티플이 무엇인지, 종류별 차이와 리레이팅·디레이팅과의 관계를 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "멀티플이 뭔지, PER·PBR 같은 배수를 어떻게 해석하는지 알고 싶다"
 primary_keyword: "멀티플"
 ---

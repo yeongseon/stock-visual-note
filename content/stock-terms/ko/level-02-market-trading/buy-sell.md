@@ -8,7 +8,7 @@ topic: "market-trading"
 level: 2
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 매수
   - 매도
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "cited"
 description: "매수는 주식을 사는 것, 매도는 파는 것입니다. 수익 구조와 매수·매도 시 주의점을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "매수 매도가 뭔지, 주식을 어떻게 사고 파는지 알고 싶다"
 primary_keyword: "매도"
 ---

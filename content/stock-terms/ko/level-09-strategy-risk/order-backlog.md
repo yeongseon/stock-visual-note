@@ -8,14 +8,14 @@ topic: strategy-risk
 level: 9
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [수주잔고, 수주, 백로그, 조선, 건설]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "수주잔고의 뜻, 일감 연수 계산법, 업황 판단 활용법을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "수주잔고가 뭔지, 조선·건설주 분석에 어떻게 활용하는지 알고 싶다"
 primary_keyword: "수주잔고"
 ---

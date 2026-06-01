@@ -8,7 +8,7 @@ topic: "financial-statements"
 level: 3
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 영업이익
   - 순이익
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "영업이익과 순이익의 차이, 괴리가 생기는 원인, 해석법을 쉽게 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "영업이익과 순이익 차이가 뭔지, 왜 다른지 알고 싶다"
 primary_keyword: "순이익"
 ---

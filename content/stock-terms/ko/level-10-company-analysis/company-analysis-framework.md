@@ -8,14 +8,14 @@ topic: company-analysis
 level: 10
 difficulty: intermediate
 language: ko
-status: draft
+status: review
 tags: [기업분석, 프레임워크, 분석순서, 펀더멘털분석, 투자분석]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "기업분석 프레임워크의 5단계 구조와 실전 적용법을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "기업분석을 어떻게 시작해야 하는지, 순서와 방법을 알고 싶다"
 primary_keyword: "기업분석"
 ---

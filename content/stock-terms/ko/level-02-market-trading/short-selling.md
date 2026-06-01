@@ -8,7 +8,7 @@ topic: "market-trading"
 level: 2
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 공매도
   - 공매도뜻
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "공매도의 작동 원리, 수익·손실 구조, 숏스퀴즈까지 쉽게 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "공매도가 뭔지, 어떻게 수익을 내고 왜 논란인지 알고 싶다"
 primary_keyword: "공매도"
 ---

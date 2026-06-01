@@ -8,14 +8,14 @@ topic: company-analysis
 level: 10
 difficulty: intermediate
 language: ko
-status: draft
+status: review
 tags: [분할매수, 적립식투자, DCA, 평균단가, 매수전략]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "분할매수(DCA)의 뜻, 평균단가 효과, 실전 적용법을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "분할매수가 뭔지, 주식을 나눠 사면 평균단가가 어떻게 되는지 알고 싶다"
 primary_keyword: "분할매수"
 ---

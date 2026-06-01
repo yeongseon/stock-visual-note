@@ -8,14 +8,14 @@ topic: company-analysis
 level: 10
 difficulty: intermediate
 language: ko
-status: draft
+status: review
 tags: [투자아이디어, 투자논리, 인베스트먼트씨시스, 매수근거, 기업분석]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "투자 아이디어(Investment Thesis)의 뜻과 작성법을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "투자 아이디어가 뭔지, 주식 매수 근거를 어떻게 정리해야 하는지 알고 싶다"
 primary_keyword: "투자"
 ---

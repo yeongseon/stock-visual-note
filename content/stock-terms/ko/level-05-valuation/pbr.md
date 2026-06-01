@@ -8,14 +8,14 @@ topic: valuation
 level: 5
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [PBR, 주가순자산비율, BPS, 밸류에이션, 자산가치]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "PBR이 무엇인지, ROE와의 관계, 1배 미만이 의미하는 것을 사례로 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "PBR이 뭔지, 1배 미만이면 무조건 저평가인지 알고 싶다"
 primary_keyword: "PBR"
 ---

@@ -8,14 +8,14 @@ topic: earnings
 level: 7
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [보호예수, 락업, 의무보유, 물량출회, IPO]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "보호예수가 뭔지, 해제일에 주가가 왜 빠지고 어떻게 대응하는지 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "보호예수가 뭔지, 해제일에 주가가 왜 빠지고 어떻게 대응해야 하는지 알고 싶다"
 primary_keyword: "보호예수"
 ---

@@ -8,7 +8,7 @@ topic: "basic"
 level: 1
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 코스피
   - 코스피뜻
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "코스피는 한국 유가증권시장 전체 종목의 시가총액을 지수화한 것입니다. 지수의 의미와 활용법을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "코스피가 뭔지, 코스피 지수가 뭘 의미하는지 알고 싶다"
 primary_keyword: "코스피"
 ---

@@ -8,7 +8,7 @@ topic: "market-trading"
 level: 2
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 지정가
   - 시장가
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "지정가는 가격을 지정하는 주문, 시장가는 즉시 체결하는 주문입니다. 상황별 선택 기준을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "지정가와 시장가가 뭔지, 어떤 걸 써야 하는지 알고 싶다"
 primary_keyword: "시장가"
 ---

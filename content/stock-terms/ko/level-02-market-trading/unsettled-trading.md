@@ -8,7 +8,7 @@ topic: "market-trading"
 level: 2
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 미수거래
   - 미수거래뜻
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "cited"
 description: "미수거래의 발생 원리, 반대매매 조건, 예방 설정법을 초보자 눈높이로 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "미수거래가 뭔지, 반대매매가 왜 위험한지 알고 싶다"
 primary_keyword: "미수거래"
 ---

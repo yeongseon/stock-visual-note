@@ -8,14 +8,14 @@ topic: financial-statements
 level: 3
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [부채, 유동부채, 비유동부채, 재무제표, 재무상태표]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "부채의 의미, 유동·비유동 구분, 부채비율 해석법을 쉽게 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "부채가 뭔지, 부채가 많으면 나쁜 건지 알고 싶다"
 primary_keyword: "부채"
 ---

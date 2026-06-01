@@ -8,14 +8,14 @@ topic: company-analysis
 level: 10
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [분산투자, 리스크관리, 상관관계, 자산배분, 변동성]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "분산투자의 뜻, 적정 종목 수, 제거 가능한 위험과 불가능한 위험을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "분산투자가 뭔지, 몇 종목을 담아야 위험이 줄어드는지 알고 싶다"
 primary_keyword: "분산투자"
 ---

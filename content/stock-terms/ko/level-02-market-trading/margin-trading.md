@@ -8,7 +8,7 @@ topic: "market-trading"
 level: 2
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 신용거래
   - 신용거래뜻
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "신용거래의 구조, 레버리지 효과, 반대매매 조건을 초보자 눈높이로 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "신용거래가 뭔지, 빚으로 주식 사면 어떤 위험이 있는지 알고 싶다"
 primary_keyword: "신용거래"
 ---

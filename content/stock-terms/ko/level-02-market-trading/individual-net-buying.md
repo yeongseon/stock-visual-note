@@ -8,7 +8,7 @@ topic: "market-trading"
 level: 2
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 개인순매수
   - 개인투자자
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "개인 순매수의 의미, 역지표 논란, 수급 해석법을 실전 맥락으로 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "개인 순매수가 뭔지, 개인이 많이 사면 어떤 의미인지 알고 싶다"
 primary_keyword: "개인 순매수"
 ---

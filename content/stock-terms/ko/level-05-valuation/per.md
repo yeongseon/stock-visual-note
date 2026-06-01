@@ -8,14 +8,14 @@ topic: valuation
 level: 5
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [PER, 주가수익비율, EPS, 밸류에이션, 저평가]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "PER(주가수익비율)은 주가÷EPS로 계산하며, 이익 대비 주가 수준을 보여주는 핵심 밸류에이션 지표입니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "PER이 뭔지, 어떻게 계산하고 해석하는지 알고 싶다"
 primary_keyword: "PER"
 ---
@@ -34,7 +34,7 @@ PER이 낮을수록 현재 이익 대비 주가가 싸다는 뜻이지만, "왜 
 
 ## 왜 중요한가
 
-- **가장 보편적인 밸류에이션 도구**: 주식 분석 보고서 90% 이상이 PER을 사용합니다.
+- **가장 보편적인 밸류에이션 도구**: 증권사 리포트 대부분이 PER을 기본 지표로 사용합니다.
 - **비교 기준**: 같은 업종 기업끼리 PER을 비교하면 상대적 고평가·저평가를 가늠할 수 있습니다.
 - **기대 반영**: 성장 기대가 높은 기업은 PER이 높고, 낮은 기업은 PER이 낮습니다.
 

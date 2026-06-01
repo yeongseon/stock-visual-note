@@ -8,14 +8,14 @@ topic: events
 level: 6
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [배당수익률, 배당금, 주가, 배당투자, 인컴투자]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "배당수익률 계산법, 은행 금리와 비교하는 방법, 함정 피하는 법을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "배당수익률이 뭔지, 높으면 무조건 좋은 것인지 알고 싶다"
 primary_keyword: "배당수익률"
 ---

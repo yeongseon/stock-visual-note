@@ -8,14 +8,14 @@ topic: events
 level: 6
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [배당, 배당금, 주주환원, 현금배당, 주식배당]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "cited"
 description: "배당이 무엇인지, 현금배당과 주식배당 차이, 배당 투자 전략을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "배당이 뭔지, 어떻게 받고 배당주 투자는 어떻게 하는지 알고 싶다"
 primary_keyword: "배당"
 ---

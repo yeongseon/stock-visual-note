@@ -8,14 +8,14 @@ topic: valuation
 level: 5
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [리레이팅, 밸류에이션, 멀티플, PER상향, 주가상승]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "리레이팅이 무엇인지, 발생 원인과 주가에 미치는 영향을 사례로 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "리레이팅이 뭔지, 이익 안 늘어도 주가가 오르는 이유를 알고 싶다"
 primary_keyword: "리레이팅"
 ---

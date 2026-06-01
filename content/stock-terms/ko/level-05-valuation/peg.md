@@ -8,14 +8,14 @@ topic: valuation
 level: 5
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [PEG, PER, 성장률, 밸류에이션, 피터린치]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "PEG가 무엇인지, 성장주의 고PER이 정당한지 판단하는 방법을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "PEG가 뭔지, PER이 높은 주식이 저평가일 수 있는지 알고 싶다"
 primary_keyword: "PEG"
 ---

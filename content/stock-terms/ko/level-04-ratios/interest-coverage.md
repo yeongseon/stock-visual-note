@@ -8,14 +8,14 @@ topic: ratios
 level: 4
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [이자보상배율, 영업이익, 이자비용, 재무안정성, 한계기업]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "이자보상배율의 계산법, 한계기업 기준, 해석 방법을 쉽게 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "이자보상배율이 뭔지, 몇 배면 안전한지 알고 싶다"
 primary_keyword: "이자보상배율"
 ---

@@ -8,14 +8,14 @@ topic: events
 level: 6
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [자사주소각, 주식소각, 주주환원, 주식수감소, EPS]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "자사주 소각이 뭔지, 매입과 차이점과 EPS·BPS 효과를 사례로 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "자사주 소각이 뭔지, 매입과 뭐가 다르고 주가에 어떤 영향을 주는지 알고 싶다"
 primary_keyword: "자사주 소각"
 ---

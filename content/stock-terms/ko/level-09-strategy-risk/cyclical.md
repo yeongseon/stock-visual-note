@@ -8,14 +8,14 @@ topic: strategy-risk
 level: 9
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [시클리컬, 사이클, 업황순환, 경기순환, 시황]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "시클리컬의 뜻, 사이클 위치 판단법, PER 역설 현상을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "시클리컬이 뭔지, 업황 사이클을 타는 기업에 언제 투자해야 하는지 알고 싶다"
 primary_keyword: "시클리컬"
 ---
@@ -48,7 +48,7 @@ graph TD
     B --> B2["PER 하락 — 비싸 보이지만 정점 신호"]
     C --> C1["가격 하락 + 실적 급감"]
     C --> C2["PER 상승 — 비싸 보이지만 바닥 신호"]
-    B2 --> D["역설적 PER: 시클리컴 특유 현상"]
+    B2 --> D["역설적 PER: 시클리컬 특유 현상"]
     C2 --> D
 ```
 

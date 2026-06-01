@@ -8,7 +8,7 @@ topic: "market-trading"
 level: 2
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 체결
   - 체결뜻
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "cited"
 description: "체결은 매수·매도 주문이 만나 실제 거래가 성사되는 것입니다. 부분 체결과 미체결의 차이를 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "체결이 뭔지, 왜 주문했는데 체결이 안 되는지 알고 싶다"
 primary_keyword: "체결"
 ---

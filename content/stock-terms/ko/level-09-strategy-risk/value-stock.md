@@ -8,14 +8,14 @@ topic: strategy-risk
 level: 9
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [가치주, 저PER, 저PBR, 배당, 밸류투자]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "가치주의 뜻, 성장주와의 차이, 밸류트랩 회피법을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "가치주가 뭔지, 저PER·저PBR 주식이 오를 수 있는지 알고 싶다"
 primary_keyword: "가치주"
 ---

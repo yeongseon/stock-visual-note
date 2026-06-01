@@ -8,14 +8,14 @@ topic: industry-macro
 level: 8
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [가이던스, 실적전망, 경영진, 컨퍼런스콜, 목표치]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "가이던스의 뜻, 컨센서스와의 차이, 주가 반응 메커니즘을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "가이던스가 뭔지, 회사 실적 전망이 주가에 어떻게 영향을 주는지 알고 싶다"
 primary_keyword: "가이던스"
 ---

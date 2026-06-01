@@ -8,14 +8,14 @@ topic: earnings
 level: 7
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [신주인수권부사채, BW, 워런트, 희석, 메자닌]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "BW가 뭔지, CB와 차이점, 워런트 행사가 주가에 주는 영향을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "신주인수권부사채 BW가 뭔지, CB와 뭐가 다르고 주가에 어떤 영향을 주는지 알고 싶다"
 primary_keyword: "신주인수권부사채"
 ---

@@ -8,7 +8,7 @@ topic: "market-trading"
 level: 2
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 기관순매수
   - 기관투자자
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "기관 순매수의 의미와 연기금·자산운용사 등 주체별 해석법을 쉽게 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "기관 순매수가 뭔지, 기관이 사면 좋은 신호인지 알고 싶다"
 primary_keyword: "기관 순매수"
 ---

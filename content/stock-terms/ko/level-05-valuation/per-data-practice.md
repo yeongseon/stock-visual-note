@@ -11,7 +11,7 @@ difficulty: "intermediate"
 content_type: "data-practice"
 concept_slug: "per"
 language: "ko"
-status: "draft"
+status: "review"
 source_policy: "cited"
 data_source:
   - pykrx
@@ -26,7 +26,7 @@ tags:
   - 데이터분석
 last_reviewed: "2026-06-01"
 analysis_type: "data-practice"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "PER을 Python으로 직접 계산하는 방법이 궁금하다"
 primary_keyword: "PER"
 ---

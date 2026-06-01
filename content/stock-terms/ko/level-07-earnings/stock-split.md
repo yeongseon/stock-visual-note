@@ -8,14 +8,14 @@ topic: earnings
 level: 7
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [액면분할, 주식분할, 액면가, 유통주식수, 주가변동]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "액면분할이 뭔지, 기업가치는 왜 동일하고 투자자에게 유리한 점을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "액면분할이 뭔지, 주가가 낮아지는데 손해 아닌지 알고 싶다"
 primary_keyword: "액면분할"
 ---

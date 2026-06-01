@@ -8,14 +8,14 @@ topic: industry-macro
 level: 8
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [어닝서프라이즈, 실적, 컨센서스, 주가급등, 실적시즌]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "어닝서프라이즈의 뜻, 발생 조건, 주가 급등 메커니즘을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "어닝서프라이즈가 뭔지, 실적이 기대를 넘기면 주가가 얼마나 오르는지 알고 싶다"
 primary_keyword: "어닝서프라이즈"
 ---

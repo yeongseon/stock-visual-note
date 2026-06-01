@@ -8,7 +8,7 @@ topic: "financial-statements"
 level: 3
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 매출액
   - 매출액뜻
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "매출액의 의미, 손익계산서에서의 위치, 매출 성장률 해석법을 쉽게 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "매출액이 뭔지, 손익계산서에서 어떻게 볼지 알고 싶다"
 primary_keyword: "매출액"
 ---

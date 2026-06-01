@@ -8,14 +8,14 @@ topic: industry-macro
 level: 8
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [피크아웃, 실적정점, 성장둔화, 사이클, 주가선반영]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "피크아웃의 뜻, 실적 정점 판별법, 주가 선반영 메커니즘을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "피크아웃이 뭔지, 실적이 정점을 지났는지 어떻게 판단하는지 알고 싶다"
 primary_keyword: "피크아웃"
 ---

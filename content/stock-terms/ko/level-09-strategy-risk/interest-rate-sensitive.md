@@ -8,14 +8,14 @@ topic: strategy-risk
 level: 9
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [금리민감주, 금리, 은행주, 성장주, 채권]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "금리 민감주의 뜻, 인상·인하 시 수혜·피해 업종을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "금리 민감주가 뭔지, 금리가 오르면 어떤 주식이 유리한지 알고 싶다"
 primary_keyword: "금리 민감주"
 ---

@@ -8,14 +8,14 @@ topic: strategy-risk
 level: 9
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [성장주, 고PER, 매출성장, 테크주, 밸류에이션]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "성장주의 뜻, 가치주와의 차이, 금리와의 관계를 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "성장주가 뭔지, PER이 높은데 왜 사는지 알고 싶다"
 primary_keyword: "성장주"
 ---

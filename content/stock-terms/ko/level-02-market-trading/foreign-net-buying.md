@@ -8,7 +8,7 @@ topic: "market-trading"
 level: 2
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 외국인순매수
   - 수급
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "외국인 순매수의 계산법, 시장 영향력, 해석 시 주의점을 초보자 눈높이로 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "외국인 순매수가 뭔지, 외국인이 사면 주가가 오르는지 알고 싶다"
 primary_keyword: "외국인 순매수"
 ---

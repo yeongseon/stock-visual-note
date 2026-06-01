@@ -8,14 +8,14 @@ topic: ratios
 level: 4
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [ROA, 총자산이익률, 순이익, 총자산, 자산효율]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "ROA의 계산법, ROE와의 차이, 업종별 해석 기준을 쉽게 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "ROA가 뭔지, ROE와 어떻게 다른지 알고 싶다"
 primary_keyword: "ROA"
 ---

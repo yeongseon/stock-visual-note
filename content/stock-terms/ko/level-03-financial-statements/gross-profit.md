@@ -8,7 +8,7 @@ topic: "financial-statements"
 level: 3
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 매출총이익
   - 매출총이익뜻
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "매출총이익의 의미, 계산법, 업종별 차이를 초보자 눈높이로 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "매출총이익이 뭔지, 원가율과 어떤 관계인지 알고 싶다"
 primary_keyword: "매출총이익"
 ---

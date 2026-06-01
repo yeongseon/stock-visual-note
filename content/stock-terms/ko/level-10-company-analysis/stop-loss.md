@@ -8,14 +8,14 @@ topic: company-analysis
 level: 10
 difficulty: intermediate
 language: ko
-status: draft
+status: review
 tags: [손절, 손절매, 리스크관리, 손실제한, 매도기준]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "손절의 뜻, 적정 기준 설정법, 손실 복구의 수학적 불리함을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "손절이 뭔지, 손절 기준을 몇 퍼센트로 잡아야 하는지 알고 싶다"
 primary_keyword: "손절"
 ---

@@ -8,14 +8,14 @@ topic: company-analysis
 level: 10
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [안전마진, 내재가치, 할인매수, 가치투자, 리스크관리]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "안전마진의 뜻, 계산법, 가치투자에서의 역할을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "안전마진이 뭔지, 얼마나 싸게 사야 안전한지 알고 싶다"
 primary_keyword: "안전마진"
 ---

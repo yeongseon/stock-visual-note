@@ -8,14 +8,14 @@ topic: ratios
 level: 4
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [순이익률, 순이익, 매출액, 수익성, 당기순이익]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "순이익률의 계산법, 영업이익률과의 차이, 활용법을 쉽게 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "순이익률이 뭔지, 영업이익률과 어떻게 다른지 알고 싶다"
 primary_keyword: "순이익률"
 ---

@@ -8,7 +8,7 @@ topic: "basic"
 level: 1
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 주식
   - 주식뜻
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "주식이란 회사의 소유권을 나눈 조각입니다. 주식의 뜻과 의미를 그림·표로 쉽게 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "주식 뜻이 뭔지 쉽게 알고 싶다"
 primary_keyword: "주식"
 ---

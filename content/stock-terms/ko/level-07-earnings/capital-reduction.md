@@ -8,14 +8,14 @@ topic: earnings
 level: 7
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [감자, 자본감소, 무상감자, 유상감자, 자본잠식]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "감자가 뭔지, 무상감자와 유상감자 차이, 투자금에 미치는 영향을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "감자가 뭔지, 내 주식이 어떻게 되고 어떻게 대응해야 하는지 알고 싶다"
 primary_keyword: "감자"
 ---

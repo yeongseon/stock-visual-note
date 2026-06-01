@@ -8,7 +8,7 @@ topic: "basic"
 level: 1
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 하한가
   - 하한가뜻
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "하한가는 하루에 주가가 내릴 수 있는 최대 한도(-30%)입니다. 연속 하한가의 위험성을 숫자로 보여줍니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "하한가가 뭔지, 하한가 맞으면 어떻게 되는지 알고 싶다"
 primary_keyword: "하한가"
 ---

@@ -8,14 +8,14 @@ topic: strategy-risk
 level: 9
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [방어주, 필수소비재, 통신주, 유틸리티, 안정배당]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "방어주의 뜻, 대표 업종, 포트폴리오 방어 전략을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "방어주가 뭔지, 시장 하락에 강한 주식이 뭘지 알고 싶다"
 primary_keyword: "방어주"
 ---

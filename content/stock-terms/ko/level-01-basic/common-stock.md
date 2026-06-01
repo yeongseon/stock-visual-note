@@ -8,7 +8,7 @@ topic: "basic"
 level: 1
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 보통주
   - 보통주뜻
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "보통주는 의결권과 배당권을 모두 가진 가장 일반적인 주식입니다. 우선주와의 차이를 표로 비교합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "보통주가 뭔지, 우선주와 뭐가 다른지 알고 싶다"
 primary_keyword: "보통주"
 ---

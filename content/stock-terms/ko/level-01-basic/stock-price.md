@@ -8,7 +8,7 @@ topic: "basic"
 level: 1
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 주가
   - 주가뜻
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "주가는 1주의 시장 가격입니다. 왜 주가만으로 비싸고 싼지 판단할 수 없는지 그림·표로 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "주가가 뭔지, 왜 주가만 보면 안 되는지 알고 싶다"
 primary_keyword: "주가"
 ---

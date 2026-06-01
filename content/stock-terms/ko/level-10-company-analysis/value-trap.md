@@ -8,14 +8,14 @@ topic: company-analysis
 level: 10
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [밸류트랩, 가치함정, 저PER, 저PBR, 만년저평가]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "밸류트랩의 뜻, 발생 원인, 저평가 함정을 피하는 방법을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "밸류트랩이 뭔지, 저PER·저PBR인데 안 오르는 이유가 뭔지 알고 싶다"
 primary_keyword: "밸류트랩"
 ---

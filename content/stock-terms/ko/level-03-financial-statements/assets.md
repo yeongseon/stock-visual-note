@@ -8,7 +8,7 @@ topic: "financial-statements"
 level: 3
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 자산
   - 자산뜻
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "자산의 의미, 유동·비유동 구분, 재무상태표에서 보는 법을 쉽게 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "자산이 뭔지, 재무상태표에서 자산을 어떻게 해석하는지 알고 싶다"
 primary_keyword: "자산"
 ---

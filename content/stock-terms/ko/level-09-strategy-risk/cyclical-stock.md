@@ -8,14 +8,14 @@ topic: strategy-risk
 level: 9
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [경기민감주, 경기순환, 시클리컬, 업황, 매크로]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "경기민감주의 뜻, 대표 업종, 경기 사이클별 투자 전략을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "경기민감주가 뭔지, 경기가 좋을 때 어떤 주식을 사야 하는지 알고 싶다"
 primary_keyword: "경기민감주"
 ---

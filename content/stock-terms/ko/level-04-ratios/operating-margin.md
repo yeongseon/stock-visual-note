@@ -8,14 +8,14 @@ topic: ratios
 level: 4
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [영업이익률, 수익성, 영업이익, 매출액, 마진]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "영업이익률의 계산법, 업종별 기준, 해석 포인트를 쉽게 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "영업이익률이 뭔지, 몇 %면 좋은 건지 알고 싶다"
 primary_keyword: "영업이익률"
 ---

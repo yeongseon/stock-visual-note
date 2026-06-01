@@ -8,14 +8,14 @@ topic: events
 level: 6
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [배당성향, 배당금, 순이익, 주주환원, 사내유보]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "배당성향이 무엇인지, 적정 수준 판단법과 업종별 차이를 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "배당성향이 뭔지, 높으면 좋은 것인지 어떻게 판단하는지 알고 싶다"
 primary_keyword: "배당성향"
 ---

@@ -8,14 +8,14 @@ topic: company-analysis
 level: 10
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [집중투자, 확신투자, 포지션사이징, 고위험고수익, 몰빵]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "집중투자의 뜻, 분산투자와의 차이, 성공 조건을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "집중투자가 뭔지, 적은 종목에 크게 투자해도 되는지 알고 싶다"
 primary_keyword: "집중투자"
 ---

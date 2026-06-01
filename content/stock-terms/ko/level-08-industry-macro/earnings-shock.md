@@ -8,14 +8,14 @@ topic: industry-macro
 level: 8
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [어닝쇼크, 실적부진, 컨센서스, 하향조정, 주가급락]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "어닝쇼크의 뜻, 발생 원인, 주가 급락 후 대응 전략을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "어닝쇼크가 뭔지, 실적이 기대보다 나쁘면 주가에 어떤 영향이 있는지 알고 싶다"
 primary_keyword: "어닝쇼크"
 ---

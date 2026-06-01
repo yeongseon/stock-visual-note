@@ -8,7 +8,7 @@ topic: "financial-statements"
 level: 3
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 순이익
   - 순이익뜻
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "순이익(당기순이익)의 의미, 계산 구조, 주의점을 쉽게 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "순이익이 뭔지, 영업이익과 어떻게 다른지 알고 싶다"
 primary_keyword: "순이익"
 ---

@@ -231,7 +231,17 @@ def main():
     parser.add_argument(
         "--dry-run", action="store_true", help="Preview without writing files"
     )
+    parser.add_argument(
+        "--publish", action="store_true",
+        help="Publish mode: fail if mmdc is not installed (no client-side fallback)"
+    )
     args = parser.parse_args()
+
+    # Publish mode: require mmdc for pre-rendered SVG output
+    if args.publish and not has_mmdc():
+        print("ERROR: --publish requires mmdc (mermaid-cli) to be installed.")
+        print("Install with: npm install -g @mermaid-js/mermaid-cli")
+        return 1
 
     output_dir = Path(args.output_dir)
     if not args.dry_run:

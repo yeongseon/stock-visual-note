@@ -8,14 +8,14 @@ topic: ratios
 level: 4
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [재고자산회전율, 재고, 매출원가, 효율성, 재고관리]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "재고자산회전율의 계산법, 업종별 기준, 낮을 때 위험신호를 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "재고자산회전율이 뭔지, 어떻게 해석하는지 알고 싶다"
 primary_keyword: "재고자산회전율"
 ---

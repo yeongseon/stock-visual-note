@@ -8,14 +8,14 @@ topic: earnings
 level: 7
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [블록딜, 대량매매, 시간외거래, 할인율, 오버행]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "블록딜이 뭔지, 주가에 왜 악재이고 투자자는 어떻게 대응해야 하는지 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "블록딜이 뭔지, 주가에 어떤 영향을 주고 어떻게 대응해야 하는지 알고 싶다"
 primary_keyword: "블록딜"
 ---

@@ -8,14 +8,14 @@ topic: company-analysis
 level: 10
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [포트폴리오, 자산배분, 종목구성, 비중조절, 투자전략]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "포트폴리오의 뜻, 구성 요소, 비중 조절 전략을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "포트폴리오가 뭔지, 주식 종목을 어떻게 구성해야 하는지 알고 싶다"
 primary_keyword: "포트폴리오"
 ---

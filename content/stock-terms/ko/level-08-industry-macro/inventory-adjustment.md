@@ -8,14 +8,14 @@ topic: industry-macro
 level: 8
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [재고조정, 재고순환, 반도체사이클, 디스토킹, 리스토킹]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "재고 조정(디스토킹·리스토킹)의 뜻과 업황 바닥·정점 판별법을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "재고 조정이 뭔지, 디스토킹·리스토킹이 업황과 주가에 어떻게 영향을 주는지 알고 싶다"
 primary_keyword: "재고 조정"
 ---

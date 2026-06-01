@@ -8,14 +8,14 @@ topic: financial-statements
 level: 3
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [자본, 자본금, 이익잉여금, 자기자본, 재무상태표]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "자본의 의미, 구성 항목(자본금·이익잉여금), 해석법을 쉽게 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "자본이 뭔지, 자본금과 이익잉여금 차이를 알고 싶다"
 primary_keyword: "자본"
 ---

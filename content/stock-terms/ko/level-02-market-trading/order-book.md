@@ -8,7 +8,7 @@ topic: "market-trading"
 level: 2
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 호가
   - 호가뜻
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "호가는 주식을 사거나 팔겠다고 제시하는 가격입니다. 호가창에서 매수·매도 세력을 읽는 법을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "호가가 뭔지, 호가창을 어떻게 읽는지 알고 싶다"
 primary_keyword: "호가"
 ---

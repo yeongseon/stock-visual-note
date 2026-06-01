@@ -8,14 +8,14 @@ topic: earnings
 level: 7
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [액면병합, 주식병합, 액면가, 관리종목, 주가관리]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "액면병합이 뭔지, 액면분할과 차이점, 주가에 미치는 영향을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "액면병합이 뭔지, 주가에 어떤 영향을 주고 왜 하는지 알고 싶다"
 primary_keyword: "액면병합"
 ---

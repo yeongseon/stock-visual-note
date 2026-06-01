@@ -8,14 +8,14 @@ topic: earnings
 level: 7
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [무상증자, 이익잉여금, 자본전입, 주식분할효과, 호재]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "무상증자가 뭔지, 주가에 왜 호재이고 실제 자산은 어떻게 변하는지 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "무상증자가 뭔지, 주식을 공짜로 주는데 주가는 왜 빠지는지 알고 싶다"
 primary_keyword: "무상증자"
 ---

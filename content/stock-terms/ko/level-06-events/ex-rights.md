@@ -8,14 +8,14 @@ topic: events
 level: 6
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [권리락, 유상증자, 무상증자, 신주인수권, 주가조정]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "권리락이 뭔지, 배당락과 차이, 주가 조정 계산법을 사례로 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "권리락이 뭔지, 증자 때 주가가 왜 빠지는지 알고 싶다"
 primary_keyword: "권리락"
 ---

@@ -8,14 +8,14 @@ topic: ratios
 level: 4
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [매출채권회전율, 매출채권, 외상, 회수기간, 운전자본]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "매출채권회전율의 계산법, 회수 기간 해석, 위험신호를 쉽게 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "매출채권회전율이 뭔지, 낮으면 왜 위험한지 알고 싶다"
 primary_keyword: "매출채권회전율"
 ---

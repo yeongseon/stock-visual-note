@@ -8,14 +8,14 @@ topic: events
 level: 6
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [특별배당, 일회성배당, 주주환원, 잉여현금, 배당]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "특별배당이 뭔지, 언제 발생하고 정기배당과 뭐가 다른지 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "특별배당이 뭔지, 언제 발생하고 주가에 어떤 영향을 주는지 알고 싶다"
 primary_keyword: "특별배당"
 ---

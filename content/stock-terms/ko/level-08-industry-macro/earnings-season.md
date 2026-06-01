@@ -8,14 +8,14 @@ topic: industry-macro
 level: 8
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [실적시즌, 분기실적, 어닝시즌, 실적발표, 주가변동성]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "cited"
 description: "실적 시즌의 뜻, 한국 분기별 일정, 주가 변동성 대응법을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "실적 시즌이 언제인지, 어닝시즌에 주가가 왜 많이 흔들리는지 알고 싶다"
 primary_keyword: "실적 시즌"
 ---

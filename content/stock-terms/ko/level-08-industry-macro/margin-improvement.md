@@ -8,14 +8,14 @@ topic: industry-macro
 level: 8
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [마진개선, 영업이익률, 수익성, 원가절감, 이익레버리지]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "마진 개선의 뜻, 발생 원인, 이익 레버리지 효과를 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "마진 개선이 뭔지, 영업이익률이 올라가면 주가에 어떤 영향이 있는지 알고 싶다"
 primary_keyword: "마진 개선"
 ---

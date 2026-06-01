@@ -8,7 +8,7 @@ topic: "basic"
 level: 1
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 우선주
   - 우선주뜻
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "우선주는 배당을 먼저 받는 대신 의결권이 없는 주식입니다. 보통주와의 차이를 그림·표로 비교합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "우선주가 뭔지, 보통주와 뭐가 다른지 알고 싶다"
 primary_keyword: "우선주"
 ---

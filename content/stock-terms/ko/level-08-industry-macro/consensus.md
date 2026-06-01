@@ -8,14 +8,14 @@ topic: industry-macro
 level: 8
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [컨센서스, 애널리스트, 실적전망, 시장기대, 주가반응]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "컨센서스의 뜻과 실적 대비 주가 반응 메커니즘을 쉽게 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "컨센서스가 뭔지, 실적 발표 때 주가가 왜 오르내리는지 알고 싶다"
 primary_keyword: "컨센서스"
 ---

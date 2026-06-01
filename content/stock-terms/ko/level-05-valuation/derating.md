@@ -8,14 +8,14 @@ topic: valuation
 level: 5
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [디레이팅, 밸류에이션, 멀티플하락, PER하향, 주가하락]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "디레이팅이 무엇인지, 실적과 주가가 여긁나는 원인을 사례로 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "디레이팅이 뭔지, 실적 좋은데 주가가 빠지는 이유를 알고 싶다"
 primary_keyword: "디레이팅"
 ---

@@ -8,14 +8,14 @@ topic: events
 level: 6
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [중간배당, 분기배당, 배당, 현금흐름, 주주환원]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "중간배당이 뭔지, 연말배당과 차이, 투자자에게 유리한 점을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "중간배당이 뭔지, 연말배당과 뭐가 다르고 언제 받는지 알고 싶다"
 primary_keyword: "중간배당"
 ---

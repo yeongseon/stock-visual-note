@@ -8,14 +8,14 @@ topic: financial-statements
 level: 3
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [FCF, 잉여현금흐름, 영업현금흐름, CAPEX, 주주환원]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "FCF의 의미, 계산법(영업CF - CAPEX), 활용법을 쉽게 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "FCF(잉여현금흐름)가 뭔지, 어떻게 계산하고 해석하는지 알고 싶다"
 primary_keyword: "잉여현금흐름"
 ---

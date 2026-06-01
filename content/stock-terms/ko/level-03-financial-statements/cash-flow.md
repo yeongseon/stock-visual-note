@@ -8,14 +8,14 @@ topic: financial-statements
 level: 3
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [현금흐름, 영업활동현금흐름, 투자활동현금흐름, 재무활동현금흐름, 현금흐름표]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "현금흐름표의 3가지 영역(영업·투자·재무)과 해석법을 쉽게 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "현금흐름이 뭔지, 현금흐름표를 어떻게 읽는지 알고 싶다"
 primary_keyword: "현금흐름"
 ---

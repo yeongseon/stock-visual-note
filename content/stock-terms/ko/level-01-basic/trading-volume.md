@@ -8,7 +8,7 @@ topic: "basic"
 level: 1
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 거래량
   - 거래량뜻
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "거래량은 일정 기간 동안 체결된 주식 수량입니다. 주가와 함께 보면 움직임의 강도를 판단할 수 있습니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "거래량이 뭔지, 주가와 어떤 관계인지 알고 싶다"
 primary_keyword: "거래량"
 ---

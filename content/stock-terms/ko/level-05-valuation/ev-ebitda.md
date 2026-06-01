@@ -8,14 +8,14 @@ topic: valuation
 level: 5
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [EV/EBITDA, 기업가치, EBITDA, 밸류에이션, 인수가치]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "EV/EBITDA가 무엇인지, PER과 차이점, M&A에서 쓰이는 이유를 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "EV/EBITDA가 뭔지, PER과 뭐가 다르고 어떻게 해석하는지 알고 싶다"
 primary_keyword: "EV/EBITDA"
 ---

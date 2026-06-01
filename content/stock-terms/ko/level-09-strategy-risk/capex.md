@@ -8,14 +8,14 @@ topic: strategy-risk
 level: 9
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [CAPEX, 설비투자, 감가상각, 자본지출, 성장투자]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "CAPEX의 뜻, FCF와의 관계, 투자 강도 판단법을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "CAPEX가 뭔지, 설비투자가 많으면 주가에 좋은 건지 알고 싶다"
 primary_keyword: "CAPEX"
 ---

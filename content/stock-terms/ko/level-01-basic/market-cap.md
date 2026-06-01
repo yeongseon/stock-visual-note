@@ -8,7 +8,7 @@ topic: "basic"
 level: 1
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 시가총액
   - 시가총액뜻
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "시가총액은 주가 × 주식 수로 계산하는 회사 전체의 시장 가격입니다. 왜 주가보다 먼저 봐야 하는지 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "시가총액이 뭔지, 왜 주가보다 중요한지 알고 싶다"
 primary_keyword: "시가총액"
 ---

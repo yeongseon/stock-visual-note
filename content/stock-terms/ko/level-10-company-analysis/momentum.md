@@ -8,14 +8,14 @@ topic: company-analysis
 level: 10
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [모멘텀, 실적모멘텀, 주가추세, 카탈리스트, 상승동력]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "모멘텀은 주가가 움직이는 동력이나 계기를 뜻합니다. 실적·이벤트·수급 모멘텀의 차이를 그림과 표로 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "주식에서 모멘텀이 뭔지, 어떤 종류가 있는지 알고 싶다"
 primary_keyword: "모멘텀"
 ---

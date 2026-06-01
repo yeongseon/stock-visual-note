@@ -8,14 +8,14 @@ topic: events
 level: 6
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [배당락, 배당기준일, 권리락, 주가조정, 배당투자]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "cited"
 description: "배당락이 뭔지, 주가가 왜 빠지고 매수 타이밍은 어떻게 잡는지 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "배당락이 뭔지, 배당 받으려면 언제까지 사야 하는지 알고 싶다"
 primary_keyword: "배당락"
 ---

@@ -8,14 +8,14 @@ topic: ratios
 level: 4
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [ROE, 자기자본이익률, 순이익, 자본, 듀퐁분석]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "ROE의 계산법, 듀팁분석, 높은 ROE의 함정을 쉽게 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "ROE가 뭔지, 높을수록 좋은 건지 알고 싶다"
 primary_keyword: "ROE"
 ---

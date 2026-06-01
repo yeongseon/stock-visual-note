@@ -8,7 +8,7 @@ topic: "basic"
 level: 1
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 상한가
   - 상한가뜻
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "상한가는 하루에 주가가 오를 수 있는 최대 한도(+30%)입니다. 왜 존재하고 어떤 의미인지 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "상한가가 뭔지, 상한가 치면 어떻게 되는지 알고 싶다"
 primary_keyword: "상한가"
 ---

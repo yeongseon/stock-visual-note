@@ -8,14 +8,14 @@ topic: industry-macro
 level: 8
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [턴어라운드, 적자전환, 흑자전환, 구조조정, 실적회복]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "턴어라운드의 뜻, 성공 조건, 투자 시점 판단법을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "턴어라운드가 뭔지, 적자 기업이 회복할 때 언제 투자해야 하는지 알고 싶다"
 primary_keyword: "턴어라운드"
 ---

@@ -8,7 +8,7 @@ topic: "financial-statements"
 level: 3
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 영업이익
   - 영업이익뜻
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "영업이익의 의미, 계산 구조, 영업이익률 해석법을 쉽게 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "영업이익이 뭔지, 영업이익률은 어떻게 해석하는지 알고 싶다"
 primary_keyword: "영업이익"
 ---

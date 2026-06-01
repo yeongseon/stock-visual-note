@@ -8,14 +8,14 @@ topic: valuation
 level: 5
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [PSR, 주가매출비율, 매출액, 밸류에이션, 성장주]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "PSR이 무엇인지, 언제 사용하고 어떤 기업에 적합한지 사례로 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "PSR이 뭔지, 적자 기업 밸류에이션에 어떻게 쓰는지 알고 싶다"
 primary_keyword: "PSR"
 ---

@@ -8,14 +8,14 @@ topic: valuation
 level: 5
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [BPS, 주당순자산, 자본, PBR, 청산가치]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "BPS가 무엇인지, 계산 방법과 PBR·청산가치와의 관계를 사례로 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "BPS가 뭔지, 어떻게 계산하고 PBR과 어떤 관계인지 알고 싶다"
 primary_keyword: "BPS"
 ---

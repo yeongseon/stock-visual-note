@@ -8,7 +8,7 @@ topic: "basic"
 level: 1
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - 코스닥
   - 코스닥뜻
@@ -20,7 +20,7 @@ content_type: "concept"
 source_policy: "hypothetical"
 description: "코스닥은 기술·성장 중심의 중소기업이 상장되는 한국 주식시장입니다. 코스피와의 차이를 비교합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "코스닥이 뭔지, 코스피와 뭐가 다른지 알고 싶다"
 primary_keyword: "코스닥"
 ---

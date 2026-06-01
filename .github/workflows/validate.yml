@@ -4,17 +4,19 @@ on:
   push:
     paths:
       - 'content/**'
-      - 'scripts/validate.py'
-      - 'scripts/build_tistory.py'
+      - 'scripts/**'
+      - 'tests/**'
       - 'templates/**'
+      - 'requirements.txt'
       - 'STYLE_GUIDE.md'
       - 'content-catalog.yaml'
   pull_request:
     paths:
       - 'content/**'
-      - 'scripts/validate.py'
-      - 'scripts/build_tistory.py'
+      - 'scripts/**'
+      - 'tests/**'
       - 'templates/**'
+      - 'requirements.txt'
       - 'STYLE_GUIDE.md'
       - 'content-catalog.yaml'
 

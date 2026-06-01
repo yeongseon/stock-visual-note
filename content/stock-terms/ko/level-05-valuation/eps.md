@@ -8,14 +8,14 @@ topic: valuation
 level: 5
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [EPS, 주당순이익, 순이익, 주식수, 희석EPS]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "EPS가 무엇인지, 어떻게 계산하고 PER·주가와 어떤 관계인지 사례로 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "EPS가 뭔지, 어떻게 계산하고 주가에 어떤 영향을 주는지 알고 싶다"
 primary_keyword: "EPS"
 ---

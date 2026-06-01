@@ -8,14 +8,14 @@ topic: industry-macro
 level: 8
 difficulty: beginner
 language: ko
-status: draft
+status: review
 tags: [기저효과, YoY, 전년동기, 성장률착시, 비교기간]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "기저효과가 YoY 성장률을 왜곡하는 원리와 실질 성장 판별법을 설명합니다."
 analysis_type: "concept"
-review_status: "needs_review"
+review_status: "reviewed"
 search_intent: "기저효과가 뭔지, 실적 성장률이 착시인지 어떻게 구분하는지 알고 싶다"
 primary_keyword: "기저효과"
 ---
