@@ -2,7 +2,7 @@
 id: 42
 slug: pbr
 title: "PBR 뜻"
-seo_title: "PBR(주가순자산비율)란? 주식 초보를 위한 쉬운 설명"
+seo_title: "PBR 완벽 정리 — 주가순자산비율 계산법과 해석 기준"
 category: stock-terms
 topic: valuation
 level: 5
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [PBR, 주가순자산비율, BPS, 밸류에이션, 자산가치]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "PBR 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "PBR이 무엇인지, ROE와의 관계, 1배 미만이 의미하는 것을 사례로 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "기업 가치평가 방법"
+search_intent: "PBR이 뭔지, 1배 미만이면 무조건 저평가인지 알고 싶다"
 primary_keyword: "PBR"
 ---
 
@@ -38,21 +38,16 @@ PBR 1배 미만은 시장이 기업의 자산가치조차 인정하지 않는다
 
 ```mermaid
 graph TD
-    N0["공식: PBR = 주가 ÷ BPS"]
-    N1["또는 = 시가총액 ÷ 자본총계"]
-    N2["PBR과 ROE의 관계"]
-    N3["PBR ≈ ROE ÷ 요구수익률 （근사）"]
-    N4["ROE 15%, 요구수익률 10%"]
-    N5["적정 PBR ≈ 1.5배"]
-    N6["ROE < 요구수익률"]
-    N7["PBR 1배 미만 정당화"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["PBR = 주가 ÷ BPS"]
+    A --> B["PBR 해석"]
+    A --> C["ROE와의 관계"]
+    B --> B1["PBR > 1: 프리미엄"]
+    B --> B2["PBR < 1: 디스카운트"]
+    B1 --> B1a["성장 기대 반영"]
+    B2 --> B2a["청산가치 미만 or 저ROE"]
+    C --> C1["적정 PBR ≈ ROE ÷ 요구수익률"]
+    C --> C2["ROE 15%, 요구 10% → PBR 1.5배"]
+```
 ```
 
 ## 숫자로 보는 예시

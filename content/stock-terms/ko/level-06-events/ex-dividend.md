@@ -2,7 +2,7 @@
 id: 54
 slug: ex-dividend
 title: "배당락 뜻"
-seo_title: "배당락이란? 주식 초보를 위한 쉬운 설명"
+seo_title: "배당락 완벽 정리 — 배당락일 주가 조정 원리와 매매 타이밍"
 category: stock-terms
 topic: events
 level: 6
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [배당락, 배당기준일, 권리락, 주가조정, 배당투자]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "cited"
-description: "배당락 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "배당락이 뭔지, 주가가 왜 빠지고 매수 타이밍은 어떻게 잡는지 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "주주환원·이벤트 이해"
+search_intent: "배당락이 뭔지, 배당 받으려면 언제까지 사야 하는지 알고 싶다"
 primary_keyword: "배당락"
 ---
 
@@ -38,23 +38,15 @@ primary_keyword: "배당락"
 
 ```mermaid
 graph TD
-    A0["배당 기준일 배당락일"]
-    A1["（T） （T+1）"]
-    A2["50,000원 이 날 보유"]
-    A3["49,000원"]
-    A4["배당 받음 （-1,000원）"]
-    A5["배당금: 1,000원"]
-    A6["주주명부 확정 배당 권리 소멸"]
-    A7["※ 한국: T+1 결제"]
-    A8["기준일 1영업일 전 매수 필요"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
+    A["배당 기준일"]
+    A --> B["기준일 이전 매수"]
+    A --> C["배당락일 T+1"]
+    B --> B1["주주명부 등재"]
+    B --> B2["배당 수령 권리 확보"]
+    C --> C1["배당 권리 소멸"]
+    C --> C2["주가 배당금만큼 하락"]
+    C2 --> D["예: 50,000원 → 49,000원"]
+    B2 --> E["핵심: 기준일 1영업일 전 매수 필수"]
 ```
 
 ## 숫자로 보는 예시

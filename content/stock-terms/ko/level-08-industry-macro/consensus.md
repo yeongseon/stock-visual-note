@@ -2,7 +2,7 @@
 id: 71
 slug: consensus
 title: "컨센서스 뜻"
-seo_title: "컨센서스란? 실적 발표 때 주가가 움직이는 이유 설명"
+seo_title: "컨센서스 완벽 정리 — 주가가 실적 발표에 반응하는 원리"
 category: stock-terms
 topic: industry-macro
 level: 8
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [컨센서스, 애널리스트, 실적전망, 시장기대, 주가반응]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "컨센서스 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "컨센서스의 뜻과 실적 대비 주가 반응 메커니즘을 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "실적·업황 분석"
+search_intent: "컨센서스가 뭔지, 실적 발표 때 주가가 왜 오르내리는지 알고 싶다"
 primary_keyword: "컨센서스"
 ---
 
@@ -41,29 +41,14 @@ primary_keyword: "컨센서스"
 
 ```mermaid
 graph TD
-    A0["애널리스트 A: 영업이익 1,200억"]
-    A1["애널리스트 B: 영업이익 1,100억"]
-    A2["애널리스트 C: 영업이익 1,300억"]
-    A3["애널리스트 D: 영업이익 1,150억"]
-    A4["컨센서스 = 평균 1,187억 원"]
-    A5["실적 발표일:"]
-    A6["실적 > 컨센서스"]
-    A7["어닝서프라이즈 ↑"]
-    A8["실적 ≈ 컨센서스"]
-    A9["부합 （중립）"]
-    A10["실적 < 컨센서스"]
-    A11["어닝쇼크 ↓"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
-    A9 --> A10
-    A10 --> A11
+    A["애널리스트 전망 평균"] --> B["컨센서스 형성"]
+    B --> C{"실적 발표"}
+    C -->|"상회"| D["어닝서프라이즈"]
+    C -->|"부합"| E["중립 반응"]
+    C -->|"하회"| F["어닝쇼크"]
+    D --> D1["주가 급등 + 목표가 상향"]
+    F --> F1["주가 급락 + 컨센서스 하향"]
+    E --> E1["소폭 변동"]
 ```
 
 ## 숫자로 보는 예시

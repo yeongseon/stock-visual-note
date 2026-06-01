@@ -2,7 +2,7 @@
 id: 14
 slug: "short-selling"
 title: "공매도 뜻, 주가 하락에 투자하는 방식"
-seo_title: "공매도 뜻 쉽게 이해하기"
+seo_title: "공매도 완벽 정리 — 하락에 베팅하는 구조와 숏스퀴즈"
 category: "stock-terms"
 topic: "market-trading"
 level: 2
@@ -15,13 +15,13 @@ tags:
   - 주식거래
   - 주식초보
   - 주식용어
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "공매도 뜻, 주가 하락에 투자하는 방식을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "공매도의 작동 원리, 수익·손실 구조, 숏스퀴즈까지 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "주식 매매 방법 이해"
+search_intent: "공매도가 뭔지, 어떻게 수익을 내고 왜 논란인지 알고 싶다"
 primary_keyword: "공매도"
 ---
 
@@ -52,23 +52,16 @@ primary_keyword: "공매도"
 
 ```mermaid
 graph TD
-    A0["공매도 수익 구조"]
-    A1["① 주식 빌리기"]
-    A2["증권사/기관에서 A주식 100주 대여"]
-    A3["② 비싸게 팔기"]
-    A4["100주 × 10,000원 = 100만 원 수령"]
-    A5["③ 싸게 사서 갚기"]
-    A6["100주 × 7,000원 = 70만 원 지출"]
-    A7["④ 차익 = 100만 - 70만 = 30만 원"]
-    A8["（대여 수수료 차감 전）"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
+    A["공매도 프로세스"]
+    A --> B["① 주식 차입"]
+    A --> C["② 시장에서 매도"]
+    B --> D["기관/증권사에서 대여"]
+    C --> E["매도 대금 수령"]
+    E --> F{"주가 방향"}
+    F -->|하락| G["③ 싸게 매수 → 차입 상환"]
+    F -->|상승| H["손실 발생 (이론상 무한대)"]
+    G --> I["차익 실현"]
+    H --> J["숏커버 → 숏스퀴즈 가능"]
 ```
 
 _빌려서 비싸게 팔고, 싸게 사서 갚으면 차익이 발생합니다._

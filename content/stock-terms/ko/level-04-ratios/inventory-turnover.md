@@ -2,7 +2,7 @@
 id: 39
 slug: inventory-turnover
 title: "재고자산회전율 뜻"
-seo_title: "재고자산회전율이란? 주식 초보를 위한 쉬운 설명"
+seo_title: "재고자산회전율 완벽 정리 — 재고가 빨리 팔리는지 판단하는 법"
 category: stock-terms
 topic: ratios
 level: 4
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [재고자산회전율, 재고, 매출원가, 효율성, 재고관리]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "재고자산회전율 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "재고자산회전율의 계산법, 업종별 기준, 낮을 때 위험신호를 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "재무비율 분석 방법"
+search_intent: "재고자산회전율이 뭔지, 어떻게 해석하는지 알고 싶다"
 primary_keyword: "재고자산회전율"
 ---
 
@@ -38,17 +38,13 @@ primary_keyword: "재고자산회전율"
 
 ```mermaid
 graph TD
-    N0["공식: 재고자산회전율 = 매출원가 ÷ 평균재고자산 （회）"]
-    N1["재고 회전일수 = 365 ÷ 재고자산회전율 （일）"]
-    N2["높은 회전율 （12회 = 30일） 낮은 회전율 （4회 = 91일）"]
-    N3["재고 30일만에 소진 재고"]
-    N4["小 현금 빠르게 회수 大 91일 묶임"]
-    N5["자금 비효율"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
+    A["재고자산회전율 = 매출원가 ÷ 평균재고"]
+    A --> B["높은 회전율 (12회)"]
+    A --> C["낮은 회전율 (4회)"]
+    B --> D["회전일수 30일"]
+    C --> E["회전일수 91일"]
+    D --> F["재고 빨리 소진 → 현금 회수 빠름"]
+    E --> G["재고 장기 체류 → 자금 비효율"]
 ```
 
 ## 숫자로 보는 예시

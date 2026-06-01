@@ -2,7 +2,7 @@
 id: 13
 slug: "individual-net-buying"
 title: "개인 순매수 뜻, 개인 투자자 수급을 해석하는 법"
-seo_title: "개인 순매수 뜻 쉽게 이해하기"
+seo_title: "개인 순매수 완벽 정리 — 개인 수급이 역지표인 이유와 예외"
 category: "stock-terms"
 topic: "market-trading"
 level: 2
@@ -15,13 +15,13 @@ tags:
   - 수급
   - 주식초보
   - 주식용어
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "개인 순매수 뜻, 개인 투자자 수급을 해석하는 법을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "개인 순매수의 의미, 역지표 논란, 수급 해석법을 실전 맥락으로 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "주식 매매 방법 이해"
+search_intent: "개인 순매수가 뭔지, 개인이 많이 사면 어떤 의미인지 알고 싶다"
 primary_keyword: "개인 순매수"
 ---
 
@@ -52,21 +52,16 @@ primary_keyword: "개인 순매수"
 
 ```mermaid
 graph TD
-    N0["주체별 수급의 제로섬 구조"]
-    N1["매수 = 매도 （항상 균형）"]
-    N2["외국인: +500억 （순매수）"]
-    N3["기관: +300억 （순매수）"]
-    N4["개인: -800억 （순매도）"]
-    N5["합계: 0원"]
-    N6["누군가 사면 반드시 누군가 파는"]
-    N7["제로섬 구조"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["주체별 수급 구조"]
+    A --> B["외국인"]
+    A --> C["기관"]
+    A --> D["개인"]
+    B --> E["+500억 순매수"]
+    C --> F["+300억 순매수"]
+    D --> G["-800억 순매도"]
+    E --> H["합계 = 0 (제로섬)"]
+    F --> H
+    G --> H
 ```
 
 _주체별 순매수를 모두 합하면 항상 0입니다. 누군가의 매수는 누군가의 매도입니다._

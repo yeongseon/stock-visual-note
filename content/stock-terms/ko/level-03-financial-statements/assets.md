@@ -2,7 +2,7 @@
 id: 26
 slug: "assets"
 title: "자산 뜻, 기업이 가진 모든 것"
-seo_title: "자산 뜻 쉽게 이해하기"
+seo_title: "자산 완벽 정리 — 유동자산·비유동자산 구분과 해석"
 category: "stock-terms"
 topic: "financial-statements"
 level: 3
@@ -15,13 +15,13 @@ tags:
   - 재무상태표
   - 주식초보
   - 기업분석
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "자산 뜻, 기업이 가진 모든 것을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "자산의 의미, 유동·비유동 구분, 재무상태표에서 보는 법을 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "재무제표 읽는 법"
+search_intent: "자산이 뭔지, 재무상태표에서 자산을 어떻게 해석하는지 알고 싶다"
 primary_keyword: "자산"
 ---
 
@@ -52,23 +52,15 @@ primary_keyword: "자산"
 
 ```mermaid
 graph TD
-    A0["재무상태표 기본 구조"]
-    A1["（남의 돈）"]
-    A2["자산 7,000억"]
-    A3["（가진 것）"]
-    A4["10,000억 자본"]
-    A5["（내 돈）"]
-    A6["3,000억"]
-    A7["자산 10,000 = 부채 7,000 + 자본 3,000"]
-    A8["항상 왼쪽 = 오른쪽 （균형）"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
+    A["재무상태표"]
+    A --> B["자산 (가진 것)"]
+    A --> C["부채 + 자본 (자금 출처)"]
+    B --> D["유동자산 (1년 이내)"]
+    B --> E["비유동자산 (1년 초과)"]
+    D --> F["현금, 매출채권, 재고"]
+    E --> G["토지, 건물, 설비, 무형자산"]
+    C --> H["부채 (남의 돈)"]
+    C --> I["자본 (주주의 몷)"]
 ```
 
 _자산은 항상 부채와 자본의 합과 같습니다._

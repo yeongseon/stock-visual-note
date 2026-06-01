@@ -2,7 +2,7 @@
 id: 28
 slug: equity
 title: "자본 뜻"
-seo_title: "자본이란? 주식 초보를 위한 자본 쉬운 설명"
+seo_title: "자본 완벽 정리 — 자산에서 부채를 뺀 주주의 몷"
 category: stock-terms
 topic: financial-statements
 level: 3
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [자본, 자본금, 이익잉여금, 자기자본, 재무상태표]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "자본 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "자본의 의미, 구성 항목(자본금·이익잉여금), 해석법을 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "재무제표 읽는 법"
+search_intent: "자본이 뭔지, 자본금과 이익잉여금 차이를 알고 싶다"
 primary_keyword: "자본"
 ---
 
@@ -38,17 +38,15 @@ primary_keyword: "자본"
 
 ```mermaid
 graph TD
-    N0["자본의 구성 요소"]
-    N1["자본금 주주가 처음 넣은 돈"]
-    N2["자본잉여금 액면 초과 납입분"]
-    N3["이익잉여금 벌어서 쌓아 둔 돈"]
-    N4["자기주식 회사가 사들인 주식"]
-    N5["★ 자본 총계 （= 순자산）"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
+    A["자본"]
+    A --> B["자본금"]
+    A --> C["자본잉여금"]
+    A --> D["이익잉여금"]
+    A --> E["자기주식 (차감)"]
+    B --> F["주주가 처음 넣은 돈"]
+    C --> G["액면 초과 납입분"]
+    D --> H["벌어서 쌍아둔 돈 (핵심)"]
+    E --> I["회사가 사들인 주식"]
 ```
 
 ## 숫자로 보는 예시

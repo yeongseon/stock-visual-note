@@ -2,7 +2,7 @@
 id: 70
 slug: tender-offer
 title: "공개매수 뜻"
-seo_title: "공개매수란? 특정 가격에 주식을 사겠다는 제안 쉽게 설명"
+seo_title: "공개매수 완벽 정리 — 프리미엄 계산법과 투자자 대응 전략"
 category: stock-terms
 topic: earnings
 level: 7
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [공개매수, 경영권, 프리미엄, 의무공개매수, M&A]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "공개매수 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "공개매수가 뭔지, 주가에 어떤 영향을 주고 응모 여부 판단법을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "자본변동·공시 이해"
+search_intent: "공개매수가 뭔지, 주가에 어떤 영향을 주고 응해야 하는지 알고 싶다"
 primary_keyword: "공개매수"
 ---
 
@@ -41,27 +41,16 @@ primary_keyword: "공개매수"
 
 ```mermaid
 graph TD
-    A0["공개매수 프로세스"]
-    A1["매수자（인수희망자）"]
-    A2["주주 A 주주 B"]
-    A3["응할지 선택 응할지 선택"]
-    A4["현재 주가: 40,000원"]
-    A5["공개매수가: 50,000원 （프리미엄 25%）"]
-    A6["응모율 충족"]
-    A7["매수 성사"]
-    A8["경영권 확보"]
-    A9["응모율 미달"]
-    A10["매수 철회 가능"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
-    A9 --> A10
+    A["공개매수"]
+    A --> B["목적"]
+    A --> C["프로세스"]
+    B --> B1["경영권 확보"]
+    B --> B2["상장폐지 추진"]
+    B --> B3["자사주 대량 매입"]
+    C --> C1["프리미엄 제시 시장가+α"]
+    C --> C2["응모율 충족 → 성사"]
+    C --> C3["응모율 미달 → 철회 가능"]
+    C1 --> D["주가가 매수가 근처로 상승"]
 ```
 
 ## 숫자로 보는 예시

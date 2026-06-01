@@ -2,7 +2,7 @@
 id: 29
 slug: cash-flow
 title: "현금흐름 뜻"
-seo_title: "현금흐름이란? 주식 초보를 위한 현금흐름표 쉬운 설명"
+seo_title: "현금흐름 완벽 정리 — 영업·투자·재무 3가지 흐름 읽는 법"
 category: stock-terms
 topic: financial-statements
 level: 3
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [현금흐름, 영업활동현금흐름, 투자활동현금흐름, 재무활동현금흐름, 현금흐름표]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "현금흐름 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "현금흐름표의 3가지 영역(영업·투자·재무)과 해석법을 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "재무제표 읽는 법"
+search_intent: "현금흐름이 뭔지, 현금흐름표를 어떻게 읽는지 알고 싶다"
 primary_keyword: "현금흐름"
 ---
 
@@ -38,27 +38,16 @@ primary_keyword: "현금흐름"
 
 ```mermaid
 graph TD
-    A0["현금흐름표 3대 구분"]
-    A1["① 영업활동 CF"]
-    A2["본업으로 번 현금"]
-    A3["（+） 좋음 （-） 위험"]
-    A4["② 투자활동 CF"]
-    A5["설비·자산 투자"]
-    A6["（-） 성장 투자 （+） 자산 매각"]
-    A7["③ 재무활동 CF"]
-    A8["차입·상환·배당"]
-    A9["（+） 자금 조달 （-） 부채 상환"]
-    A10["★ 기말 현금 = 기초 현금 + ①+②+③"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
-    A9 --> A10
+    A["현금흐름표"]
+    A --> B["① 영업활동 CF"]
+    A --> C["② 투자활동 CF"]
+    A --> D["③ 재무활동 CF"]
+    B --> E["본업으로 번 현금"]
+    C --> F["설비·자산 투자"]
+    D --> G["차입·상환·배당"]
+    E --> H{"(+) 좋음 / (-) 위험"}
+    F --> I{"(-) 성장투자 / (+) 자산매각"}
+    D --> J{"(+) 자금조달 / (-) 부채상환"}
 ```
 
 ## 숫자로 보는 예시

@@ -2,7 +2,7 @@
 id: 76
 slug: peak-out
 title: "피크아웃 뜻"
-seo_title: "피크아웃이란? 실적이 정점을 지났다는 의미 설명"
+seo_title: "피크아웃 완벽 정리 — 실적 정점 신호와 주가 선반영"
 category: stock-terms
 topic: industry-macro
 level: 8
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [피크아웃, 실적정점, 성장둔화, 사이클, 주가선반영]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "피크아웃 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "피크아웃의 뜻, 실적 정점 판별법, 주가 선반영 메커니즘을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "실적·업황 분석"
+search_intent: "피크아웃이 뭔지, 실적이 정점을 지났는지 어떻게 판단하는지 알고 싶다"
 primary_keyword: "피크아웃"
 ---
 
@@ -41,33 +41,17 @@ primary_keyword: "피크아웃"
 
 ```mermaid
 graph TD
-    A0["실적（영업이익）"]
-    A1["★ 피크（정점）"]
-    A2["╱ ╲"]
-    A3["╱ ╲ ← 피크아웃 구간"]
-    A4["╱ ╲"]
-    A5["╱ ╲"]
-    A6["╱ ╲"]
-    A7["╱ ╲"]
-    A8["┼ ┼ ▶ 시간"]
-    A9["성장기 하락기"]
-    A10["주가 반응:"]
-    A11["주가 정점 （실적 정점보다 앞서）"]
-    A12["★ ← 주가는 여기서 이미 꺾임"]
-    A13["╲ 실적은 아직 좋지만 주가 하락"]
-    A14["▶ 시간"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
-    A9 --> A10
-    A10 --> A11
-    A11 --> A12
+    A["실적 추이 분석"]
+    A --> B["성장률 둘화"]
+    A --> C["마진 하락 시작"]
+    A --> D["YoY 역성장 전환"]
+    B --> E{"피크아웃 판단"}
+    C --> E
+    D --> E
+    E -->|"확인"| F["밸류에이션 멀티플 축소"]
+    F --> G["실적은 좋지만 주가 하락"]
+    E -->|"미확인"| H["둘화 vs 조정 구분 필요"]
+```
     A12 --> A13
     A13 --> A14
 ```

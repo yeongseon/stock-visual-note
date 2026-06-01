@@ -2,7 +2,7 @@
 id: 47
 slug: peg
 title: "PEG 뜻"
-seo_title: "PEG(주가수익성장비율)란? 주식 초보를 위한 쉬운 설명"
+seo_title: "PEG 완벽 정리 — 성장률 대비 PER 적정성 판단법"
 category: stock-terms
 topic: valuation
 level: 5
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [PEG, PER, 성장률, 밸류에이션, 피터린치]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "PEG 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "PEG가 무엇인지, 성장주의 고PER이 정당한지 판단하는 방법을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "기업 가치평가 방법"
+search_intent: "PEG가 뭔지, PER이 높은 주식이 저평가일 수 있는지 알고 싶다"
 primary_keyword: "PEG"
 ---
 
@@ -37,10 +37,16 @@ PER 30배 기업이 비싸 보여도, 이익이 매년 30%씩 성장한다면 PE
 ## 그림으로 이해하기
 
 ```mermaid
-graph LR
-    L0["PEG < 1"] -->|해석| R0["저평가 （성장 대비"]
-    L1["PEG = 1"] -->|해석| R1["적정 （피터린치 기준）"]
-    L2["PEG > 2"] -->|해석| R2["고평가 （성장 대비"]
+graph TD
+    A["PEG = PER ÷ EPS 성장률"]
+    A --> B["판단 기준"]
+    A --> C["한계점"]
+    B --> B1["PEG < 1: 저평가"]
+    B --> B2["PEG = 1: 적정"]
+    B --> B3["PEG > 2: 고평가"]
+    C --> C1["적자 기업 적용 불가"]
+    C --> C2["성장률 추정 주관적"]
+    C --> C3["업종별 기준 상이"]
 ```
 
 ## 숫자로 보는 예시

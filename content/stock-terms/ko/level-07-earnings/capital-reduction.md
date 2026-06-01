@@ -2,7 +2,7 @@
 id: 63
 slug: capital-reduction
 title: "감자 뜻"
-seo_title: "감자(자본감소)란? 주식 초보를 위한 쉬운 설명"
+seo_title: "감자 완벽 정리 — 무상감자·유상감자 차이와 투자자 대응법"
 category: stock-terms
 topic: earnings
 level: 7
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [감자, 자본감소, 무상감자, 유상감자, 자본잠식]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "감자 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "감자가 뭔지, 무상감자와 유상감자 차이, 투자금에 미치는 영향을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "자본변동·공시 이해"
+search_intent: "감자가 뭔지, 내 주식이 어떻게 되고 어떻게 대응해야 하는지 알고 싶다"
 primary_keyword: "감자"
 ---
 
@@ -39,21 +39,16 @@ primary_keyword: "감자"
 
 ```mermaid
 graph TD
-    N0["무상감자 10:1 （10주 1주）:"]
-    N1["[Before] [After]"]
-    N2["1,000주 × 1,000원 100주 × 1,000원*"]
-    N3["= 100만 원 = 10만 원"]
-    N4["90% 자산 소멸!"]
-    N5["*감자 후 주가는 이론상 10,000원이지만,"]
-    N6["자본잠식 기업이므로 실제 주가는 훨씬 낮음"]
-    N7["유상감자:"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["감자 유형"]
+    A --> B["무상감자"]
+    A --> C["유상감자"]
+    B --> B1["목적: 자본잠식 해소"]
+    B --> B2["주주 손실 발생"]
+    B --> B3["예: 10:1 → 1,000주→100주"]
+    C --> C1["목적: 과잘 자본 환급"]
+    C --> C2["주주에게 현금 지급"]
+    B1 --> D["악재: 기업 재무 극도 악화 신호"]
+    C1 --> E["중립~호재: 재무 여력 있는 기업"]
 ```
 
 ## 숫자로 보는 예시

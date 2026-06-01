@@ -2,7 +2,7 @@
 id: 52
 slug: dividend-yield
 title: "배당수익률 뜻"
-seo_title: "배당수익률이란? 주식 초보를 위한 쉬운 설명"
+seo_title: "배당수익률 완벽 정리 — 계산법과 고배당주 판단 기준"
 category: stock-terms
 topic: events
 level: 6
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [배당수익률, 배당금, 주가, 배당투자, 인컴투자]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "배당수익률 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "배당수익률 계산법, 은행 금리와 비교하는 방법, 함정 피하는 법을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "주주환원·이벤트 이해"
+search_intent: "배당수익률이 뭔지, 높으면 무조건 좋은 것인지 알고 싶다"
 primary_keyword: "배당수익률"
 ---
 
@@ -38,21 +38,14 @@ primary_keyword: "배당수익률"
 
 ```mermaid
 graph TD
-    A0["공식: 배당수익률 = 주당 배당금 ÷ 주가 × 100（%）"]
-    A1["주가 50,000원 배당금 2,500원"]
-    A2["배당수익률 = 2,500 ÷ 50,000 = 5%"]
-    A3["주의: 주가가 변하면 배당수익률도 변함!"]
-    A4["주가 하락"]
-    A5["배당수익률 ↑ （함정 가능）"]
-    A6["주가 상승"]
-    A7["배당수익률 ↓"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
+    A["배당수익률 = 배당금 ÷ 주가 × 100"]
+    A --> B["배당금 고정 시"]
+    A --> C["해석 주의점"]
+    B --> B1["주가 하락 → 수익률 ↑"]
+    B --> B2["주가 상승 → 수익률 ↓"]
+    C --> C1["높은 수익률 = 주가 하락 함정?"]
+    C --> C2["배당 지속성 확인 필수"]
+    C --> C3["예금 금리 대비 비교"]
 ```
 
 ## 숫자로 보는 예시

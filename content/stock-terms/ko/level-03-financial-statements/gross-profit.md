@@ -2,7 +2,7 @@
 id: 22
 slug: "gross-profit"
 title: "매출총이익 뜻, 원가를 빼고 남은 돈"
-seo_title: "매출총이익 뜻 쉽게 이해하기"
+seo_title: "매출총이익 완벽 정리 — 원가 경쟁력을 보는 법"
 category: "stock-terms"
 topic: "financial-statements"
 level: 3
@@ -15,13 +15,13 @@ tags:
   - 재무제표
   - 주식초보
   - 기업분석
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "매출총이익 뜻, 원가를 빼고 남은 돈을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "매출총이익의 의미, 계산법, 업종별 차이를 초보자 눈높이로 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "재무제표 읽는 법"
+search_intent: "매출총이익이 뭔지, 원가율과 어떤 관계인지 알고 싶다"
 primary_keyword: "매출총이익"
 ---
 
@@ -52,21 +52,14 @@ primary_keyword: "매출총이익"
 
 ```mermaid
 graph TD
-    A0["매출총이익 계산"]
-    A1["매출액: 1,000억 원"]
-    A2["█████████████████████████████"]
-    A3["매출원가: 600억 원"]
-    A4["█████████████████████"]
-    A5["매출총이익: 400억 원"]
-    A6["█████████████ ← 이 부분!"]
-    A7["매출총이익률 = 400 ÷ 1,000 = 40%"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
+    A["매출총이익"]
+    B["매출액"] --> A
+    C["− 매출원가"] --> A
+    A --> D["매출총이익률 = 매출총이익 ÷ 매출액"]
+    D --> E["높으면: 원가 경쟁력 우수"]
+    D --> F["낮으면: 원가 부담 큼"]
+    E --> G["브랜드·플랫폼 기업"]
+    F --> H["제조·유통 기업"]
 ```
 
 _매출에서 원가를 빼면 매출총이익, 이를 비율로 나타내면 매출총이익률입니다._

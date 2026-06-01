@@ -2,7 +2,7 @@
 id: 40
 slug: receivables-turnover
 title: "매출채권회전율 뜻"
-seo_title: "매출채권회전율이란? 주식 초보를 위한 쉬운 설명"
+seo_title: "매출채권회전율 완벽 정리 — 외상값을 얼마나 빨리 받는가"
 category: stock-terms
 topic: ratios
 level: 4
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [매출채권회전율, 매출채권, 외상, 회수기간, 운전자본]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "매출채권회전율 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "매출채권회전율의 계산법, 회수 기간 해석, 위험신호를 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "재무비율 분석 방법"
+search_intent: "매출채권회전율이 뭔지, 낮으면 왜 위험한지 알고 싶다"
 primary_keyword: "매출채권회전율"
 ---
 
@@ -37,9 +37,15 @@ primary_keyword: "매출채권회전율"
 ## 그림으로 이해하기
 
 ```mermaid
-graph LR
-    L0["판매"] -->|해석| R0["외상 발생 → 대금 회수 → 현금 확보"]
-    L1["$"] -->|해석| R1["현금 여유 $ $ $ $ → 자금 묶임"]
+graph TD
+    A["매출채권회전율 = 매출액 ÷ 평균매출채권"]
+    A --> B["높음 (12회 → 30일)"]
+    A --> C["낮음 (4회 → 91일)"]
+    B --> D["외상 빨리 회수"]
+    C --> E["외상 장기 미회수"]
+    D --> F["현금흐름 원활"]
+    E --> G["대손 위험 증가"]
+    E --> H["운전자본 압박"]
 ```
 
 ## 숫자로 보는 예시

@@ -2,7 +2,7 @@
 id: 80
 slug: inventory-adjustment
 title: "재고 조정 뜻"
-seo_title: "재고 조정이란? 반도체와 제조업에서 중요한 이유 설명"
+seo_title: "재고 조정 완벽 정리 — 반도체·제조업 업황 사이클의 핵심"
 category: stock-terms
 topic: industry-macro
 level: 8
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [재고조정, 재고순환, 반도체사이클, 디스토킹, 리스토킹]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "재고 조정 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "재고 조정(디스토킹·리스토킹)의 뜻과 업황 바닥·정점 판별법을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "실적·업황 분석"
+search_intent: "재고 조정이 뭔지, 디스토킹·리스토킹이 업황과 주가에 어떻게 영향을 주는지 알고 싶다"
 primary_keyword: "재고 조정"
 ---
 
@@ -41,33 +41,18 @@ primary_keyword: "재고 조정"
 
 ```mermaid
 graph TD
-    A0["재고 수준"]
-    A1["과잉재고"]
-    A2["디스토킹（재고 축소）"]
-    A3["적정 적정 수준"]
-    A4["리스토킹（재고 확충）"]
-    A5["재고 부족"]
-    A6["▶ 시간"]
-    A7["재고 사이클과 주문량"]
-    A8["과잉"]
-    A9["디스토킹"]
-    A10["주문 급감"]
-    A11["공급사 ↓"]
-    A12["부족"]
-    A13["리스토킹"]
-    A14["주문 급증"]
-    A15["공급사 ↑"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
-    A9 --> A10
-    A10 --> A11
+    A["재고 수준 판단"]
+    A --> B["과잉 재고"]
+    A --> C["재고 부족"]
+    B --> D["디스토킹"]
+    D --> D1["주문 급감"]
+    D --> D2["공급사 실적 하락"]
+    D --> D3["업황 바닥 신호"]
+    C --> E["리스토킹"]
+    E --> E1["주문 급증"]
+    E --> E2["공급사 실적 반등"]
+    E --> E3["업황 회복 신호"]
+```
     A11 --> A12
     A12 --> A13
     A13 --> A14

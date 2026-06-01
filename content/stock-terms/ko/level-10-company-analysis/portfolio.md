@@ -2,7 +2,7 @@
 id: 94
 slug: portfolio
 title: "포트폴리오 뜻"
-seo_title: "포트폴리오란? 여러 종목을 나눠 담는 이유 설명"
+seo_title: "포트폴리오 완벽 정리 — 종목 구성과 비중 조절의 기초"
 category: stock-terms
 topic: company-analysis
 level: 10
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [포트폴리오, 자산배분, 종목구성, 비중조절, 투자전략]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "포트폴리오 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "포트폴리오의 뜻, 구성 요소, 비중 조절 전략을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "종합 기업분석 방법"
+search_intent: "포트폴리오가 뭔지, 주식 종목을 어떻게 구성해야 하는지 알고 싶다"
 primary_keyword: "포트폴리오"
 ---
 
@@ -41,23 +41,16 @@ primary_keyword: "포트폴리오"
 
 ```mermaid
 graph TD
-    A0["포트폴리오 예시"]
-    A1["총 자산: 1,000만 원"]
-    A2["주식 70%"]
-    A3["A기업（반도체） 25% 250만 원"]
-    A4["B기업（바이오） 15% 150만 원"]
-    A5["C기업（금융） 15% 150만 원"]
-    A6["D기업（소비재） 15% 150만 원"]
-    A7["채권 20% 현금 10%"]
-    A8["200만 원 100만 원"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
+    A["포트폴리오 1,000만원"]
+    A --> B["주식 70%"]
+    A --> C["채권 20%"]
+    A --> D["현금 10%"]
+    B --> B1["A기업(반도체) 25%"]
+    B --> B2["B기업(바이오) 15%"]
+    B --> B3["C기업(금융) 15%"]
+    B --> B4["D기업(소비재) 15%"]
+    C --> C1["안정적 수익 + 하방 보호"]
+    D --> D1["기회 대기 자금"]
 ```
 
 ## 숫자로 보는 예시

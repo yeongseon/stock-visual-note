@@ -2,7 +2,7 @@
 id: 74
 slug: guidance
 title: "가이던스 뜻"
-seo_title: "가이던스란? 회사가 직접 말하는 미래 전망 쉽게 설명"
+seo_title: "가이던스 완벽 정리 — 회사가 직접 말하는 미래 실적 전망"
 category: stock-terms
 topic: industry-macro
 level: 8
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [가이던스, 실적전망, 경영진, 컨퍼런스콜, 목표치]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "가이던스 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "가이던스의 뜻, 컨센서스와의 차이, 주가 반응 메커니즘을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "실적·업황 분석"
+search_intent: "가이던스가 뭔지, 회사 실적 전망이 주가에 어떻게 영향을 주는지 알고 싶다"
 primary_keyword: "가이던스"
 ---
 
@@ -41,21 +41,15 @@ primary_keyword: "가이던스"
 
 ```mermaid
 graph TD
-    N0["실적 발표 + 가이던스"]
-    N1["'이번 분기 영업이익 1,000억 달성'"]
-    N2["'다음 분기 가이던스: 1,200억 원'"]
-    N3["시장 반응"]
-    N4["컨센서스 1,100억 < 가이던스 1,200억"]
-    N5["기대 상향 주가 상승"]
-    N6["컨센서스 1,300억 > 가이던스 1,200억"]
-    N7["기대 하향 주가 하락"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["실적 발표 + 가이던스 제시"]
+    A --> B["이번 분기 실적 확인"]
+    A --> C["다음 분기 가이던스"]
+    C --> D{"컨센서스 대비"}
+    D -->|"상회"| E["기대 상향 → 주가 상승"]
+    D -->|"하회"| F["기대 하향 → 주가 하락"]
+    D -->|"미제시"| G["불확실성 프리미엄"]
+    E --> H["목표가 상향 조정"]
+    F --> I["컨센서스 하향 조정"]
 ```
 
 ## 숫자로 보는 예시

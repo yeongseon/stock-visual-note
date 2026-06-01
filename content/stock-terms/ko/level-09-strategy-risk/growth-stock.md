@@ -2,7 +2,7 @@
 id: 81
 slug: growth-stock
 title: "성장주 뜻"
-seo_title: "성장주란? 미래 이익에 높은 기대를 받는 주식 설명"
+seo_title: "성장주 완벽 정리 — 높은 PER이 정당화되는 조건과 리스크"
 category: stock-terms
 topic: strategy-risk
 level: 9
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [성장주, 고PER, 매출성장, 테크주, 밸류에이션]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "성장주 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "성장주의 뜻, 가치주와의 차이, 금리와의 관계를 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "투자전략·리스크 이해"
+search_intent: "성장주가 뭔지, PER이 높은데 왜 사는지 알고 싶다"
 primary_keyword: "성장주"
 ---
 
@@ -41,21 +41,15 @@ primary_keyword: "성장주"
 
 ```mermaid
 graph TD
-    N0["성장주 vs 가치주"]
-    N1["매출 성장률"]
-    N2["성장주: 연 20~50% 성장"]
-    N3["╱╱╱╱╱"]
-    N4["╱╱╱╱"]
-    N5["╱╱╱ 가치주: 연 5~10% 성장"]
-    N6["▶ 시간"]
-    N7["PER: 성장주 30~80배 vs 가치주 5~15배"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["성장주 특성"]
+    A --> B["매출 성장률 20~50%"]
+    A --> C["높은 PER (30~80배)"]
+    A --> D["미래 이익 기대"]
+    B --> E["성장 지속 → 주가 상승"]
+    D --> F{"성장 기대 꼾이면?"}
+    F -->|"피크아웃"| G["디레이팅 — PER 급락"]
+    F -->|"금리 인상"| H["할인율 ↑ → 밸류에이션 하락"]
+    C --> I["가치주(PER 5~15배)와 반대 스타일"]
 ```
 
 ## 숫자로 보는 예시

@@ -2,7 +2,7 @@
 id: 79
 slug: margin-improvement
 title: "마진 개선 뜻"
-seo_title: "마진 개선이란? 이익률이 좋아지는 신호 쉽게 설명"
+seo_title: "마진 개선 완벽 정리 — 이익률 상승이 주가에 미치는 영향"
 category: stock-terms
 topic: industry-macro
 level: 8
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [마진개선, 영업이익률, 수익성, 원가절감, 이익레버리지]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "마진 개선 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "마진 개선의 뜻, 발생 원인, 이익 레버리지 효과를 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "실적·업황 분석"
+search_intent: "마진 개선이 뭔지, 영업이익률이 올라가면 주가에 어떤 영향이 있는지 알고 싶다"
 primary_keyword: "마진 개선"
 ---
 
@@ -41,25 +41,15 @@ primary_keyword: "마진 개선"
 
 ```mermaid
 graph TD
-    A0["마진 개선 효과"]
-    A1["매출 1,000억 （동일）"]
-    A2["전 분기 이번 분기"]
-    A3["원가 700억 원가 650억"]
-    A4["판관비 200억 판관비 200억"]
-    A5["영업이익 영업이익"]
-    A6["100억 150억"]
-    A7["（마진 10%） （마진 15%）"]
-    A8["마진 +5%p"]
-    A9["이익 +50% 증가!"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
+    A["마진 개선 요인"]
+    A --> B["매출 증가 — 고정비 희석"]
+    A --> C["원가 절감"]
+    A --> D["제품 믹스 개선"]
+    B --> E["영업레버리지 효과"]
+    C --> E
+    D --> E
+    E --> F["이익 +50% vs 매출 +0%"]
+    F --> G["밸류에이션 리레이팅"]
 ```
 
 ## 숫자로 보는 예시

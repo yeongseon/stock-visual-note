@@ -2,7 +2,7 @@
 id: 98
 slug: dollar-cost-averaging
 title: "분할매수(Dollar Cost Averaging)"
-seo_title: "분할매수 뜻 – 한 번에 사지 않는 이유"
+seo_title: "분할매수 완벽 정리 — 한 번에 사지 않는 이유와 효과"
 category: stock-terms
 topic: company-analysis
 level: 10
@@ -10,13 +10,13 @@ difficulty: intermediate
 language: ko
 status: draft
 tags: [분할매수, 적립식투자, DCA, 평균단가, 매수전략]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "분할매수(Dollar Cost Averaging)을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "분할매수(DCA)의 뜻, 평균단가 효과, 실전 적용법을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "종합 기업분석 방법"
+search_intent: "분할매수가 뭔지, 주식을 나눠 사면 평균단가가 어떻게 되는지 알고 싶다"
 primary_keyword: "분할매수"
 ---
 
@@ -41,21 +41,16 @@ primary_keyword: "분할매수"
 
 ```mermaid
 graph TD
-    N0["매월 100만원 투자 （4개월）"]
-    N1["주가 매수 수량"]
-    N2["1월 10,000 100주"]
-    N3["2월 8,000 125주"]
-    N4["3월 5,000 200주"]
-    N5["4월 10,000 100주"]
-    N6["총 투자: 400만원"]
-    N7["총 수량: 525주"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["매월 100만원 투자"]
+    A --> B["1월: 10,000원 → 100주"]
+    A --> C["2월: 8,000원 → 125주"]
+    A --> D["3월: 5,000원 → 200주"]
+    A --> E["4월: 10,000원 → 100주"]
+    B --> F["총 525주 / 400만원"]
+    C --> F
+    D --> F
+    E --> F
+    F --> G["평균단가 7,619원 < 단순평균 8,250원"]
 ```
 
 ## 숫자로 보는 예시

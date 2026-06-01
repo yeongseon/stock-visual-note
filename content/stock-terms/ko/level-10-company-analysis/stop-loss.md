@@ -2,7 +2,7 @@
 id: 97
 slug: stop-loss
 title: "손절(Stop Loss)"
-seo_title: "손절 뜻 – 손실을 인정하는 기준이 필요한 이유"
+seo_title: "손절 완벽 정리 — 손실을 인정하는 기준이 필요한 이유"
 category: stock-terms
 topic: company-analysis
 level: 10
@@ -10,13 +10,13 @@ difficulty: intermediate
 language: ko
 status: draft
 tags: [손절, 손절매, 리스크관리, 손실제한, 매도기준]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "손절(Stop Loss)을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "손절의 뜻, 적정 기준 설정법, 손실 복구의 수학적 불리함을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "종합 기업분석 방법"
+search_intent: "손절이 뭔지, 손절 기준을 몇 퍼센트로 잡아야 하는지 알고 싶다"
 primary_keyword: "손절"
 ---
 
@@ -41,21 +41,15 @@ primary_keyword: "손절"
 
 ```mermaid
 graph TD
-    N0["매수가 10,000원"]
-    N1["손절 기준: −10 % 9,000원"]
-    N2["주가 흐름"]
-    N3["10,000 9,800 9,200 9,000 매도 실행"]
-    N4["손실 확정: −1,000원"]
-    N5["손절 안 했다면?"]
-    N6["9,000 7,500 6,000"]
-    N7["손실: −4,000원 （−40 %）"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["매수가 10,000원"]
+    A --> B["손절 기준: -10%"]
+    B --> C["9,000원 도달 → 매도 실행"]
+    C --> D["손실 확정: -1,000원"]
+    A --> E["손절 안 했다면?"]
+    E --> F["9,000 → 7,500 → 6,000"]
+    F --> G["손실: -4,000원 (-40%)"]
+    G --> H["원금 회복에 +67% 필요"]
+    D --> I["자본 보존 → 다음 기회 활용"]
 ```
 
 ## 숫자로 보는 예시

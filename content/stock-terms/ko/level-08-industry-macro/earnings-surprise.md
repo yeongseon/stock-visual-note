@@ -2,7 +2,7 @@
 id: 72
 slug: earnings-surprise
 title: "어닝서프라이즈 뜻"
-seo_title: "어닝서프라이즈란? 실적이 기대를 넘었을 때 생기는 일"
+seo_title: "어닝서프라이즈 완벽 정리 — 실적 초과 달성이 주가에 미치는 영향"
 category: stock-terms
 topic: industry-macro
 level: 8
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [어닝서프라이즈, 실적, 컨센서스, 주가급등, 실적시즌]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "어닝서프라이즈 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "어닝서프라이즈의 뜻, 발생 조건, 주가 급등 메커니즘을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "실적·업황 분석"
+search_intent: "어닝서프라이즈가 뭔지, 실적이 기대를 넘기면 주가가 얼마나 오르는지 알고 싶다"
 primary_keyword: "어닝서프라이즈"
 ---
 
@@ -41,21 +41,15 @@ primary_keyword: "어닝서프라이즈"
 
 ```mermaid
 graph TD
-    A0["컨센서스: 영업이익 1,000억 원"]
-    A1["실제 실적: 1,300억 원"]
-    A2["서프라이즈율: +30%"]
-    A3["시장 반응"]
-    A4["① 주가 급등 （당일~3일）"]
-    A5["② 컨센서스 상향 조정"]
-    A6["③ 목표가 상향"]
-    A7["④ 동종업체 동반 상승"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
+    A["컨센서스 1,000억"] --> B{"실적 발표: 1,300억"}
+    B --> C["서프라이즈율 +30%"]
+    C --> D["즉각 반응"]
+    C --> E["후속 영향"]
+    D --> D1["주가 급등"]
+    D --> D2["거래량 증가"]
+    E --> E1["컨센서스 상향 조정"]
+    E --> E2["목표가 상향"]
+    E --> E3["동종업체 동반 상승"]
 ```
 
 ## 숫자로 보는 예시

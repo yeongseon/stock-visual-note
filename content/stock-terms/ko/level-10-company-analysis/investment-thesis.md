@@ -2,7 +2,7 @@
 id: 99
 slug: investment-thesis
 title: "투자 아이디어(Investment Thesis)"
-seo_title: "투자 아이디어 뜻 – 왜 이 기업을 보는지 정리하는 법"
+seo_title: "투자 아이디어 완벽 정리 — 매수 근거를 논리적으로 정리하는 방법"
 category: stock-terms
 topic: company-analysis
 level: 10
@@ -10,13 +10,13 @@ difficulty: intermediate
 language: ko
 status: draft
 tags: [투자아이디어, 투자논리, 인베스트먼트씨시스, 매수근거, 기업분석]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "투자 아이디어(Investment Thesis)을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "투자 아이디어(Investment Thesis)의 뜻과 작성법을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "종합 기업분석 방법"
+search_intent: "투자 아이디어가 뭔지, 주식 매수 근거를 어떻게 정리해야 하는지 알고 싶다"
 primary_keyword: "투자"
 ---
 
@@ -41,31 +41,18 @@ primary_keyword: "투자"
 
 ```mermaid
 graph TD
-    A0["투자 아이디어 구조"]
-    A1["핵심 가설 （1-2문장）"]
-    A2["'A 회사는 B 시장 성장으로 C 실적 개선'"]
-    A3["근거 1 근거 2 근거 3"]
-    A4["시장 데이 재무 지표 경쟁 우위"]
-    A5["터·트렌드 매출·이익 진입장벽"]
-    A6["검증 지표 （KPI）"]
-    A7["분기 매출 성장률 > 20 %?"]
-    A8["시장점유율 상승 중?"]
-    A9["영업이익률 개선 추세?"]
-    A10["유지"]
-    A11["보유 / 훼손"]
-    A12["매도 검토"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
-    A9 --> A10
-    A10 --> A11
-    A11 --> A12
+    A["투자 아이디어 구조"]
+    A --> B["핵심 가설 (1~2문장)"]
+    A --> C["근거 3가지"]
+    A --> D["검증 KPI"]
+    C --> C1["시장 데이터·트렌드"]
+    C --> C2["재무 지표"]
+    C --> C3["경쟁 우위"]
+    D --> D1["분기 매출 성장률 > 20%?"]
+    D --> D2["시장점유율 상승?"]
+    D1 --> E{"가설 유지?"}
+    E -->|"예"| F["보유 유지"]
+    E -->|"아니오"| G["매도 검토"]
 ```
 
 ## 숫자로 보는 예시

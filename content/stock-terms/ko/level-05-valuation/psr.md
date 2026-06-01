@@ -2,7 +2,7 @@
 id: 43
 slug: psr
 title: "PSR 뜻"
-seo_title: "PSR(주가매출비율)란? 주식 초보를 위한 쉬운 설명"
+seo_title: "PSR 완벽 정리 — 주가매출비율 계산법과 적용 시점"
 category: stock-terms
 topic: valuation
 level: 5
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [PSR, 주가매출비율, 매출액, 밸류에이션, 성장주]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "PSR 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "PSR이 무엇인지, 언제 사용하고 어떤 기업에 적합한지 사례로 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "기업 가치평가 방법"
+search_intent: "PSR이 뭔지, 적자 기업 밸류에이션에 어떻게 쓰는지 알고 싶다"
 primary_keyword: "PSR"
 ---
 
@@ -38,21 +38,17 @@ PSR(Price to Sales Ratio)은 시가총액을 매출액으로 나눈 값으로, �
 
 ```mermaid
 graph TD
-    N0["공식: PSR = 시가총액 ÷ 매출액"]
-    N1["또는 = 주가 ÷ 주당매출액（SPS）"]
-    N2["언제 PSR을 쓰나?"]
-    N3["이익 있음 PER 사용 가능"]
-    N4["이익 없음 + 자산 있음 PBR"]
-    N5["이익 없음 + 자산 적음 ★ PSR"]
-    N6["PSR이 유효한 조건:"]
-    N7["✓ 매출이 빠르게 성장 중"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["PSR = 시가총액 ÷ 매출액"]
+    A --> B["언제 사용하나?"]
+    A --> C["해석 기준"]
+    B --> B1["적자 기업 → PER 불가"]
+    B --> B2["자산 적은 기업 → PBR 부적합"]
+    B1 --> D["매출 성장률이 핵심"]
+    B2 --> D
+    C --> C1["PSR 낮을수록 매력적"]
+    C --> C2["동일 섹터 내 비교 필수"]
+    D --> E["바이오·SaaS·플랫폼에 적합"]
+```
 ```
 
 ## 숫자로 보는 예시

@@ -2,7 +2,7 @@
 id: 30
 slug: fcf
 title: "잉여현금흐름(FCF) 뜻 — 자유롭게 쓸 수 있는 현금"
-seo_title: "FCF(잉여현금흐름)란? 주식 초보를 위한 쉬운 설명"
+seo_title: "FCF(잉여현금흐름) 완벽 정리 — 주주환원 여력을 보는 핵심 지표"
 category: stock-terms
 topic: financial-statements
 level: 3
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [FCF, 잉여현금흐름, 영업현금흐름, CAPEX, 주주환원]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "잉여현금흐름 FCF 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "FCF의 의미, 계산법(영업CF - CAPEX), 활용법을 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "재무제표 읽는 법"
+search_intent: "FCF(잉여현금흐름)가 뭔지, 어떻게 계산하고 해석하는지 알고 싶다"
 primary_keyword: "잉여현금흐름"
 ---
 
@@ -38,19 +38,16 @@ FCF(Free Cash Flow)는 영업활동으로 벌어들인 현금에서 사업 유�
 
 ```mermaid
 graph TD
-    A0["FCF 계산 흐름도"]
-    A1["영업활동 현금흐름 （OCF）"]
-    A2["（-） 자본적 지출 （CAPEX）"]
-    A3["（설비 투자, 공장 건설 등）"]
-    A4["★ FCF = OCF - CAPEX"]
-    A5["배당 자사주 부채상환 M&A"]
-    A6["지급 매입 ·저축 ·신사업"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
+    A["영업활동 현금흐름 (OCF)"]
+    A --> B["− CAPEX (자본적 지출)"]
+    B --> C["FCF (잉여현금흐름)"]
+    C --> D["배당 지급"]
+    C --> E["자사주 매입"]
+    C --> F["부채 상환"]
+    C --> G["M&A·신사업 투자"]
+    D --> H["주주환원"]
+    E --> H
+    F --> I["재무건전성 강화"]
 ```
 
 ## 숫자로 보는 예시

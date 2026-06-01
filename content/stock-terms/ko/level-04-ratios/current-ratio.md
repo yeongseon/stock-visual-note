@@ -2,7 +2,7 @@
 id: 37
 slug: current-ratio
 title: "유동비율 뜻"
-seo_title: "유동비율이란? 주식 초보를 위한 쉬운 설명"
+seo_title: "유동비율 완벽 정리 — 단기 빚 개을 능력을 판단하는 법"
 category: stock-terms
 topic: ratios
 level: 4
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [유동비율, 유동자산, 유동부채, 단기상환, 재무안정성]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "유동비율 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "유동비율의 계산법, 적정 수준, 업종별 해석 기준을 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "재무비율 분석 방법"
+search_intent: "유동비율이 뭔지, 몇 %면 안전한지 알고 싶다"
 primary_keyword: "유동비율"
 ---
 
@@ -38,21 +38,15 @@ primary_keyword: "유동비율"
 
 ```mermaid
 graph TD
-    N0["공식: 유동비율 = 유동자산 ÷ 유동부채 × 100（%）"]
-    N1["유동자산 （1년 내 현금화） 유동부채 （1년 내 상환）"]
-    N2["현금 및 예금 단기차입금"]
-    N3["매출채권 매입채무"]
-    N4["재고자산 미지급금"]
-    N5["단기금융상품 유동성장기부채"]
-    N6["1,500억 1,000억"]
-    N7["유동비율 = 1,500 ÷ 1,000 × 100 = 150% ✓"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["유동비율 = 유동자산 ÷ 유동부채 × 100%"]
+    A --> B["유동자산 (1년 내 현금화)"]
+    A --> C["유동부채 (1년 내 상환)"]
+    B --> D["현금"]
+    B --> E["매출채권"]
+    B --> F["재고자산"]
+    C --> G["단기차입금"]
+    C --> H["매입채무"]
+    C --> I["미지급금"]
 ```
 
 ## 숫자로 보는 예시

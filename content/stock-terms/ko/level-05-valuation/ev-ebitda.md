@@ -2,7 +2,7 @@
 id: 46
 slug: ev-ebitda
 title: "EV/EBITDA 뜻"
-seo_title: "EV/EBITDA란? 주식 초보를 위한 쉬운 설명"
+seo_title: "EV/EBITDA 완벽 정리 — 기업가치 배수 계산법과 활용"
 category: stock-terms
 topic: valuation
 level: 5
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [EV/EBITDA, 기업가치, EBITDA, 밸류에이션, 인수가치]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "EV/EBITDA 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "EV/EBITDA가 무엇인지, PER과 차이점, M&A에서 쓰이는 이유를 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "기업 가치평가 방법"
+search_intent: "EV/EBITDA가 뭔지, PER과 뭐가 다르고 어떻게 해석하는지 알고 싶다"
 primary_keyword: "EV/EBITDA"
 ---
 
@@ -38,19 +38,18 @@ PER은 자본구조(부채 비중)에 따라 왜곡되지만, EV/EBITDA는 부�
 
 ```mermaid
 graph TD
-    N0["EV（기업가치） = 시가총액 + 순차입금（부채 - 현금）"]
-    N1["시가총액 순차입금"]
-    N2["（주주 몫） （채권자 몫）"]
-    N3["EV （전체 가치）"]
-    N4["EBITDA = 영업이익 + 감가상각비"]
-    N5["（현금 기준 영업이익）"]
-    N6["EV/EBITDA （배）"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
+    A["EV/EBITDA"]
+    A --> B["EV 기업가치"]
+    A --> C["EBITDA"]
+    B --> B1["시가총액"]
+    B --> B2["순차입금"]
+    B1 --> D["주주 몫"]
+    B2 --> E["채권자 몫"]
+    C --> C1["영업이익 + 감가상각비"]
+    C --> C2["현금 기준 수익력"]
+    A --> F["해석: 낮을수록 저평가"]
+    F --> F1["M&A 투자금 회수 연수"]
+```
 ```
 
 ## 숫자로 보는 예시

@@ -2,7 +2,7 @@
 id: 57
 slug: share-cancellation
 title: "자사주 소각 뜻"
-seo_title: "자사주 소각이란? 주식 초보를 위한 쉬운 설명"
+seo_title: "자사주 소각 완벽 정리 — 매입과 차이점 및 주가 효과"
 category: stock-terms
 topic: events
 level: 6
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [자사주소각, 주식소각, 주주환원, 주식수감소, EPS]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "자사주 소각 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "자사주 소각이 뭔지, 매입과 차이점과 EPS·BPS 효과를 사례로 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "주주환원·이벤트 이해"
+search_intent: "자사주 소각이 뭔지, 매입과 뭐가 다르고 주가에 어떤 영향을 주는지 알고 싶다"
 primary_keyword: "자사주 소각"
 ---
 
@@ -38,19 +38,15 @@ primary_keyword: "자사주 소각"
 
 ```mermaid
 graph TD
-    N0["자사주 매입 vs 소각:"]
-    N1["매입만 한 경우:"]
-    N2["유통주식 90% 자사주（금고） 10% 재매각 가능"]
-    N3["소각한 경우:"]
-    N4["██ 소멸"]
-    N5["유통주식 100% （of 90） （10% 영구 삭제）"]
-    N6["발행주식 자체가 줄어듦 = 영구 효과"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
+    A["자사주 처리 방법"]
+    A --> B["보유 금고주"]
+    A --> C["소각"]
+    B --> B1["재매각 가능"]
+    B --> B2["임직원 보상 가능"]
+    B --> B3["효과 일시적"]
+    C --> C1["발행주식수 영구 감소"]
+    C --> C2["EPS·BPS 구조적 ↑"]
+    C --> C3["진정한 주주환원 신호"]
 ```
 
 ## 숫자로 보는 예시

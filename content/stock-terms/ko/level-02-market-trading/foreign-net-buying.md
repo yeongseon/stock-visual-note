@@ -2,7 +2,7 @@
 id: 11
 slug: "foreign-net-buying"
 title: "외국인 순매수 뜻, 외국인이 사면 주가가 오를까"
-seo_title: "외국인 순매수 뜻 쉽게 이해하기"
+seo_title: "외국인 순매수 완벽 정리 — 외국인이 사면 정말 오르는가"
 category: "stock-terms"
 topic: "market-trading"
 level: 2
@@ -15,13 +15,13 @@ tags:
   - 주체별매매
   - 주식초보
   - 주식용어
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "외국인 순매수 뜻, 외국인이 사면 주가가 오를까을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "외국인 순매수의 계산법, 시장 영향력, 해석 시 주의점을 초보자 눈높이로 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "주식 매매 방법 이해"
+search_intent: "외국인 순매수가 뭔지, 외국인이 사면 주가가 오르는지 알고 싶다"
 primary_keyword: "외국인 순매수"
 ---
 
@@ -52,23 +52,16 @@ primary_keyword: "외국인 순매수"
 
 ```mermaid
 graph TD
-    A0["외국인 순매수 계산"]
-    A1["매수 금액 매도 금액"]
-    A2["1,000억 - 500억"]
-    A3["순매수 = +500억 원"]
-    A4["（사는 힘 > 파는 힘）"]
-    A5["매수 금액 매도 금액"]
-    A6["300억 - 800억"]
-    A7["순매도 = -500억 원"]
-    A8["（파는 힘 > 사는 힘）"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
+    A["외국인 순매수 해석"]
+    A --> B["매수 금액"]
+    A --> C["매도 금액"]
+    B --> D["순매수 = 매수 - 매도"]
+    C --> D
+    D --> E{"양수? 음수?"}
+    E -->|양수| F["순매수: 사는 힘 우세"]
+    E -->|음수| G["순매도: 파는 힘 우세"]
+    F --> H["추세 추종 신호"]
+    G --> I["자금 이탈 신호"]
 ```
 
 _매수에서 매도를 빼면 순매수, 음수면 순매도입니다._

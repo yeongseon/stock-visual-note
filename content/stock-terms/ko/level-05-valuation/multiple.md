@@ -2,7 +2,7 @@
 id: 48
 slug: multiple
 title: "멀티플 뜻"
-seo_title: "멀티플(배수)이란? 주식 초보를 위한 쉬운 설명"
+seo_title: "멀티플 완벽 정리 — 밸류에이션 배수의 의미와 활용법"
 category: stock-terms
 topic: valuation
 level: 5
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [멀티플, 배수, PER, PBR, 밸류에이션]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "멀티플 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "멀티플이 무엇인지, 종류별 차이와 리레이팅·디레이팅과의 관계를 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "기업 가치평가 방법"
+search_intent: "멀티플이 뭔지, PER·PBR 같은 배수를 어떻게 해석하는지 알고 싶다"
 primary_keyword: "멀티플"
 ---
 
@@ -38,21 +38,16 @@ primary_keyword: "멀티플"
 
 ```mermaid
 graph TD
-    N0["적정 주가 = 기초 지표 × 멀티플"]
-    N1["대표 멀티플 종류"]
-    N2["이익 기반: PER = 주가 ÷ EPS"]
-    N3["자산 기반: PBR = 주가 ÷ BPS"]
-    N4["매출 기반: PSR = 시총 ÷ 매출"]
-    N5["현금 기반: EV/EBITDA"]
-    N6["목표주가 = EPS × 타겟 PER（멀티플）"]
-    N7["= 5,000 × 15 = 75,000원"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["멀티플 = 기초지표 × 배수"]
+    A --> B["종류"]
+    A --> C["변동 요인"]
+    B --> B1["이익 기반: PER"]
+    B --> B2["자산 기반: PBR"]
+    B --> B3["매출 기반: PSR"]
+    B --> B4["현금 기반: EV/EBITDA"]
+    C --> C1["성장 기대 ↑ → 리레이팅"]
+    C --> C2["성장 기대 ↓ → 디레이팅"]
+```
 ```
 
 ## 숫자로 보는 예시

@@ -2,7 +2,7 @@
 id: 23
 slug: "operating-income"
 title: "영업이익 뜻, 본업으로 남긴 돈"
-seo_title: "영업이익 뜻 쉽게 이해하기"
+seo_title: "영업이익 완벽 정리 — 본업의 수익력을 판단하는 핵심 지표"
 category: "stock-terms"
 topic: "financial-statements"
 level: 3
@@ -15,13 +15,13 @@ tags:
   - 재무제표
   - 주식초보
   - 기업분석
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "영업이익 뜻, 본업으로 남긴 돈을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "영업이익의 의미, 계산 구조, 영업이익률 해석법을 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "재무제표 읽는 법"
+search_intent: "영업이익이 뭔지, 영업이익률은 어떻게 해석하는지 알고 싶다"
 primary_keyword: "영업이익"
 ---
 
@@ -55,21 +55,16 @@ primary_keyword: "영업이익"
 
 ```mermaid
 graph TD
-    N0["영업이익 도출 과정"]
-    N1["매출액 1,000억 원"]
-    N2["━━━━━━━━━━━━━━━━━━━━━━━━"]
-    N3["（-） 매출원가 600억 원"]
-    N4["（원재료, 생산비）"]
-    N5["= 매출총이익 400억 원"]
-    N6["（-） 판매관리비 250억 원"]
-    N7["（인건비 150 + 마케팅 50"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["영업이익 계산"]
+    B["매출액"] --> C["− 매출원가"]
+    C --> D["매출총이익"]
+    D --> E["− 판매관리비"]
+    E --> F["영업이익"]
+    E --> G["판관비 구성"]
+    G --> H["인건비"]
+    G --> I["마케팅비"]
+    G --> J["감가상각비"]
+    F --> K["영업이익률 = 영업이익 ÷ 매출액"]
 ```
 
 _매출총이익에서 판관비까지 빼면 영업이익이 됩니다._

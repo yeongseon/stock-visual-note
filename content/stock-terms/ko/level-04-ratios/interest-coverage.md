@@ -2,7 +2,7 @@
 id: 38
 slug: interest-coverage
 title: "이자보상배율 뜻"
-seo_title: "이자보상배율이란? 주식 초보를 위한 쉬운 설명"
+seo_title: "이자보상배율 완벽 정리 — 1배 미만이면 위험한 이유"
 category: stock-terms
 topic: ratios
 level: 4
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [이자보상배율, 영업이익, 이자비용, 재무안정성, 한계기업]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "이자보상배율 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "이자보상배율의 계산법, 한계기업 기준, 해석 방법을 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "재무비율 분석 방법"
+search_intent: "이자보상배율이 뭔지, 몇 배면 안전한지 알고 싶다"
 primary_keyword: "이자보상배율"
 ---
 
@@ -38,21 +38,15 @@ primary_keyword: "이자보상배율"
 
 ```mermaid
 graph TD
-    N0["공식: 이자보상배율 = 영업이익 ÷ 이자비용 （배）"]
-    N1["영업이익 500억"]
-    N2["이자비용 잔여 이익"]
-    N3["100억 400억"]
-    N4["（1배분） （여유분 4배）"]
-    N5["이자보상배율 = 500 ÷ 100 = 5배 ✓ （안정）"]
-    N6["영업이익 80억"]
-    N7["이자비용 100억 ██ 부족!"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["이자보상배율 = 영업이익 ÷ 이자비용"]
+    A --> B["높음 (5배 이상)"]
+    A --> C["낮음 (1배 미만)"]
+    B --> D["영업이익 500억"]
+    B --> E["이자비용 100억"]
+    D --> F["여유 있음 → 안정"]
+    C --> G["영업이익 80억"]
+    C --> H["이자비용 100억"]
+    G --> I["이자도 못 갞음 → 한계기업"]
 ```
 
 ## 숫자로 보는 예시

@@ -2,7 +2,7 @@
 id: 36
 slug: debt-ratio
 title: "부채비율 뜻"
-seo_title: "부채비율이란? 주식 초보를 위한 쉬운 설명"
+seo_title: "부채비율 완벽 정리 — 빚이 많으면 위험한가"
 category: stock-terms
 topic: ratios
 level: 4
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [부채비율, 재무건전성, 부채, 자본, 레버리지]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "부채비율 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "부채비율의 계산법, 업종별 기준, 높을 때 위험신호를 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "재무비율 분석 방법"
+search_intent: "부채비율이 뭔지, 몇 %부터 나쁜 건지 알고 싶다"
 primary_keyword: "부채비율"
 ---
 
@@ -38,15 +38,15 @@ primary_keyword: "부채비율"
 
 ```mermaid
 graph TD
-    N0["공식: 부채비율 = 부채 ÷ 자본 × 100（%）"]
-    N1["[A기업] 부채비율 80% [B기업] 부채비율 300%"]
-    N2["자본 （56%） （75%）"]
-    N3["부채 （44%） 자본 （25%）"]
-    N4["안정적 위험 신호"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
+    A["부채비율 = 부채 ÷ 자본 × 100%"]
+    A --> B["부채 (남의 돈)"]
+    A --> C["자본 (주주의 돈)"]
+    B --> D["A기업: 400억"]
+    C --> E["A기업: 500억"]
+    D --> F["부채비율 80% → 안정"]
+    B --> G["B기업: 1,500억"]
+    C --> H["B기업: 500억"]
+    G --> I["부채비율 300% → 위험"]
 ```
 
 ## 숫자로 보는 예시

@@ -2,7 +2,7 @@
 id: 100
 slug: company-analysis-framework
 title: "기업분석 프레임워크(Company Analysis Framework)"
-seo_title: "기업분석 프레임워크 – 초보가 기업을 보는 순서"
+seo_title: "기업분석 프레임워크 완벽 정리 — 초보자를 위한 5단계 분석 순서"
 category: stock-terms
 topic: company-analysis
 level: 10
@@ -10,13 +10,13 @@ difficulty: intermediate
 language: ko
 status: draft
 tags: [기업분석, 프레임워크, 분석순서, 펀더멘털분석, 투자분석]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "기업분석 프레임워크(Company Analysis Framework)을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "기업분석 프레임워크의 5단계 구조와 실전 적용법을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "종합 기업분석 방법"
+search_intent: "기업분석을 어떻게 시작해야 하는지, 순서와 방법을 알고 싶다"
 primary_keyword: "기업분석"
 ---
 
@@ -41,13 +41,16 @@ primary_keyword: "기업분석"
 
 ```mermaid
 graph TD
-    ROOT(("COMPANY-ANALYSIS-FRAMEWORK")
-    ROOT --> G0["기업분석 5단계 프레임워크"]
-    G0 --- G0_0["뭘 파는가▶시장 크기▶매출"]
-    G0 --- G0_1["이익"]
-    ROOT --> G1["Step 4          Step 5"]
-    G1 --- G1_0["PER"]
-    G1 --- G1_1["PBR  ▶아이디어"]
+    A["기업분석 5단계"]
+    A --> S1["Step 1: 사업 이해"]
+    A --> S2["Step 2: 시장 규모"]
+    A --> S3["Step 3: 재무 분석"]
+    A --> S4["Step 4: 밸류에이션"]
+    A --> S5["Step 5: 투자 아이디어"]
+    S1 --> S1a["뭐 파나? 어디서 버나?"]
+    S3 --> S3a["매출·이익·현금흐름"]
+    S4 --> S4a["PER·PBR·EV/EBITDA"]
+    S5 --> S5a["매수 근거 정리"]
 ```
 
 ## 숫자로 보는 예시

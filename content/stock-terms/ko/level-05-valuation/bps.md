@@ -2,7 +2,7 @@
 id: 45
 slug: bps
 title: "BPS 뜻"
-seo_title: "BPS(주당순자산)란? 주식 초보를 위한 쉬운 설명"
+seo_title: "BPS 완벽 정리 — 주당순자산 계산법과 PBR 연결고리"
 category: stock-terms
 topic: valuation
 level: 5
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [BPS, 주당순자산, 자본, PBR, 청산가치]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "BPS 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "BPS가 무엇인지, 계산 방법과 PBR·청산가치와의 관계를 사례로 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "기업 가치평가 방법"
+search_intent: "BPS가 뭔지, 어떻게 계산하고 PBR과 어떤 관계인지 알고 싶다"
 primary_keyword: "BPS"
 ---
 
@@ -38,21 +38,18 @@ BPS는 PBR 계산의 분모이자, 기업 가치의 하한선 역할을 합니�
 
 ```mermaid
 graph TD
-    N0["공식: BPS = 자본총계 ÷ 발행주식수"]
-    N1["재무상태표"]
-    N2["총자산 10,000억"]
-    N3["- 총부채 6,000억"]
-    N4["= 자본 4,000억"]
-    N5["발행주식수: 2억 주"]
-    N6["BPS = 4,000억 ÷ 2억 = 20,000원/주"]
-    N7["주가 30,000원 PBR 1.5배 （프리미엄）"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["BPS = 자본총계 ÷ 발행주식수"]
+    A --> B["자본총계"]
+    A --> C["발행주식수"]
+    B --> B1["총자산 10,000억"]
+    B --> B2["총부채 6,000억"]
+    B1 --> D["자본 = 4,000억"]
+    B2 --> D
+    C --> E["2억 주"]
+    D --> F["BPS = 20,000원"]
+    E --> F
+    F --> G["주가 비교 → PBR 산출"]
+```
 ```
 
 ## 숫자로 보는 예시

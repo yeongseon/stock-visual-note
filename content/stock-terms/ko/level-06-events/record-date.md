@@ -2,7 +2,7 @@
 id: 60
 slug: record-date
 title: "기준일 뜻"
-seo_title: "배당 기준일이란? 주식 초보를 위한 쉬운 설명"
+seo_title: "배당 기준일 완벽 정리 — T+1 결제와 매수 타이밍 계산법"
 category: stock-terms
 topic: events
 level: 6
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [기준일, 배당기준일, 주주명부, 권리확정, 결제일]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "기준일 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "배당 기준일이 뭔지, 언제까지 사야 배당을 받는지 사례로 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "주주환원·이벤트 이해"
+search_intent: "배당 기준일이 뭔지, 언제까지 주식을 사야 배당을 받는지 알고 싶다"
 primary_keyword: "기준일"
 ---
 
@@ -38,29 +38,15 @@ primary_keyword: "기준일"
 
 ```mermaid
 graph TD
-    A0["한국 주식 결제 일정 （T+1）:"]
-    A1["매수일（T） 결제일（T+1） 기준일"]
-    A2["12/28（목）"]
-    A3["12/29（금） = 12/29（금） ✓ 배당 O"]
-    A4["12/29（금）"]
-    A5["1/2（화） = 12/29（금） ✗ 배당 X"]
-    A6["（기준일 이후 결제）"]
-    A7["핵심: 기준일 1영업일 전까지 매수해야 배당 수령!"]
-    A8["매수일"]
-    A9["결제일 = 기준일"]
-    A10["배당락"]
-    A11["12/28 12/29 12/29 1/2"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
-    A9 --> A10
-    A10 --> A11
+    A["기준일 Record Date"]
+    A --> B["주주명부 확정"]
+    A --> C["결제일 역산"]
+    B --> B1["배당 수령 권리"]
+    B --> B2["의결권 행사"]
+    C --> C1["T+1 결제 시스템"]
+    C --> C2["기준일 1영업일 전 매수 필수"]
+    C2 --> D["예: 기준일 12/29 → 12/28까지 매수"]
+    A --> E["배당락일 = 기준일 +1영업일"]
 ```
 
 ## 숫자로 보는 예시

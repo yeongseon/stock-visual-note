@@ -2,7 +2,7 @@
 id: 32
 slug: net-margin
 title: "순이익률 뜻"
-seo_title: "순이익률이란? 주식 초보를 위한 쉬운 설명"
+seo_title: "순이익률 완벽 정리 — 매출 중 진짜 남는 비율"
 category: stock-terms
 topic: ratios
 level: 4
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [순이익률, 순이익, 매출액, 수익성, 당기순이익]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "순이익률 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "순이익률의 계산법, 영업이익률과의 차이, 활용법을 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "재무비율 분석 방법"
+search_intent: "순이익률이 뭔지, 영업이익률과 어떻게 다른지 알고 싶다"
 primary_keyword: "순이익률"
 ---
 
@@ -37,11 +37,16 @@ primary_keyword: "순이익률"
 ## 그림으로 이해하기
 
 ```mermaid
-graph LR
-    L0["매출원가 （-60%）"] -->|해석| R0["매출총이익률 40%"]
-    L1["판관비 （-20%）"] -->|해석| R1["영업이익률 20%"]
-    L2["기타손익 （+1%）"] -->|해석| R2["세전이익률 18%"]
-    L3["법인세 （-4%）"] -->|해석| R3["★ 순이익률 14%"]
+graph TD
+    A["매출액 100%"]
+    A --> B["− 매출원가 (60%)"]
+    B --> C["매출총이익률 40%"]
+    A --> D["− 판관비 (20%)"]
+    D --> E["영업이익률 20%"]
+    A --> F["± 기타손익 (+1%)"]
+    F --> G["세전이익률 18%"]
+    A --> H["− 법인세 (4%)"]
+    H --> I["★ 순이익률 14%"]
 ```
 
 ## 숫자로 보는 예시

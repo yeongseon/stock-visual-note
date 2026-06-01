@@ -2,7 +2,7 @@
 id: 87
 slug: capex
 title: "CAPEX 뜻"
-seo_title: "CAPEX란? 기업의 미래 투자를 읽는 지표 설명"
+seo_title: "CAPEX 완벽 정리 — 설비투자로 읽는 기업의 미래 성장 전략"
 category: stock-terms
 topic: strategy-risk
 level: 9
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [CAPEX, 설비투자, 감가상각, 자본지출, 성장투자]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "CAPEX 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "CAPEX의 뜻, FCF와의 관계, 투자 강도 판단법을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "투자전략·리스크 이해"
+search_intent: "CAPEX가 뭔지, 설비투자가 많으면 주가에 좋은 건지 알고 싶다"
 primary_keyword: "CAPEX"
 ---
 
@@ -41,29 +41,16 @@ CAPEX(Capital Expenditure)는 기업이 공장·설비·장비 등 유형자산�
 
 ```mermaid
 graph TD
-    A0["CAPEX와 현금흐름 관계"]
-    A1["영업현금흐름 （1,000억）"]
-    A2["CAPEX （600억）"]
-    A3["설비투자"]
-    A4["FCF （400억）"]
-    A5["주주환원·부채상환 가능"]
-    A6["CAPEX 사이클"]
-    A7["수요 전망 좋음"]
-    A8["CAPEX 확대"]
-    A9["신규 설비 가동 （1~3년 후）"]
-    A10["공급 증가"]
-    A11["가격 하락 가능"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
-    A9 --> A10
-    A10 --> A11
+    A["CAPEX 분석"]
+    A --> B["현금흐름 영향"]
+    A --> C["CAPEX 사이클"]
+    B --> B1["영업CF 1,000억"]
+    B --> B2["CAPEX 600억"]
+    B1 --> D["FCF = 400억"]
+    B2 --> D
+    C --> C1["수요 전망 ↑ → 투자 확대"]
+    C --> C2["신규 설비 가동 (1~3년 후)"]
+    C2 --> C3["공급 증가 → 가격 하락 가능성"]
 ```
 
 ## 숫자로 보는 예시

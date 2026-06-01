@@ -2,7 +2,7 @@
 id: 50
 slug: derating
 title: "디레이팅 뜻"
-seo_title: "디레이팅이란? 주식 초보를 위한 밸류에이션 하향 설명"
+seo_title: "디레이팅 완벽 정리 — 실적 좋은데 주가가 빠지는 이유"
 category: stock-terms
 topic: valuation
 level: 5
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [디레이팅, 밸류에이션, 멀티플하락, PER하향, 주가하락]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "디레이팅 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "디레이팅이 무엇인지, 실적과 주가가 여긁나는 원인을 사례로 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "기업 가치평가 방법"
+search_intent: "디레이팅이 뭔지, 실적 좋은데 주가가 빠지는 이유를 알고 싶다"
 primary_keyword: "디레이팅"
 ---
 
@@ -38,25 +38,17 @@ primary_keyword: "디레이팅"
 
 ```mermaid
 graph TD
-    A0["[Before] [After - 디레이팅]"]
-    A1["EPS: 5,000원 EPS: 5,500원 （↑10%）"]
-    A2["이익 늘었는데 주가 하락!"]
-    A3["디레이팅"]
-    A4["디레이팅 발생 원인:"]
-    A5["• 성장률 둔화 （피크아웃）"]
-    A6["• 경쟁 심화, 시장 점유율 하락"]
-    A7["• 규제 강화 （플랫폼, 게임）"]
-    A8["• 금리 인상 （시장 전체）"]
-    A9["• 지배구조 이슈"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
+    A["주가 = EPS × 멀티플"]
+    A --> B["디레이팅: 멀티플 ↓"]
+    B --> C["발생 원인"]
+    B --> D["결과"]
+    C --> C1["성장률 둘화 피크아웃"]
+    C --> C2["경쟁 심화"]
+    C --> C3["규제 강화"]
+    C --> C4["금리 인상"]
+    C --> C5["지배구조 이슈"]
+    D --> D1["EPS ↑10%여도 주가 하락 가능"]
+    D --> D2["예: PER 15→10 → -27%"]
 ```
 
 ## 숫자로 보는 예시

@@ -2,7 +2,7 @@
 id: 53
 slug: payout-ratio
 title: "배당성향 뜻"
-seo_title: "배당성향이란? 주식 초보를 위한 쉬운 설명"
+seo_title: "배당성향 완벽 정리 — 적정 비율 판단법과 투자 활용"
 category: stock-terms
 topic: events
 level: 6
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [배당성향, 배당금, 순이익, 주주환원, 사내유보]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "배당성향 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "배당성향이 무엇인지, 적정 수준 판단법과 업종별 차이를 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "주주환원·이벤트 이해"
+search_intent: "배당성향이 뭔지, 높으면 좋은 것인지 어떻게 판단하는지 알고 싶다"
 primary_keyword: "배당성향"
 ---
 
@@ -38,21 +38,15 @@ primary_keyword: "배당성향"
 
 ```mermaid
 graph TD
-    N0["공식: 배당성향 = 배당금 총액 ÷ 당기순이익 × 100（%）"]
-    N1["또는 = DPS ÷ EPS × 100（%）"]
-    N2["순이익 1,000억 원"]
-    N3["██████████████ ████████"]
-    N4["사내유보 70% 배당 30%"]
-    N5["（700억） （300억）"]
-    N6["재투자 주주 현금 지급"]
-    N7["배당성향 = 30%"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["배당성향 = 배당금 ÷ 순이익 × 100"]
+    A --> B["낮은 성향 30% 미만"]
+    A --> C["적정 성향 30~50%"]
+    A --> D["높은 성향 50% 초과"]
+    B --> B1["재투자 여력 ↑"]
+    B --> B2["주주환원 부족"]
+    D --> D1["주주 친화적"]
+    D --> D2["성장 투자 여력 ↓"]
+    C --> E["업종·성장단계별 적정치 다름"]
 ```
 
 ## 숫자로 보는 예시

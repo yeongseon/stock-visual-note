@@ -2,7 +2,7 @@
 id: 83
 slug: cyclical-stock
 title: "경기민감주 뜻"
-seo_title: "경기민감주란? 경기 흐름에 따라 움직이는 주식 설명"
+seo_title: "경기민감주 완벽 정리 — 경기 사이클에 따른 투자 타이밍"
 category: stock-terms
 topic: strategy-risk
 level: 9
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [경기민감주, 경기순환, 시클리컬, 업황, 매크로]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "경기민감주 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "경기민감주의 뜻, 대표 업종, 경기 사이클별 투자 전략을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "투자전략·리스크 이해"
+search_intent: "경기민감주가 뭔지, 경기가 좋을 때 어떤 주식을 사야 하는지 알고 싶다"
 primary_keyword: "경기민감주"
 ---
 
@@ -41,21 +41,14 @@ primary_keyword: "경기민감주"
 
 ```mermaid
 graph TD
-    N0["실적/주가"]
-    N1["경기민감주 방어주"]
-    N2["╱╲ ╱╲ （안정）"]
-    N3["╱ ╲ ╱ ╲"]
-    N4["╱ ╲╱ ╲"]
-    N5["▶ 시간"]
-    N6["확장 침체 확장 침체"]
-    N7["경기민감주 = 경기와 함께 등락"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["경기 사이클"]
+    A --> B["확장기"]
+    A --> C["침체기"]
+    B --> B1["경기민감주 실적 급증"]
+    B --> B2["대표: 반도체·철강·자동차"]
+    C --> C1["경기민감주 실적 급감"]
+    C --> C2["방어주 상대적 강세"]
+    B1 --> D["주의: PER 낮을 때가 정점일 수 있음"]
 ```
 
 ## 숫자로 보는 예시

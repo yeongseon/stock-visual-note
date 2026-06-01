@@ -2,7 +2,7 @@
 id: 55
 slug: ex-rights
 title: "권리락 뜻"
-seo_title: "권리락이란? 주식 초보를 위한 쉬운 설명"
+seo_title: "권리락 완벽 정리 — 증자 시 주가 조정 원리와 대응 전략"
 category: stock-terms
 topic: events
 level: 6
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [권리락, 유상증자, 무상증자, 신주인수권, 주가조정]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "권리락 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "권리락이 뭔지, 배당락과 차이, 주가 조정 계산법을 사례로 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "주주환원·이벤트 이해"
+search_intent: "권리락이 뭔지, 증자 때 주가가 왜 빠지는지 알고 싶다"
 primary_keyword: "권리락"
 ---
 
@@ -38,21 +38,15 @@ primary_keyword: "권리락"
 
 ```mermaid
 graph TD
-    N0["무상증자 1:1 （100% 무상증자） 예시"]
-    N1["[Before 권리락] [After 권리락]"]
-    N2["주식 100주 보유 주식 200주 보유"]
-    N3["주가 50,000원 주가 25,000원 （조정）"]
-    N4["자산 = 500만 원 자산 = 500만 원 （동일!）"]
-    N5["유상증자 권리락:"]
-    N6["기존 주주에게 할인 가격으로 신주 매입 권리 부여"]
-    N7["기준일 후 권리 소멸 권리가치만큼 주가 하락"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["권리락"]
+    A --> B["무상증자 권리락"]
+    A --> C["유상증자 권리락"]
+    B --> B1["신주 무료 배정"]
+    B --> B2["주식수 ↑ 주가 ↓"]
+    B2 --> D["총자산 불변"]
+    C --> C1["할인 가격 매수권"]
+    C --> C2["권리가치만큼 주가 조정"]
+    C2 --> E["예: 1:1 무상 → 주가 반토막"]
 ```
 
 ## 숫자로 보는 예시

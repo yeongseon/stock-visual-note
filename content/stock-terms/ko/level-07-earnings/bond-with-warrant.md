@@ -2,7 +2,7 @@
 id: 67
 slug: bond-with-warrant
 title: "신주인수권부사채 BW 뜻"
-seo_title: "신주인수권부사채(BW)란? 새 주식을 살 권리가 붙은 채권 설명"
+seo_title: "신주인수권부사채(BW) 완벽 정리 — CB와 차이점과 주가 영향"
 category: stock-terms
 topic: earnings
 level: 7
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [신주인수권부사채, BW, 워런트, 희석, 메자닌]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "신주인수권부사채 BW 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "BW가 뭔지, CB와 차이점, 워런트 행사가 주가에 주는 영향을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "자본변동·공시 이해"
+search_intent: "신주인수권부사채 BW가 뭔지, CB와 뭐가 다르고 주가에 어떤 영향을 주는지 알고 싶다"
 primary_keyword: "신주인수권부사채"
 ---
 
@@ -41,29 +41,16 @@ primary_keyword: "신주인수권부사채"
 
 ```mermaid
 graph TD
-    A0["BW = 채권 + 워런트（분리 가능）"]
-    A1["투자자 50억 원 대출 ▶ 기업"]
-    A2["◀ 연 3% 이자"]
-    A3["◀ 워런트（행사가 8,000원）"]
-    A4["채권 워런트"]
-    A5["만기 상환 행사 or 포기"]
-    A6["（별도） （별도）"]
-    A7["워런트 행사"]
-    A8["8,000원 납입"]
-    A9["신주 수령"]
-    A10["워런트 포기"]
-    A11["행사 안 함 （만료）"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
-    A9 --> A10
-    A10 --> A11
+    A["BW = 채권 + 워런트"]
+    A --> B["채권 부분"]
+    A --> C["워런트 부분"]
+    B --> B1["이자 수령"]
+    B --> B2["만기 상환"]
+    C --> C1["행사: 행사가로 신주 매수"]
+    C --> C2["포기: 권리 소멸"]
+    C --> C3["분리 매매 가능"]
+    C1 --> D["신주 발행 → 희석"]
+    A --> E["CB와 차이: 권리 분리 가능 여부"]
 ```
 
 ## 숫자로 보는 예시

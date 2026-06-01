@@ -2,7 +2,7 @@
 id: 61
 slug: paid-in-capital-increase
 title: "유상증자 뜻"
-seo_title: "유상증자란? 주식 초보를 위한 쉬운 설명"
+seo_title: "유상증자 완벽 정리 — 희석 원리와 투자자 대응 전략"
 category: stock-terms
 topic: earnings
 level: 7
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [유상증자, 신주발행, 자본조달, 희석, 주주배정]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "유상증자 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "유상증자가 뭔지, 주가에 왜 악재이고 자금 용도별 판단법을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "자본변동·공시 이해"
+search_intent: "유상증자가 뭔지, 주가에 왜 악재이고 어떻게 대응해야 하는지 알고 싶다"
 primary_keyword: "유상증자"
 ---
 
@@ -38,21 +38,16 @@ primary_keyword: "유상증자"
 
 ```mermaid
 graph TD
-    N0["유상증자 방식:"]
-    N1["① 주주배정: 기존 주주에게 우선 배정 （가장 일반적）"]
-    N2["② 일반공모: 불특정 투자자에게 공개 발행"]
-    N3["③ 제3자배정: 특정 투자자에게 배정 （전략적 투자）"]
-    N4["[Before] [After]"]
-    N5["발행주식: 1,000만 주 발행주식: 1,200만 주 （+20%）"]
-    N6["주가: 50,000원 이론 주가: ~42,000원*"]
-    N7["시총: 5,000억 시총: 5,000+신규자금"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["유상증자"]
+    A --> B["배정 방식"]
+    A --> C["주가 영향"]
+    B --> B1["주주배정: 기존 주주 우선"]
+    B --> B2["일반공모: 불특정 다수"]
+    B --> B3["제3자배정: 전략적 투자자"]
+    C --> C1["단기 악재: 희석 + 물량 부담"]
+    C --> C2["장기: 자금 용도에 달려 있음"]
+    C2 --> D["성장 투자 → 긍정적"]
+    C2 --> E["적자 보전 → 부정적"]
 ```
 
 ## 숫자로 보는 예시

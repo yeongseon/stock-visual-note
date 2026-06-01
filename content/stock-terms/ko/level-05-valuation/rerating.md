@@ -2,7 +2,7 @@
 id: 49
 slug: rerating
 title: "리레이팅 뜻"
-seo_title: "리레이팅이란? 주식 초보를 위한 밸류에이션 재평가 설명"
+seo_title: "리레이팅 완벽 정리 — 멀티플 상향이 주가를 끌어올리는 원리"
 category: stock-terms
 topic: valuation
 level: 5
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [리레이팅, 밸류에이션, 멀티플, PER상향, 주가상승]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "리레이팅 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "리레이팅이 무엇인지, 발생 원인과 주가에 미치는 영향을 사례로 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "기업 가치평가 방법"
+search_intent: "리레이팅이 뭔지, 이익 안 늘어도 주가가 오르는 이유를 알고 싶다"
 primary_keyword: "리레이팅"
 ---
 
@@ -38,21 +38,16 @@ primary_keyword: "리레이팅"
 
 ```mermaid
 graph TD
-    N0["주가 변동 = 이익 변동 × 멀티플 변동"]
-    N1["[Before] [After - 리레이팅]"]
-    N2["EPS: 5,000원 EPS: 5,000원 （동일）"]
-    N3["PER: 10배 PER: 15배 （상향!）"]
-    N4["주가: 50,000원 주가: 75,000원"]
-    N5["수익률: +50%"]
-    N6["리레이팅 발생 원인:"]
-    N7["• 산업 성장 기대 상향"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["주가 = EPS × 멀티플"]
+    A --> B["리레이팅: 멀티플 ↑"]
+    B --> C["발생 원인"]
+    B --> D["결과"]
+    C --> C1["산업 성장 기대 ↑"]
+    C --> C2["경쟁사 대비 우위 확보"]
+    C --> C3["지배구조 개선"]
+    C --> C4["금리 인하 환경"]
+    D --> D1["EPS 동일해도 주가 상승"]
+    D --> D2["예: PER 10→15 → +50%"]
 ```
 
 ## 숫자로 보는 예시

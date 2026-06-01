@@ -2,7 +2,7 @@
 id: 58
 slug: interim-dividend
 title: "중간배당 뜻"
-seo_title: "중간배당이란? 주식 초보를 위한 쉬운 설명"
+seo_title: "중간배당 완벽 정리 — 분기배당과 차이점 및 투자 활용법"
 category: stock-terms
 topic: events
 level: 6
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [중간배당, 분기배당, 배당, 현금흐름, 주주환원]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "중간배당 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "중간배당이 뭔지, 연말배당과 차이, 투자자에게 유리한 점을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "주주환원·이벤트 이해"
+search_intent: "중간배당이 뭔지, 연말배당과 뭐가 다르고 언제 받는지 알고 싶다"
 primary_keyword: "중간배당"
 ---
 
@@ -38,21 +38,15 @@ primary_keyword: "중간배당"
 
 ```mermaid
 graph TD
-    N0["기존 （연 1회 배당）:"]
-    N1["1월 12월"]
-    N2["연말배당 4,000원"]
-    N3["중간배당 （연 2회）:"]
-    N4["1월 6월 12월"]
-    N5["중간배당 1,500원 결산배당 2,500원"]
-    N6["분기배당 （연 4회）:"]
-    N7["1Q 2Q 3Q 4Q"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["배당 주기"]
+    A --> B["연 1회 결산배당"]
+    A --> C["중간배당 연 2회"]
+    A --> D["분기배당 연 4회"]
+    B --> B1["12월 한 번 지급"]
+    C --> C1["6월 + 12월"]
+    D --> D1["3·6·9·12월"]
+    C --> E["장점: 조기 현금 흐름"]
+    C --> F["의미: 경영진 자신감 시그널"]
 ```
 
 ## 숫자로 보는 예시

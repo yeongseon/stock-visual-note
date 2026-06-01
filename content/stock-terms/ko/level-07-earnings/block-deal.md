@@ -2,7 +2,7 @@
 id: 69
 slug: block-deal
 title: "블록딜 뜻"
-seo_title: "블록딜이란? 대량 주식 거래가 주가에 미치는 영향 설명"
+seo_title: "블록딜 완벽 정리 — 대량 매도가 주가에 미치는 영향과 대응법"
 category: stock-terms
 topic: earnings
 level: 7
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [블록딜, 대량매매, 시간외거래, 할인율, 오버행]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "블록딜 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "블록딜이 뭔지, 주가에 왜 악재이고 투자자는 어떻게 대응해야 하는지 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "자본변동·공시 이해"
+search_intent: "블록딜이 뭔지, 주가에 어떤 영향을 주고 어떻게 대응해야 하는지 알고 싶다"
 primary_keyword: "블록딜"
 ---
 
@@ -41,25 +41,16 @@ primary_keyword: "블록딜"
 
 ```mermaid
 graph TD
-    A0["블록딜 프로세스"]
-    A1["매도자（대주주）"]
-    A2["증권사（주관사）"]
-    A3["기관투자자 A, B, C... （매수 참여）"]
-    A4["다음 날 장 시작"]
-    A5["시장 반응"]
-    A6["성공: 물량 소화"]
-    A7["오버행 해소"]
-    A8["실패: 미소화 물량"]
-    A9["추가 하락 압력"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
+    A["블록딜"]
+    A --> B["매도자"]
+    A --> C["프로세스"]
+    A --> D["시장 영향"]
+    B --> B1["대주주 지분 정리"]
+    B --> B2["보호예수 해제 후 매각"]
+    C --> C1["증권사 중개"]
+    C --> C2["할인가 제시 2~10%"]
+    D --> D1["성공: 물량 소화 → 오버행 해소"]
+    D --> D2["실패: 미소화 → 추가 하락 압력"]
 ```
 
 ## 숫자로 보는 예시

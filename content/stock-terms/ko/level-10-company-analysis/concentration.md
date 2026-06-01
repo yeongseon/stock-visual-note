@@ -2,7 +2,7 @@
 id: 96
 slug: concentration
 title: "집중투자 뜻"
-seo_title: "집중투자란? 적은 종목에 크게 투자하는 방식 설명"
+seo_title: "집중투자 완벽 정리 — 소수 종목에 크게 베팅하는 전략과 리스크"
 category: stock-terms
 topic: company-analysis
 level: 10
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [집중투자, 확신투자, 포지션사이징, 고위험고수익, 몰빵]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "집중투자 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "집중투자의 뜻, 분산투자와의 차이, 성공 조건을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "종합 기업분석 방법"
+search_intent: "집중투자가 뭔지, 적은 종목에 크게 투자해도 되는지 알고 싶다"
 primary_keyword: "집중투자"
 ---
 
@@ -41,21 +41,15 @@ primary_keyword: "집중투자"
 
 ```mermaid
 graph TD
-    N0["분산 vs 집중 수익 분포"]
-    N1["분산투자 （20종목）:"]
-    N2["수익률 범위: -10% ~ +20%"]
-    N3["시장 평균 +8%"]
-    N4["집중투자 （3종목）:"]
-    N5["수익률 범위: -40% ~ +100%"]
-    N6["성공 시 +50% 가능"]
-    N7["집중투자는 분포의 폭이 훨씬 넓다"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["투자 전략"]
+    A --> B["분산투자 (20종목)"]
+    A --> C["집중투자 (3종목)"]
+    B --> B1["수익 범위: -10% ~ +20%"]
+    B --> B2["시장 평균 수렴"]
+    C --> C1["수익 범위: -40% ~ +100%"]
+    C --> C2["성공 시 초과수익"]
+    C --> C3["전제: 깊은 이해 + 높은 확신"]
+    C1 --> D["리스크도 비례 상승"]
 ```
 
 ## 숫자로 보는 예시

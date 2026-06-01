@@ -2,7 +2,7 @@
 id: 86
 slug: semiconductor-cycle
 title: "반도체 사이클 뜻"
-seo_title: "반도체 사이클이란? 메모리 기업을 볼 때 중요한 이유 설명"
+seo_title: "반도체 사이클 완벽 정리 — 메모리 업황 3~4년 주기의 투자법"
 category: stock-terms
 topic: strategy-risk
 level: 9
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [반도체사이클, DRAM, 메모리, 공급과잉, 업황]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "반도체 사이클 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "반도체 사이클의 뜻, 발생 메커니즘, 투자 타이밍 판단법을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "투자전략·리스크 이해"
+search_intent: "반도체 사이클이 뭔지, 삼성전자·SK하이닉스 투자 타이밍을 어떻게 잡는지 알고 싶다"
 primary_keyword: "반도체 사이클"
 ---
 
@@ -41,31 +41,17 @@ primary_keyword: "반도체 사이클"
 
 ```mermaid
 graph TD
-    A0["반도체 사이클 메커니즘"]
-    A1["수요 증가"]
-    A2["가격 상승"]
-    A3["이익 급증"]
-    A4["증설 투자（CAPEX） 확대"]
-    A5["신규 공급 가동 （1.5~2년 후）"]
-    A6["공급 과잉"]
-    A7["가격 하락"]
-    A8["이익 급감"]
-    A9["감산·투자 축소"]
-    A10["공급 부족"]
-    A11["가격 상승 （사이클 반복）"]
-    A12["기간: 약 3~4년 （상승 1.5~2년 + 하락 1.5~2년）"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
-    A9 --> A10
-    A10 --> A11
-    A11 --> A12
+    A["반도체 사이클 메커니즘"]
+    A --> B["수요 증가"]
+    A --> C["공급 과잉"]
+    B --> B1["가격 상승 → 이익 급증"]
+    B1 --> B2["증설 투자 (CAPEX) 확대"]
+    B2 --> B3["신규 공급 가동 (1.5~2년 후)"]
+    B3 --> C
+    C --> C1["가격 하락 → 이익 급감"]
+    C1 --> C2["감산·투자 축소"]
+    C2 --> C3["공급 부족 → 가격 반등"]
+    C3 --> B
 ```
 
 ## 숫자로 보는 예시

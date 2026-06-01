@@ -2,7 +2,7 @@
 id: 64
 slug: stock-split
 title: "액면분할 뜻"
-seo_title: "액면분할이란? 주식 가격이 싸져 보이는 이유 쉽게 설명"
+seo_title: "액면분할 완벽 정리 — 주가가 싸져 보이는 원리와 실제 효과"
 category: stock-terms
 topic: earnings
 level: 7
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [액면분할, 주식분할, 액면가, 유통주식수, 주가변동]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "액면분할 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "액면분할이 뭔지, 기업가치는 왜 동일하고 투자자에게 유리한 점을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "자본변동·공시 이해"
+search_intent: "액면분할이 뭔지, 주가가 낮아지는데 손해 아닌지 알고 싶다"
 primary_keyword: "액면분할"
 ---
 
@@ -41,25 +41,17 @@ primary_keyword: "액면분할"
 
 ```mermaid
 graph TD
-    A0["분할 전"]
-    A1["주식 1주 = 50만 원 （액면가 5,000원）"]
-    A2["10:1 액면분할"]
-    A3["분할 후"]
-    A4["주식 10주 × 5만 원 = 50만 원 （총 동일）"]
-    A5["액면가: 5,000원"]
-    A6["500원"]
-    A7["시가총액 = 변화 없음"]
-    A8["주당 가격 = 1/10로 감소"]
-    A9["주식 수 = 10배 증가"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
+    A["액면분할"]
+    A --> B["변화"]
+    A --> C["목적"]
+    A --> D["시장 해석"]
+    B --> B1["주식수 증가"]
+    B --> B2["주당가격 하락"]
+    B --> B3["시가총액 불변"]
+    C --> C1["소액 투자자 접근성 ↑"]
+    C --> C2["거래량·유동성 확대"]
+    D --> D1["호재: 성장 자신감 신호"]
+    D --> D2["예: 삼성전자 50:1 분할"]
 ```
 
 ## 숫자로 보는 예시

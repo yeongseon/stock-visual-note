@@ -2,7 +2,7 @@
 id: 82
 slug: value-stock
 title: "가치주 뜻"
-seo_title: "가치주란? 현재 가치보다 싸게 평가받는 주식 설명"
+seo_title: "가치주 완벽 정리 — 저평가 주식의 안전마진과 밸류트랩 구별법"
 category: stock-terms
 topic: strategy-risk
 level: 9
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [가치주, 저PER, 저PBR, 배당, 밸류투자]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "가치주 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "가치주의 뜻, 성장주와의 차이, 밸류트랩 회피법을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "투자전략·리스크 이해"
+search_intent: "가치주가 뭔지, 저PER·저PBR 주식이 오를 수 있는지 알고 싶다"
 primary_keyword: "가치주"
 ---
 
@@ -41,21 +41,15 @@ primary_keyword: "가치주"
 
 ```mermaid
 graph TD
-    N0["가치주 투자 논리"]
-    N1["적정 가치 10,000원"]
-    N2["안전마진（30%）"]
-    N3["현재 주가 7,000원"]
-    N4["투자 시나리오:"]
-    N5["① 가치 재평가 주가 10,000원 회복"]
-    N6["② 배당 수익 연 5% 배당 수령"]
-    N7["③ 밸류트랩 장기 횡보 （리스크）"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["가치주 투자 논리"]
+    A --> B["적정 가치 10,000원"]
+    A --> C["현재 주가 7,000원"]
+    B --> D["안전마진 30%"]
+    C --> D
+    D --> E{"시나리오"}
+    E -->|"가치 재평가"| F["주가 10,000원 회복"]
+    E -->|"배당 수익"| G["연 5% 배당 수령"]
+    E -->|"밸류트랩"| H["장기 횡보 — 싴 데는 이유 있음"]
 ```
 
 ## 숫자로 보는 예시

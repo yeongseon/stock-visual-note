@@ -2,7 +2,7 @@
 id: 89
 slug: interest-rate-sensitive
 title: "금리 민감주 뜻"
-seo_title: "금리 민감주란? 금리가 오르면 왜 움직이는지 설명"
+seo_title: "금리 민감주 완벽 정리 — 금리 변화에 따른 업종별 유불리"
 category: stock-terms
 topic: strategy-risk
 level: 9
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [금리민감주, 금리, 은행주, 성장주, 채권]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "금리 민감주 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "금리 민감주의 뜻, 인상·인하 시 수혜·피해 업종을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "투자전략·리스크 이해"
+search_intent: "금리 민감주가 뭔지, 금리가 오르면 어떤 주식이 유리한지 알고 싶다"
 primary_keyword: "금리 민감주"
 ---
 
@@ -41,15 +41,15 @@ primary_keyword: "금리 민감주"
 
 ```mermaid
 graph TD
-    A0["금리 인상 시"]
-    A1["수혜 업종 피해 업종"]
-    A2["금리 인하 시"]
-    A3["수혜 업종 피해 업종"]
-    A4["채권형 ↑"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
+    A{"금리 변화"}
+    A -->|"인상"| B["수혜 업종"]
+    A -->|"인상"| C["피해 업종"]
+    A -->|"인하"| D["수혜 업종"]
+    A -->|"인하"| E["피해 업종"]
+    B --> B1["은행·보험 — 예대마진 확대"]
+    C --> C1["성장주·부동산 — 할인율·이자부담 ↑"]
+    D --> D1["성장주·부동산 — 할인율 ↓"]
+    E --> E1["은행 — 예대마진 축소"]
 ```
 
 ## 숫자로 보는 예시

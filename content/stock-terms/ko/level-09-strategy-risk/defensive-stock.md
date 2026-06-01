@@ -2,7 +2,7 @@
 id: 84
 slug: defensive-stock
 title: "방어주 뜻"
-seo_title: "방어주란? 경기와 상관없이 버티는 주식 설명"
+seo_title: "방어주 완벽 정리 — 경기 침체에도 버티는 안정주 전략"
 category: stock-terms
 topic: strategy-risk
 level: 9
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [방어주, 필수소비재, 통신주, 유틸리티, 안정배당]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "방어주 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "방어주의 뜻, 대표 업종, 포트폴리오 방어 전략을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "투자전략·리스크 이해"
+search_intent: "방어주가 뭔지, 시장 하락에 강한 주식이 뭘지 알고 싶다"
 primary_keyword: "방어주"
 ---
 
@@ -41,19 +41,15 @@ primary_keyword: "방어주"
 
 ```mermaid
 graph TD
-    N0["주가 수익률"]
-    N1["강세장 약세장"]
-    N2["시장: +30% 시장: -20%"]
-    N3["경기민감: +50% 경기민감: -35%"]
-    N4["방어주: +10% 방어주: -5%"]
-    N5["방어주는 상승장에서 덜 오르고"]
-    N6["하락장에서 덜 빠진다"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
+    A["시장 환경"]
+    A --> B["강세장"]
+    A --> C["약세장"]
+    B --> B1["경기민감주 +50%"]
+    B --> B2["방어주 +10%"]
+    C --> C1["경기민감주 -35%"]
+    C --> C2["방어주 -5%"]
+    B2 --> D["대표: 필수소비재·통신·유틸리티"]
+    C2 --> D
 ```
 
 ## 숫자로 보는 예시

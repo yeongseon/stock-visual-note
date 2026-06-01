@@ -2,7 +2,7 @@
 id: 16
 slug: "unsettled-trading"
 title: "미수거래 뜻, 초보자가 조심해야 하는 이유"
-seo_title: "미수거래 뜻 쉽게 이해하기"
+seo_title: "미수거래 완벽 정리 — 반대매매 구조와 예방법"
 category: "stock-terms"
 topic: "market-trading"
 level: 2
@@ -15,13 +15,13 @@ tags:
   - 반대매매
   - 주식초보
   - 주식용어
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "cited"
-description: "미수거래 뜻, 초보자가 조심해야 하는 이유을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "미수거래의 발생 원리, 반대매매 조건, 예방 설정법을 초보자 눈높이로 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "주식 매매 방법 이해"
+search_intent: "미수거래가 뭔지, 반대매매가 왜 위험한지 알고 싶다"
 primary_keyword: "미수거래"
 ---
 
@@ -52,29 +52,16 @@ primary_keyword: "미수거래"
 
 ```mermaid
 graph TD
-    A0["미수거래 타임라인"]
-    A1["D일（매수일）"]
-    A2["내 돈 500만 원으로"]
-    A3["1,000만 원어치 매수"]
-    A4["미수금: 500만 원 발생"]
-    A5["D+1일"]
-    A6["미수금 입금 독촉"]
-    A7["D+2일 （결제일）"]
-    A8["미입금 시"]
-    A9["반대매매 실행"]
-    A10["시장가로 강제 매도"]
-    A11["하한가 근처에서 체결 가능"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
-    A9 --> A10
-    A10 --> A11
+    A["미수거래 타임라인"]
+    A --> B["D일: 매수"]
+    A --> C["D+2일: 결제일"]
+    B --> D["계좌 500만 원으로 1,000만 원 매수"]
+    D --> E["미수금 500만 원 발생"]
+    C --> F{"D+2일까지 입금?"}
+    F -->|입금 완료| G["정상 결제"]
+    F -->|미입금| H["반대매매 실행"]
+    H --> I["시장가 강제 매도"]
+    I --> J["하한가 근처 체결 → 큰 손실"]
 ```
 
 _매수 후 2영업일 내에 돈을 내지 않으면 강제 매도됩니다._

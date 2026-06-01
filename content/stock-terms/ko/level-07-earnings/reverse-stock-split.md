@@ -2,7 +2,7 @@
 id: 65
 slug: reverse-stock-split
 title: "액면병합 뜻"
-seo_title: "액면병합이란? 주식 수를 합치는 이유 쉽게 설명"
+seo_title: "액면병합 완벽 정리 — 주식 합치는 이유와 주가 영향"
 category: stock-terms
 topic: earnings
 level: 7
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [액면병합, 주식병합, 액면가, 관리종목, 주가관리]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "액면병합 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "액면병합이 뭔지, 액면분할과 차이점, 주가에 미치는 영향을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "자본변동·공시 이해"
+search_intent: "액면병합이 뭔지, 주가에 어떤 영향을 주고 왜 하는지 알고 싶다"
 primary_keyword: "액면병합"
 ---
 
@@ -41,25 +41,17 @@ primary_keyword: "액면병합"
 
 ```mermaid
 graph TD
-    A0["병합 전"]
-    A1["주식 10주 × 1,000원 = 10,000원"]
-    A2["액면가: 100원"]
-    A3["10:1 액면병합"]
-    A4["병합 후"]
-    A5["주식 1주 × 10,000원 = 10,000원"]
-    A6["액면가: 1,000원"]
-    A7["시가총액 = 변화 없음"]
-    A8["주당 가격 = 10배 증가"]
-    A9["주식 수 = 1/10로 감소"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
+    A["액면병합"]
+    A --> B["변화"]
+    A --> C["목적"]
+    A --> D["시장 해석"]
+    B --> B1["주식수 감소"]
+    B --> B2["주당가격 상승"]
+    B --> B3["시가총액 불변"]
+    C --> C1["동전주 탈출"]
+    C --> C2["관리종목 회피"]
+    D --> D1["부정적: 기업 상태 악화 신호"]
+    D --> D2["액면분할과 반대 개념"]
 ```
 
 ## 숫자로 보는 예시

@@ -2,7 +2,7 @@
 id: 92
 slug: value-trap
 title: "밸류트랩 뜻"
-seo_title: "밸류트랩이란? 싸 보여도 위험한 주식 설명"
+seo_title: "밸류트랩 완벽 정리 — 싸 보여도 위험한 주식 구별법"
 category: stock-terms
 topic: company-analysis
 level: 10
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [밸류트랩, 가치함정, 저PER, 저PBR, 만년저평가]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "밸류트랩 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "밸류트랩의 뜻, 발생 원인, 저평가 함정을 피하는 방법을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "종합 기업분석 방법"
+search_intent: "밸류트랩이 뭔지, 저PER·저PBR인데 안 오르는 이유가 뭔지 알고 싶다"
 primary_keyword: "밸류트랩"
 ---
 
@@ -41,21 +41,17 @@ primary_keyword: "밸류트랩"
 
 ```mermaid
 graph TD
-    N0["정상적 저평가 vs 밸류트랩"]
-    N1["정상적 저평가:"]
-    N2["주가 ╲ ╱ 적정가치 회복"]
-    N3["╲ ╱ （카탈리스트 등장）"]
-    N4["밸류트랩:"]
-    N5["주가 계속 저평가"]
-    N6["（구조적 이유 해소 안 됨）"]
-    N7["밸류트랩 신호"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["저평가 종목 발견"]
+    A --> B{"싴 이유 해소 가능?"}
+    B -->|"예"| C["정상적 저평가"]
+    B -->|"아니오"| D["밸류트랩"]
+    C --> C1["카탈리스트 등장 → 주가 회복"]
+    D --> D1["성장성 상실"]
+    D --> D2["지배구조 문제"]
+    D --> D3["산업 구조적 쇠퇴"]
+    D1 --> E["장기 횡보 — 기회비용 발생"]
+    D2 --> E
+    D3 --> E
 ```
 
 ## 숫자로 보는 예시

@@ -2,7 +2,7 @@
 id: 91
 slug: margin-of-safety
 title: "안전마진 뜻"
-seo_title: "안전마진이란? 좋은 기업을 싸게 사야 하는 이유 설명"
+seo_title: "안전마진 완벽 정리 — 좋은 기업을 싸게 사야 하는 이유"
 category: stock-terms
 topic: company-analysis
 level: 10
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [안전마진, 내재가치, 할인매수, 가치투자, 리스크관리]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "안전마진 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "안전마진의 뜻, 계산법, 가치투자에서의 역할을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "종합 기업분석 방법"
+search_intent: "안전마진이 뭔지, 얼마나 싸게 사야 안전한지 알고 싶다"
 primary_keyword: "안전마진"
 ---
 
@@ -41,33 +41,16 @@ primary_keyword: "안전마진"
 
 ```mermaid
 graph TD
-    A0["안전마진 개념"]
-    A1["내재가치（적정가치） 100,000원"]
-    A2["안전마진 30%"]
-    A3["（30,000원의 여유）"]
-    A4["매수 가격 70,000원"]
-    A5["시나리오:"]
-    A6["① 분석 정확"]
-    A7["주가 100,000원 회복 （+43%）"]
-    A8["② 분석 20% 과대평가"]
-    A9["적정가 80,000원"]
-    A10["여전히 +14% 수익 （안전마진 덕분）"]
-    A11["③ 분석 30% 과대평가"]
-    A12["적정가 70,000원"]
-    A13["본전 （안전마진이 손실 방지）"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
-    A9 --> A10
-    A10 --> A11
-    A11 --> A12
-    A12 --> A13
+    A["내재가치 100,000원"]
+    A --> B["안전마진 30%"]
+    B --> C["매수가 70,000원"]
+    C --> D{"분석 정확도"}
+    D -->|"정확"| E["주가 100,000원 회복 (+43%)"]
+    D -->|"20% 과대평가"| F["적정가 80,000원 → +14% 수익"]
+    D -->|"30% 과대평가"| G["적정가 70,000원 → 본전"]
+    E --> H["안전마진이 손실 방어 + 초과수익 제공"]
+    F --> H
+    G --> H
 ```
 
 ## 숫자로 보는 예시

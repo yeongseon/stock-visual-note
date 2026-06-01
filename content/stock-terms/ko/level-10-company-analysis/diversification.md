@@ -2,7 +2,7 @@
 id: 95
 slug: diversification
 title: "분산투자 뜻"
-seo_title: "분산투자란? 위험을 나누는 가장 기본적인 방법 설명"
+seo_title: "분산투자 완벽 정리 — 리스크를 줄이는 종목 배분 전략"
 category: stock-terms
 topic: company-analysis
 level: 10
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [분산투자, 리스크관리, 상관관계, 자산배분, 변동성]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "분산투자 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "분산투자의 뜻, 적정 종목 수, 제거 가능한 위험과 불가능한 위험을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "종합 기업분석 방법"
+search_intent: "분산투자가 뭔지, 몇 종목을 담아야 위험이 줄어드는지 알고 싶다"
 primary_keyword: "분산투자"
 ---
 
@@ -41,19 +41,15 @@ primary_keyword: "분산투자"
 
 ```mermaid
 graph TD
-    N0["포트폴리오 변동성（위험）"]
-    N1["╲ 개별종목 위험（분산으로 제거 가능）"]
-    N2["╲ 시장 위험（제거 불가）"]
-    N3["▶ 종목 수"]
-    N4["1 5 10 20 30"]
-    N5["15~20종목이면 개별 위험 대부분 제거"]
-    N6["시장 위험（경기, 금리）은 분산으로 제거 불가"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
+    A["포트폴리오 위험"]
+    A --> B["개별종목 위험"]
+    A --> C["시장 위험"]
+    B --> B1["분산으로 제거 가능"]
+    B1 --> B2["15~20종목이면 대부분 제거"]
+    C --> C1["분산으로 제거 불가"]
+    C1 --> C2["경기·금리 등 매크로 요인"]
+    B2 --> D["종목 수 ↑ → 변동성 ↓"]
+    D --> E["단, 과도 분산 → 시장 평균 수렴"]
 ```
 
 ## 숫자로 보는 예시

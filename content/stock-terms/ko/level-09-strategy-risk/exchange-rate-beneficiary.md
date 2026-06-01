@@ -2,7 +2,7 @@
 id: 90
 slug: exchange-rate-beneficiary
 title: "환율 수혜주 뜻"
-seo_title: "환율 수혜주란? 원달러 환율과 기업 실적의 관계 설명"
+seo_title: "환율 수혜주 완벽 정리 — 원달러 환율과 기업 실적의 관계"
 category: stock-terms
 topic: strategy-risk
 level: 9
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [환율수혜주, 원달러환율, 수출주, 환차익, 매크로]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "환율 수혜주 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "환율 수혜주의 뜻, 수출기업 실적 영향, 환율 대응 전략을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "투자전략·리스크 이해"
+search_intent: "환율 수혜주가 뭔지, 환율이 오르면 어떤 주식이 유리한지 알고 싶다"
 primary_keyword: "환율 수혜주"
 ---
 
@@ -41,21 +41,15 @@ primary_keyword: "환율 수혜주"
 
 ```mermaid
 graph TD
-    A0["환율 상승 （원화 약세）"]
-    A1["수출 기업 （달러 매출）"]
-    A2["매출 $100M × 1,400원 = 1,400억 원 ↑"]
-    A3["수입 기업 （달러 비용）"]
-    A4["원가 $50M × 1,400원 = 700억 원 ↑ （부담）"]
-    A5["환율 하락 （원화 강세）"]
-    A6["수출 기업"]
-    A7["수입 기업"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
+    A["환율 상승 (원화 약세)"]
+    A --> B["수출 기업 (달러 매출)"]
+    A --> C["수입 기업 (달러 비용)"]
+    B --> B1["매출액 원화 환산 ↑"]
+    B --> B2["영업이익 증가"]
+    C --> C1["원가 부담 증가"]
+    C --> C2["영업이익 감소"]
+    B2 --> D["대표: 반도체·자동차·조선"]
+    C2 --> E["대표: 항공·정유·음식료"]
 ```
 
 ## 숫자로 보는 예시

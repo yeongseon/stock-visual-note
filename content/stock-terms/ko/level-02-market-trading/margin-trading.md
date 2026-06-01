@@ -2,7 +2,7 @@
 id: 15
 slug: "margin-trading"
 title: "신용거래 뜻, 빚을 내서 주식을 사는 구조"
-seo_title: "신용거래 뜻 쉽게 이해하기"
+seo_title: "신용거래 완벽 정리 — 레버리지 구조와 반대매매 위험"
 category: "stock-terms"
 topic: "market-trading"
 level: 2
@@ -15,13 +15,13 @@ tags:
   - 빚투
   - 주식초보
   - 주식용어
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "신용거래 뜻, 빚을 내서 주식을 사는 구조을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "신용거래의 구조, 레버리지 효과, 반대매매 조건을 초보자 눈높이로 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "주식 매매 방법 이해"
+search_intent: "신용거래가 뭔지, 빚으로 주식 사면 어떤 위험이 있는지 알고 싶다"
 primary_keyword: "신용거래"
 ---
 
@@ -53,21 +53,17 @@ primary_keyword: "신용거래"
 
 ```mermaid
 graph TD
-    N0["신용거래 구조"]
-    N1["내 돈: 500만 원"]
-    N2["빌린 돈: 500만 원 （이자 발생）"]
-    N3["총 투자: 1,000만 원"]
-    N4["[시나리오 A] 주가 +20% 상승"]
-    N5["자산: 1,200만 원"]
-    N6["빌린 돈 상환: -500만 원"]
-    N7["내 돈: 700만 원 수익률 +40%"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["신용거래 구조"]
+    A --> B["내 돈 500만 원"]
+    A --> C["빌린 돈 500만 원"]
+    B --> D["총 투자 1,000만 원"]
+    C --> D
+    D --> E{"주가 변동"}
+    E -->|+20% 상승| F["자산 1,200만 원"]
+    E -->|-20% 하락| G["자산 800만 원"]
+    F --> H["상환 후 700만 원 (수익률 +40%)"]
+    G --> I["상환 후 300만 원 (수익률 -40%)"]
+    I --> J["담보비율 하회 → 반대매매"]
 ```
 
 _같은 주가 변동이라도 레버리지로 인해 수익률이 2배로 움직입니다._

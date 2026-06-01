@@ -2,7 +2,7 @@
 id: 59
 slug: special-dividend
 title: "특별배당 뜻"
-seo_title: "특별배당이란? 주식 초보를 위한 쉬운 설명"
+seo_title: "특별배당 완벽 정리 — 발생 조건과 주가 영향 분석"
 category: stock-terms
 topic: events
 level: 6
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [특별배당, 일회성배당, 주주환원, 잉여현금, 배당]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "특별배당 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "특별배당이 뭔지, 언제 발생하고 정기배당과 뭐가 다른지 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "주주환원·이벤트 이해"
+search_intent: "특별배당이 뭔지, 언제 발생하고 주가에 어떤 영향을 주는지 알고 싶다"
 primary_keyword: "특별배당"
 ---
 
@@ -38,27 +38,16 @@ primary_keyword: "특별배당"
 
 ```mermaid
 graph TD
-    A0["특별배당 발생 상황:"]
-    A1["일회성 대규모 현금 유입"]
-    A2["• 비핵심 사업부 매각"]
-    A3["• 부동산·토지 매각"]
-    A4["• 소송 승소 배상금"]
-    A5["• 일시적 초과 이익"]
-    A6["선택지:"]
-    A7["① 사내 유보 （현금 축적）"]
-    A8["② 부채 상환"]
-    A9["③ ★ 특별배당 （주주 환원）"]
-    A10["④ 자사주 매입"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
-    A9 --> A10
+    A["특별배당"]
+    A --> B["발생 원인"]
+    A --> C["특징"]
+    B --> B1["비핵심 사업부 매각"]
+    B --> B2["부동산 매각"]
+    B --> B3["소송 승소 배상금"]
+    B --> B4["일시적 초과 이익"]
+    C --> C1["일회성 지급"]
+    C --> C2["다음 해 유지 의무 없음"]
+    C --> C3["정기배당과 별도"]
 ```
 
 ## 숫자로 보는 예시

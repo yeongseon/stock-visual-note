@@ -2,7 +2,7 @@
 id: 75
 slug: earnings-season
 title: "실적 시즌 뜻"
-seo_title: "실적 시즌이란? 기업들이 성적표를 공개하는 시기 설명"
+seo_title: "실적 시즌 완벽 정리 — 어닝시즌 일정과 투자 전략"
 category: stock-terms
 topic: industry-macro
 level: 8
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [실적시즌, 분기실적, 어닝시즌, 실적발표, 주가변동성]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "cited"
-description: "실적 시즌 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "실적 시즌의 뜻, 한국 분기별 일정, 주가 변동성 대응법을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "실적·업황 분석"
+search_intent: "실적 시즌이 언제인지, 어닝시즌에 주가가 왜 많이 흔들리는지 알고 싶다"
 primary_keyword: "실적 시즌"
 ---
 
@@ -41,21 +41,16 @@ primary_keyword: "실적 시즌"
 
 ```mermaid
 graph TD
-    N0["한국 실적 시즌 （연간 일정）"]
-    N1["1월 중순~2월: 4분기（연간） 잠정실적"]
-    N2["4월 중순~5월: 1분기 실적"]
-    N3["7월 중순~8월: 2분기（반기） 실적"]
-    N4["10월 중순~11월: 3분기 실적"]
-    N5["실적 시즌 내 순서"]
-    N6["1주차: 대형주（삼성전자 등） 잠정실적"]
-    N7["2~3주차: 중소형주 실적 발표"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["한국 실적 시즌"] --> Q1["1월~2월: 4Q 잠정실적"]
+    A --> Q2["4월~5월: 1Q 실적"]
+    A --> Q3["7월~8월: 2Q 실적"]
+    A --> Q4["10월~11월: 3Q 실적"]
+    Q1 --> S["발표 순서"]
+    S --> L["1주차: 대형주 잠정실적"]
+    S --> M["2~3주차: 중소형주 발표"]
+    L --> R{"컨센서스 대비 결과"}
+    R -->|"상회"| UP["서프라이즈"]
+    R -->|"하회"| DN["쇼크"]
 ```
 
 ## 숫자로 보는 예시

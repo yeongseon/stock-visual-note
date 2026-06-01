@@ -2,7 +2,7 @@
 id: 25
 slug: "operating-vs-net-income"
 title: "영업이익과 순이익 차이, 기업분석에서 중요한 이유"
-seo_title: "영업이익 순이익 차이 쉽게 이해하기"
+seo_title: "영업이익 vs 순이익 완벽 정리 — 둘 다 봐야 하는 이유"
 category: "stock-terms"
 topic: "financial-statements"
 level: 3
@@ -15,13 +15,13 @@ tags:
   - 이익차이
   - 주식초보
   - 기업분석
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "영업이익과 순이익 차이, 기업분석에서 중요한 이유를 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "영업이익과 순이익의 차이, 괴리가 생기는 원인, 해석법을 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "재무제표 읽는 법"
+search_intent: "영업이익과 순이익 차이가 뭔지, 왜 다른지 알고 싶다"
 primary_keyword: "순이익"
 ---
 
@@ -53,27 +53,19 @@ primary_keyword: "순이익"
 
 ```mermaid
 graph TD
-    A0["영업이익과 순이익 사이에 있는 것들"]
-    A1["영업이익 = 본업 결과"]
-    A2["150억 원"]
-    A3["（+） 이자수익: +5억"]
-    A4["（-） 이자비용: -30억"]
-    A5["（+） 자산매각: +20억 （일회성）"]
-    A6["（-） 환차손: -15억"]
-    A7["（-） 법인세: -26억"]
-    A8["순이익 = 최종 결과"]
-    A9["104억 원"]
-    A10["차이 = 46억 원 （영업외손익 + 세금）"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
-    A9 --> A10
+    A["영업이익 150억"]
+    A --> B["영업외손익"]
+    A --> C["본업 성과만 반영"]
+    B --> D["이자수익 +5억"]
+    B --> E["이자비용 -30억"]
+    B --> F["자산매각 +20억 (일회성)"]
+    B --> G["환차손 -15억"]
+    D --> H["세전이익 130억"]
+    E --> H
+    F --> H
+    G --> H
+    H --> I["− 법인세 26억"]
+    I --> J["순이익 104억"]
 ```
 
 _영업이익에서 순이익까지의 차이가 클수록 본업 외 요인의 영향이 큽니다._

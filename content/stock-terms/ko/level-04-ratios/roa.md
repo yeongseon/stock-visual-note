@@ -2,7 +2,7 @@
 id: 35
 slug: roa
 title: "ROA 뜻"
-seo_title: "ROA(총자산이익률)란? 주식 초보를 위한 쉬운 설명"
+seo_title: "ROA(총자산이익률) 완벽 정리 — 자산 효율을 판단하는 법"
 category: stock-terms
 topic: ratios
 level: 4
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [ROA, 총자산이익률, 순이익, 총자산, 자산효율]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "ROA 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "ROA의 계산법, ROE와의 차이, 업종별 해석 기준을 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "재무비율 분석 방법"
+search_intent: "ROA가 뭔지, ROE와 어떻게 다른지 알고 싶다"
 primary_keyword: "ROA"
 ---
 
@@ -38,21 +38,14 @@ ROE는 부채 레버리지에 영향받지만, ROA는 자본 구조에 관계없
 
 ```mermaid
 graph TD
-    N0["ROA vs ROE 비교"]
-    N1["총자산 1,000"]
-    N2["부채 600 자본 400"]
-    N3["순이익: 80"]
-    N4["ROA = 80 ÷ 1,000 = 8%"]
-    N5["ROE = 80 ÷ 400 = 20%"]
-    N6["ROE가 높아 보이지만"]
-    N7["부채 레버리지（2.5배） 효과"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["총자산 1,000억"]
+    A --> B["부채 600억"]
+    A --> C["자본 400억"]
+    D["순이익 80억"] --> E["ROA = 80 ÷ 1,000 = 8%"]
+    D --> F["ROE = 80 ÷ 400 = 20%"]
+    E --> G["자산 전체 효율"]
+    F --> H["레버리지 효과 포함"]
+    H --> I["부채 레버리지 2.5배"]
 ```
 
 ## 숫자로 보는 예시

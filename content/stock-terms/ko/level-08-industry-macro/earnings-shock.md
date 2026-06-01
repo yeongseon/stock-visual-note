@@ -2,7 +2,7 @@
 id: 73
 slug: earnings-shock
 title: "어닝쇼크 뜻"
-seo_title: "어닝쇼크란? 실적이 기대보다 나쁠 때 생기는 일 설명"
+seo_title: "어닝쇼크 완벽 정리 — 실적 부진이 주가에 미치는 영향"
 category: stock-terms
 topic: industry-macro
 level: 8
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [어닝쇼크, 실적부진, 컨센서스, 하향조정, 주가급락]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "어닝쇼크 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "어닝쇼크의 뜻, 발생 원인, 주가 급락 후 대응 전략을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "실적·업황 분석"
+search_intent: "어닝쇼크가 뭔지, 실적이 기대보다 나쁘면 주가에 어떤 영향이 있는지 알고 싶다"
 primary_keyword: "어닝쇼크"
 ---
 
@@ -41,21 +41,15 @@ primary_keyword: "어닝쇼크"
 
 ```mermaid
 graph TD
-    A0["컨센서스: 영업이익 1,000억 원"]
-    A1["실제 실적: 600억 원"]
-    A2["쇼크율: -40%"]
-    A3["시장 반응"]
-    A4["① 주가 급락 （당일~1주）"]
-    A5["② 컨센서스 하향 조정"]
-    A6["③ 목표가 하향·투자의견 하향"]
-    A7["④ 동종업체 동반 하락 가능"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
+    A["컨센서스 1,000억"] --> B{"실적 발표: 600억"}
+    B --> C["쇼크율 -40%"]
+    C --> D["즉각 반응"]
+    C --> E["후속 영향"]
+    D --> D1["주가 급락"]
+    D --> D2["거래량 폭증"]
+    E --> E1["컨센서스 하향 조정"]
+    E --> E2["목표가·투자의견 하향"]
+    E --> E3["동종업체 동반 하락"]
 ```
 
 ## 숫자로 보는 예시

@@ -2,7 +2,7 @@
 id: 88
 slug: order-backlog
 title: "수주잔고 뜻"
-seo_title: "수주잔고란? 조선·건설 기업을 볼 때 중요한 이유 설명"
+seo_title: "수주잔고 완벽 정리 — 조선·건설 기업의 미래 매출 판단법"
 category: stock-terms
 topic: strategy-risk
 level: 9
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [수주잔고, 수주, 백로그, 조선, 건설]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "수주잔고 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "수주잔고의 뜻, 일감 연수 계산법, 업황 판단 활용법을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "투자전략·리스크 이해"
+search_intent: "수주잔고가 뭔지, 조선·건설주 분석에 어떻게 활용하는지 알고 싶다"
 primary_keyword: "수주잔고"
 ---
 
@@ -41,21 +41,16 @@ primary_keyword: "수주잔고"
 
 ```mermaid
 graph TD
-    A0["수주잔고 흐름"]
-    A1["신규 수주 （유입）"]
-    A2["수주잔고 （재고）"]
-    A3["= 미래 매출 파이프라인"]
-    A4["매출 인식 （유출） — 공사 진행·납품"]
-    A5["수주잔고 = 기초잔고 + 신규수주 - 매출인식"]
-    A6["수주잔고 / 연매출 = '일감 연수'"]
-    A7["예: 수주잔고 3조 / 연매출 1조 = 3년분"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
+    A["수주잔고 흐름"]
+    A --> B["신규 수주 (유입)"]
+    A --> C["매출 인식 (유출)"]
+    B --> D["수주잔고 = 미래 매출 파이프라인"]
+    C --> D
+    D --> E["일감 연수 = 잔고 ÷ 연매출"]
+    E --> F["예: 3조 ÷ 1조 = 3년분 일감"]
+    D --> G{"잔고 추이"}
+    G -->|"증가"| H["업황 호조 신호"]
+    G -->|"감소"| I["업황 둘화 신호"]
 ```
 
 ## 숫자로 보는 예시

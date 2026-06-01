@@ -2,7 +2,7 @@
 id: 51
 slug: dividend
 title: "배당 뜻"
-seo_title: "배당이란? 주식 초보를 위한 배당금 쉬운 설명"
+seo_title: "배당 완벽 정리 — 배당금 받는 원리와 투자 활용법"
 category: stock-terms
 topic: events
 level: 6
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [배당, 배당금, 주주환원, 현금배당, 주식배당]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "cited"
-description: "배당 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "배당이 무엇인지, 현금배당과 주식배당 차이, 배당 투자 전략을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "주주환원·이벤트 이해"
+search_intent: "배당이 뭔지, 어떻게 받고 배당주 투자는 어떻게 하는지 알고 싶다"
 primary_keyword: "배당"
 ---
 
@@ -38,17 +38,15 @@ primary_keyword: "배당"
 
 ```mermaid
 graph TD
-    A0["기업 이익 （당기순이익）"]
-    A1["사내유보 배당 지급"]
-    A2["（재투자） （주주 환원）"]
-    A3["70% 30%"]
-    A4["주주 계좌로 입금"]
-    A5["（배당금 = 1주당 ○○원）"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
+    A["기업 순이익"]
+    A --> B["사내유보"]
+    A --> C["배당 지급"]
+    B --> B1["재투자·설비투자"]
+    B --> B2["부채 상환"]
+    C --> C1["현금배당"]
+    C --> C2["주식배당"]
+    C1 --> D["주주 계좌 입금"]
+    C2 --> E["신주 배정"]
 ```
 
 ## 숫자로 보는 예시

@@ -2,7 +2,7 @@
 id: 77
 slug: turnaround
 title: "턴어라운드 뜻"
-seo_title: "턴어라운드란? 적자 기업이 다시 살아나는 과정 설명"
+seo_title: "턴어라운드 완벽 정리 — 적자 기업이 흑자로 돌아오는 과정"
 category: stock-terms
 topic: industry-macro
 level: 8
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [턴어라운드, 적자전환, 흑자전환, 구조조정, 실적회복]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "턴어라운드 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "턴어라운드의 뜻, 성공 조건, 투자 시점 판단법을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "실적·업황 분석"
+search_intent: "턴어라운드가 뭔지, 적자 기업이 회복할 때 언제 투자해야 하는지 알고 싶다"
 primary_keyword: "턴어라운드"
 ---
 
@@ -41,31 +41,17 @@ primary_keyword: "턴어라운드"
 
 ```mermaid
 graph TD
-    A0["영업이익"]
-    A1["╲ ╱ ← 턴어라운드"]
-    A2["╲ ╱"]
-    A3["╲ 바닥 ╱"]
-    A4["╲ ╱"]
-    A5["▶ 시간"]
-    A6["하락기 바닥 회복기"]
-    A7["적자 or 최저 이익"]
-    A8["주가 반응:"]
-    A9["주가 바닥 （실적 바닥보다 앞서）"]
-    A10["╲╱ ← 여기서 반등 시작"]
-    A11["╱ 실적 확인 전에 선반영"]
-    A12["▶ 시간"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
-    A9 --> A10
-    A10 --> A11
-    A11 --> A12
+    A["기업 실적 부진"]
+    A --> B["구조조정"]
+    A --> C["업황 회복"]
+    A --> D["신사업 성과"]
+    B --> E{"턴어라운드 판단"}
+    C --> E
+    D --> E
+    E -->|"성공"| F["적자 → 흑자 전환"]
+    E -->|"실패"| G["재무 악화 지속"]
+    F --> H["주가 선반영 — 실적 확인 전 반등"]
+    G --> I["추가 하락 위험"]
 ```
 
 ## 숫자로 보는 예시

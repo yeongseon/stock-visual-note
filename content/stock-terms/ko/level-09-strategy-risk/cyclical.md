@@ -2,7 +2,7 @@
 id: 85
 slug: cyclical
 title: "시클리컬 뜻"
-seo_title: "시클리컬이란? 업황 사이클을 타는 기업 쉽게 설명"
+seo_title: "시클리컴 완벽 정리 — 업황 사이클을 타는 기업의 투자법"
 category: stock-terms
 topic: strategy-risk
 level: 9
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [시클리컬, 사이클, 업황순환, 경기순환, 시황]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "시클리컬 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "시클리컴의 뜻, 사이클 위치 판단법, PER 역설 현상을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "투자전략·리스크 이해"
+search_intent: "시클리컴이 뭔지, 업황 사이클을 타는 기업에 언제 투자해야 하는지 알고 싶다"
 primary_keyword: "시클리컬"
 ---
 
@@ -41,21 +41,15 @@ primary_keyword: "시클리컬"
 
 ```mermaid
 graph TD
-    N0["업황（가격/수요）"]
-    N1["호황 호황"]
-    N2["╱ ╲ ╱ ╲"]
-    N3["╱ 정점 ╲ ╱ ╲"]
-    N4["╱ ★ ╲ ╱"]
-    N5["╱ ╲─╱"]
-    N6["╱ 바닥 ★ ╲╱"]
-    N7["▶ 시간"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["업황 사이클"]
+    A --> B["호황기"]
+    A --> C["불황기"]
+    B --> B1["가격 상승 + 실적 급증"]
+    B --> B2["PER 하락 — 비싸 보이지만 정점 신호"]
+    C --> C1["가격 하락 + 실적 급감"]
+    C --> C2["PER 상승 — 비싸 보이지만 바닥 신호"]
+    B2 --> D["역설적 PER: 시클리컴 특유 현상"]
+    C2 --> D
 ```
 
 ## 숫자로 보는 예시

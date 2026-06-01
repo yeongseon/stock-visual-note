@@ -2,7 +2,7 @@
 id: 27
 slug: liabilities
 title: "부채 뜻"
-seo_title: "부채란? 주식 초보를 위한 부채 쉬운 설명"
+seo_title: "부채 완벽 정리 — 좋은 부채와 나쁜 부채를 구별하는 법"
 category: stock-terms
 topic: financial-statements
 level: 3
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [부채, 유동부채, 비유동부채, 재무제표, 재무상태표]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "부채 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "부채의 의미, 유동·비유동 구분, 부채비율 해석법을 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "재무제표 읽는 법"
+search_intent: "부채가 뭔지, 부채가 많으면 나쁜 건지 알고 싶다"
 primary_keyword: "부채"
 ---
 
@@ -38,17 +38,15 @@ primary_keyword: "부채"
 
 ```mermaid
 graph TD
-    N0["재무상태표 （B/S）"]
-    N1["유동부채 （1년 이내）"]
-    N2["자산 비유동부채 （1년 초과）"]
-    N3["（운용）"]
-    N4["자본 （주주의 몫）"]
-    N5["자산 합계 = 부채 + 자본"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
+    A["재무상태표"]
+    A --> B["자산"]
+    A --> C["부채 + 자본"]
+    C --> D["부채"]
+    C --> E["자본"]
+    D --> F["유동부채 (1년 이내)"]
+    D --> G["비유동부채 (1년 초과)"]
+    F --> H["단기차입금, 매입채무"]
+    G --> I["사채, 장기차입금"]
 ```
 
 ## 숫자로 보는 예시

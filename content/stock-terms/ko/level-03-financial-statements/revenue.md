@@ -2,7 +2,7 @@
 id: 21
 slug: "revenue"
 title: "매출액 뜻, 회사가 벌어들인 전체 돈"
-seo_title: "매출액 뜻 쉽게 이해하기"
+seo_title: "매출액 완벽 정리 — 매출이 높아도 적자인 이유"
 category: "stock-terms"
 topic: "financial-statements"
 level: 3
@@ -15,13 +15,13 @@ tags:
   - 재무제표
   - 주식초보
   - 기업분석
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "매출액 뜻, 회사가 벌어들인 전체 돈을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "매출액의 의미, 손익계산서에서의 위치, 매출 성장률 해석법을 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "재무제표 읽는 법"
+search_intent: "매출액이 뭔지, 손익계산서에서 어떻게 볼지 알고 싶다"
 primary_keyword: "매출액"
 ---
 
@@ -52,25 +52,16 @@ primary_keyword: "매출액"
 
 ```mermaid
 graph TD
-    A0["손익계산서 구조 （위"]
-    A1["아래）"]
-    A2["★ 매출액 ← 맨 위!"]
-    A3["（총 벌어들인 돈）"]
-    A4["- 매출원가"]
-    A5["매출총이익"]
-    A6["- 판관비"]
-    A7["영업이익"]
-    A8["± 영업외손익"]
-    A9["순이익"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
+    A["매출액"]
+    A --> B["− 매출원가"]
+    A --> C["성장률 분석"]
+    B --> D["매출총이익"]
+    D --> E["− 판관비"]
+    E --> F["영업이익"]
+    F --> G["± 영업외손익"]
+    G --> H["순이익"]
+    C --> I["전년 대비 증감률"]
+    C --> J["동종업계 비교"]
 ```
 
 _매출액에서 각종 비용을 순서대로 빼면 이익이 됩니다._

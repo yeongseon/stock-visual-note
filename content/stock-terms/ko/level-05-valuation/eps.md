@@ -2,7 +2,7 @@
 id: 44
 slug: eps
 title: "EPS 뜻"
-seo_title: "EPS(주당순이익)란? 주식 초보를 위한 쉬운 설명"
+seo_title: "EPS 완벽 정리 — 주당순이익 계산법과 활용 전략"
 category: stock-terms
 topic: valuation
 level: 5
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [EPS, 주당순이익, 순이익, 주식수, 희석EPS]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "EPS 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "EPS가 무엇인지, 어떻게 계산하고 PER·주가와 어떤 관계인지 사례로 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "기업 가치평가 방법"
+search_intent: "EPS가 뭔지, 어떻게 계산하고 주가에 어떤 영향을 주는지 알고 싶다"
 primary_keyword: "EPS"
 ---
 
@@ -38,19 +38,16 @@ EPS는 PER 계산의 분모이자, 기업의 이익 성장을 주당 기준으�
 
 ```mermaid
 graph TD
-    N0["공식: EPS = 당기순이익 ÷ 가중평균 발행주식수"]
-    N1["순이익 100억 원"]
-    N2["주식 1,000만 주로 균등 배분"]
-    N3["1주│1주│1주│1주│1주 ···"]
-    N4["1천│1천│1천│1천│1천 ···"]
-    N5["원 원 원 원 원"]
-    N6["EPS = 100억 ÷ 1,000만 = 1,000원/주"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
+    A["EPS = 순이익 ÷ 주식수"]
+    A --> B["순이익 증가"]
+    A --> C["주식수 변동"]
+    B --> B1["매출 성장"]
+    B --> B2["비용 절감"]
+    C --> C1["자사주 소각 → EPS ↑"]
+    C --> C2["유상증자 → EPS ↓"]
+    A --> D["활용"]
+    D --> D1["PER 계산"]
+    D --> D2["성장률 추적"]
 ```
 
 ## 숫자로 보는 예시

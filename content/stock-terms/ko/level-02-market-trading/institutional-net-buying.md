@@ -2,7 +2,7 @@
 id: 12
 slug: "institutional-net-buying"
 title: "기관 순매수 뜻, 기관 투자자의 매매를 보는 법"
-seo_title: "기관 순매수 뜻 쉽게 이해하기"
+seo_title: "기관 순매수 완벽 정리 — 연기금·운용사·보험사 수급 읽는 법"
 category: "stock-terms"
 topic: "market-trading"
 level: 2
@@ -15,13 +15,13 @@ tags:
   - 수급
   - 주식초보
   - 주식용어
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "기관 순매수 뜻, 기관 투자자의 매매를 보는 법을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "기관 순매수의 의미와 연기금·자산운용사 등 주체별 해석법을 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "주식 매매 방법 이해"
+search_intent: "기관 순매수가 뭔지, 기관이 사면 좋은 신호인지 알고 싶다"
 primary_keyword: "기관 순매수"
 ---
 
@@ -52,21 +52,15 @@ primary_keyword: "기관 순매수"
 
 ```mermaid
 graph TD
-    A0["기관 투자자의 종류"]
-    A1["연기금 자산운용사"]
-    A2["（국민연금 （펀드）"]
-    A3["사학연금）"]
-    A4["보험사 투신"]
-    A5["（삼성생명 （증권사"]
-    A6["한화생명） 자기매매）"]
-    A7["모두 합쳐서 '기관'이라고 부름"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
+    A["기관 투자자"]
+    A --> B["연기금"]
+    A --> C["자산운용사"]
+    A --> D["보험사"]
+    A --> E["증권사 자기매매"]
+    B --> F["장기·분산 (국민연금, 사학연금)"]
+    C --> G["중기·성과 추구 (펀드)"]
+    D --> H["안정·배당 (삼성생명 등)"]
+    E --> I["단기·차익 (프로그램 매매)"]
 ```
 
 _기관은 연기금, 자산운용사, 보험사, 투신 등을 모두 포함합니다._

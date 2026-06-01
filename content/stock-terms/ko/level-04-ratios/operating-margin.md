@@ -2,7 +2,7 @@
 id: 31
 slug: operating-margin
 title: "영업이익률 뜻"
-seo_title: "영업이익률이란? 주식 초보를 위한 쉬운 설명"
+seo_title: "영업이익률 완벽 정리 — 본업 수익력을 판단하는 핵심 비율"
 category: stock-terms
 topic: ratios
 level: 4
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [영업이익률, 수익성, 영업이익, 매출액, 마진]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "영업이익률 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "영업이익률의 계산법, 업종별 기준, 해석 포인트를 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "재무비율 분석 방법"
+search_intent: "영업이익률이 뭔지, 몇 %면 좋은 건지 알고 싶다"
 primary_keyword: "영업이익률"
 ---
 
@@ -38,15 +38,15 @@ primary_keyword: "영업이익률"
 
 ```mermaid
 graph TD
-    N0["매출액 100%"]
-    N1["매출원가 판관비 영업이익률"]
-    N2["（60%） （25%） （15%）"]
-    N3["이 비율이 핵심!"]
-    N4["공식: 영업이익률 = 영업이익 ÷ 매출액 × 100"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
+    A["매출액 100%"]
+    A --> B["− 매출원가 (60%)"]
+    B --> C["매출총이익 40%"]
+    C --> D["− 판관비 (25%)"]
+    D --> E["영업이익률 15%"]
+    D --> F["판관비 구성"]
+    F --> G["인건비"]
+    F --> H["마케팅비"]
+    F --> I["감가상각비"]
 ```
 
 ## 숫자로 보는 예시

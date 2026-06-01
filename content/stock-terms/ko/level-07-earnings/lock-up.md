@@ -2,7 +2,7 @@
 id: 68
 slug: lock-up
 title: "보호예수 뜻"
-seo_title: "보호예수란? 묶여 있던 주식이 풀리는 날 주가 영향 설명"
+seo_title: "보호예수 완벽 정리 — 락업 해제일 주가 영향과 대응 전략"
 category: stock-terms
 topic: earnings
 level: 7
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [보호예수, 락업, 의무보유, 물량출회, IPO]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "보호예수 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "보호예수가 뭔지, 해제일에 주가가 왜 빠지고 어떻게 대응하는지 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "자본변동·공시 이해"
+search_intent: "보호예수가 뭔지, 해제일에 주가가 왜 빠지고 어떻게 대응해야 하는지 알고 싶다"
 primary_keyword: "보호예수"
 ---
 
@@ -41,27 +41,16 @@ primary_keyword: "보호예수"
 
 ```mermaid
 graph TD
-    A0["IPO 시점"]
-    A1["최대주주 지분 30%"]
-    A2["기관 투자자 20% 보호예수 （6개월）"]
-    A3["CB 전환 물량 10%"]
-    A4["일반 공모 투자자 40% 즉시 거래 가능"]
-    A5["6개월 경과"]
-    A6["해제일"]
-    A7["묶여 있던 60% 물량"]
-    A8["매도 가능"]
-    A9["시장: 대량 매도 우려"]
-    A10["주가 하락 압력"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
-    A9 --> A10
+    A["보호예수 Lock-up"]
+    A --> B["적용 대상"]
+    A --> C["해제 후 시나리오"]
+    B --> B1["최대주주"]
+    B --> B2["CB/BW 전환 물량"]
+    B --> B3["기관 배정 물량"]
+    C --> C1["즐시 매도 → 주가 하락"]
+    C --> C2["계속 보유 → 오버행 해소"]
+    A --> D["핵심: 해제 물량 규모 확인"]
+    D --> D1["유통주식 대비 비율이 핵심"]
 ```
 
 ## 숫자로 보는 예시

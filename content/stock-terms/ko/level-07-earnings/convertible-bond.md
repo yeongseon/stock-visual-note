@@ -2,7 +2,7 @@
 id: 66
 slug: convertible-bond
 title: "전환사채 CB 뜻"
-seo_title: "전환사채(CB)란? 주식으로 바뀌는 채권 쉽게 설명"
+seo_title: "전환사채(CB) 완벽 정리 — 주식 전환 원리와 주가 영향"
 category: stock-terms
 topic: earnings
 level: 7
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [전환사채, CB, 전환가액, 희석, 메자닌]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "전환사채 CB 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "전환사채가 뭔지, 전환 조건과 기존 주주 희석 영향을 사례로 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "자본변동·공시 이해"
+search_intent: "전환사채 CB가 뭔지, 주가에 왜 악재이고 어떻게 대응해야 하는지 알고 싶다"
 primary_keyword: "전환사채"
 ---
 
@@ -41,25 +41,16 @@ primary_keyword: "전환사채"
 
 ```mermaid
 graph TD
-    A0["전환사채（CB） 구조"]
-    A1["투자자 100억 원 대출 ▶ 기업"]
-    A2["◀ 연 2% 이자"]
-    A3["만기 시 선택"]
-    A4["원금 상환 주식 전환"]
-    A5["（100억 원 돌려받기） （전환가 기준 주식 수령）"]
-    A6["주가 < 전환가"]
-    A7["원금 상환 선택"]
-    A8["주가 > 전환가"]
-    A9["주식 전환 선택"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
+    A["CB = 채권 + 전환권"]
+    A --> B["투자자 선택"]
+    A --> C["기업 입장"]
+    B --> B1["주가 > 전환가 → 전환"]
+    B --> B2["주가 < 전환가 → 상환"]
+    B1 --> D["신주 수령 → 차익 실현"]
+    B2 --> E["원금 + 이자 회수"]
+    C --> C1["낮은 이자로 자금 조달"]
+    C --> C2["전환 시 부채 소멸"]
+    D --> F["기존 주주 희석 발생"]
 ```
 
 ## 숫자로 보는 예시

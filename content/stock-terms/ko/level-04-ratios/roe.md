@@ -2,7 +2,7 @@
 id: 34
 slug: roe
 title: "ROE 뜻"
-seo_title: "ROE(자기자본이익률)란? 주식 초보를 위한 쉬운 설명"
+seo_title: "ROE(자기자본이익률) 완벽 정리 — 주주 돈으로 얼마를 벌었나"
 category: stock-terms
 topic: ratios
 level: 4
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [ROE, 자기자본이익률, 순이익, 자본, 듀퐁분석]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "ROE 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "ROE의 계산법, 듀팁분석, 높은 ROE의 함정을 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "재무비율 분석 방법"
+search_intent: "ROE가 뭔지, 높을수록 좋은 건지 알고 싶다"
 primary_keyword: "ROE"
 ---
 
@@ -38,19 +38,17 @@ ROE(Return on Equity)는 주주가 투자한 자본 대비 얼마의 순이익�
 
 ```mermaid
 graph TD
-    A0["ROE 듀퐁 분해"]
-    A1["ROE = 순이익률 × 자산회전율 × 레버리지"]
-    A2["순이익 매출액 총자산"]
-    A3["× ×"]
-    A4["매출액 총자산 자본"]
-    A5["수익성 효율성 재무구조"]
-    A6["（마진） （회전） （부채）"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
+    A["ROE"]
+    A --> B["듀팁분해"]
+    B --> C["순이익률"]
+    B --> D["자산회전율"]
+    B --> E["레버리지"]
+    C --> F["수익성 (마진)"]
+    D --> G["효율성 (회전)"]
+    E --> H["재무구조 (부채)"]
+    F --> I["ROE = C × D × E"]
+    G --> I
+    H --> I
 ```
 
 ## 숫자로 보는 예시

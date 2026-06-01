@@ -2,7 +2,7 @@
 id: 24
 slug: "net-income"
 title: "순이익 뜻, 최종적으로 남은 돈"
-seo_title: "순이익 뜻 쉽게 이해하기"
+seo_title: "순이익 완벽 정리 — 주주에게 귀속되는 최종 이익"
 category: "stock-terms"
 topic: "financial-statements"
 level: 3
@@ -15,13 +15,13 @@ tags:
   - 당기순이익
   - 주식초보
   - 기업분석
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "순이익 뜻, 최종적으로 남은 돈을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "순이익(당기순이익)의 의미, 계산 구조, 주의점을 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "재무제표 읽는 법"
+search_intent: "순이익이 뭔지, 영업이익과 어떻게 다른지 알고 싶다"
 primary_keyword: "순이익"
 ---
 
@@ -52,21 +52,16 @@ primary_keyword: "순이익"
 
 ```mermaid
 graph TD
-    N0["순이익까지의 흐름"]
-    N1["매출액 1,000억"]
-    N2["（-） 매출원가 600억"]
-    N3["매출총이익 400억"]
-    N4["（-） 판관비 250억"]
-    N5["영업이익 150억"]
-    N6["（+） 이자수익 5억"]
-    N7["（-） 이자비용 20억"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["영업이익"]
+    A --> B["± 영업외손익"]
+    B --> C["세전이익"]
+    C --> D["− 법인세"]
+    D --> E["순이익"]
+    B --> F["이자수익/비용"]
+    B --> G["자산매각이익"]
+    B --> H["환차손익"]
+    E --> I["주주 귀속 순이익"]
+    E --> J["비지배지분 순이익"]
 ```
 
 _영업이익에서 이자, 기타손익, 세금까지 빼면 순이익입니다._

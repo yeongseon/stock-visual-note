@@ -2,7 +2,7 @@
 id: 33
 slug: gross-margin
 title: "매출총이익률 뜻"
-seo_title: "매출총이익률이란? 주식 초보를 위한 쉬운 설명"
+seo_title: "매출총이익률 완벽 정리 — 원가 경쟁력의 첨 번째 관문"
 category: stock-terms
 topic: ratios
 level: 4
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [매출총이익률, 매출총이익, 매출원가, 원가율, 수익성]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "매출총이익률 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "매출총이익률의 계산법, 업종별 차이, 해석 포인트를 쉽게 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "재무비율 분석 방법"
+search_intent: "매출총이익률이 뭔지, 어떻게 계산하고 해석하는지 알고 싶다"
 primary_keyword: "매출총이익률"
 ---
 
@@ -38,17 +38,14 @@ primary_keyword: "매출총이익률"
 
 ```mermaid
 graph TD
-    N0["매출액 100%"]
-    N1["매출원가 （COGS） 매출총이익률"]
-    N2["（40%） （60%）"]
-    N3["원가 경쟁력 지표"]
-    N4["공식: 매출총이익률 = （매출액 - 매출원가） ÷ 매출액 × 100"]
-    N5["= 매출총이익 ÷ 매출액 × 100"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
+    A["매출액 100%"]
+    A --> B["− 매출원가"]
+    A --> C["매출총이익률"]
+    B --> D["원재료·생산비"]
+    C --> E["높음: 브랜드·SW (60~80%)"]
+    C --> F["낮음: 유통·제조 (10~30%)"]
+    E --> G["원가 경쟁력 우수"]
+    F --> H["박리다매 구조"]
 ```
 
 ## 숫자로 보는 예시

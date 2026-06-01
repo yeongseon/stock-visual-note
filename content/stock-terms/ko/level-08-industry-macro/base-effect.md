@@ -2,7 +2,7 @@
 id: 78
 slug: base-effect
 title: "기저효과 뜻"
-seo_title: "기저효과란? 실적 증가율을 착각하게 만드는 요인 설명"
+seo_title: "기저효과 완벽 정리 — 실적 성장률 착시를 간파하는 법"
 category: stock-terms
 topic: industry-macro
 level: 8
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [기저효과, YoY, 전년동기, 성장률착시, 비교기간]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "기저효과 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "기저효과가 YoY 성장률을 왜곡하는 원리와 실질 성장 판별법을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "실적·업황 분석"
+search_intent: "기저효과가 뭔지, 실적 성장률이 착시인지 어떻게 구분하는지 알고 싶다"
 primary_keyword: "기저효과"
 ---
 
@@ -41,25 +41,14 @@ primary_keyword: "기저효과"
 
 ```mermaid
 graph TD
-    A0["영업이익"]
-    A1["800억 800억 YoY: +60%"]
-    A2["（기저효과）"]
-    A3["500억"]
-    A4["┼┼ ┼┼ ┼─┼ ┼ ┼ ▶"]
-    A5["재작년 작년 올해"]
-    A6["재작년 800억"]
-    A7["작년 500억（특수 요인）"]
-    A8["올해 800억"]
-    A9["YoY 성장률: +60% （하지만 2년 전과 같은 수준）"]
-    A0 --> A1
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
-    A6 --> A7
-    A7 --> A8
-    A8 --> A9
+    A["YoY 성장률 +60%"]
+    A --> B["절대 금액 확인"]
+    A --> C["비교 기간 확인"]
+    B --> B1["올해 800억"]
+    B --> B2["재작년 800억 — 제자리"]
+    C --> C1["작년 500억 — 비정상 저점"]
+    C --> C2["기저효과로 과장된 성장률"]
+    C2 --> D["CAGR·QoQ로 실질 검증"]
 ```
 
 ## 숫자로 보는 예시

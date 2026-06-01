@@ -2,7 +2,7 @@
 id: 62
 slug: free-capital-increase
 title: "무상증자 뜻"
-seo_title: "무상증자란? 주식 초보를 위한 쉬운 설명"
+seo_title: "무상증자 완벽 정리 — 공짜 신주의 원리와 주가 영향"
 category: stock-terms
 topic: earnings
 level: 7
@@ -10,13 +10,13 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [무상증자, 이익잉여금, 자본전입, 주식분할효과, 호재]
-last_reviewed: "2026-05-27"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "무상증자 뜻을 초보자도 이해할 수 있게 그림과 표로 설명합니다."
+description: "무상증자가 뭔지, 주가에 왜 호재이고 실제 자산은 어떻게 변하는지 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "자본변동·공시 이해"
+search_intent: "무상증자가 뭔지, 주식을 공짜로 주는데 주가는 왜 빠지는지 알고 싶다"
 primary_keyword: "무상증자"
 ---
 
@@ -38,21 +38,17 @@ primary_keyword: "무상증자"
 
 ```mermaid
 graph TD
-    N0["무상증자 1:1 （100%） 예시:"]
-    N1["[회계 처리]"]
-    N2["이익잉여금 500억 자본금으로 전입"]
-    N3["（자본 총계는 변화 없음, 내부 이동일 뿐）"]
-    N4["[주주 입장]"]
-    N5["Before: 100주 × 50,000원 = 500만 원"]
-    N6["After: 200주 × 25,000원 = 500만 원 （동일!）"]
-    N7["총 가치 불변, 주식 수만 2배"]
-    N0 --> N1
-    N1 --> N2
-    N2 --> N3
-    N3 --> N4
-    N4 --> N5
-    N5 --> N6
-    N6 --> N7
+    A["무상증자"]
+    A --> B["회계 처리"]
+    A --> C["주주 입장"]
+    A --> D["시장 반응"]
+    B --> B1["이익잉여금 → 자본금 전입"]
+    B --> B2["자본총계 불변"]
+    C --> C1["주식수 2배"]
+    C --> C2["주가 1/2"]
+    C --> C3["총자산 동일"]
+    D --> D1["호재: 재무 건전성 신호"]
+    D --> D2["유동성 확대 효과"]
 ```
 
 ## 숫자로 보는 예시
