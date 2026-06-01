@@ -2,13 +2,14 @@
 id: {id}
 slug: "{slug}"
 title: "{용어}({영문})"
-seo_title: "{용어} 뜻 – {부제}"
-description: "{용어}의 뜻과 기업분석 활용법을 ASCII 다이어그램과 표로 쉽게 설명합니다."
+seo_title: "{용어} 완벽 정리 — {부제}"
+description: "{용어}의 뜻과 기업분석 활용법을 Mermaid 다이어그램과 표로 쉽게 설명합니다."
+category: "stock-terms"
 topic: "{topic}"
 level: {level}
 difficulty: "beginner"
 language: "ko"
-status: "draft"
+status: "review"
 tags:
   - {용어}
   - {관련용어1}
@@ -16,6 +17,12 @@ tags:
   - {관련용어3}
   - {관련용어4}
 last_reviewed: "YYYY-MM-DD"
+content_type: "concept"
+source_policy: "hypothetical"
+analysis_type: "concept"
+review_status: "reviewed"
+search_intent: "{자연스러운 한국어 질문 형태의 검색 의도}"
+primary_keyword: "{용어}"
 ---
 
 # {용어}({영문})
@@ -37,9 +44,15 @@ last_reviewed: "YYYY-MM-DD"
 
 ## 그림으로 이해하기
 
-```
-{ASCII 다이어그램 10~25줄}
-{공식형/흐름형/비교형/타임라인형/판단흐름도/구조형 중 택1}
+```mermaid
+graph TD
+    A["{핵심 개념}"]
+    A --> B["{분기 1}"]
+    A --> C["{분기 2}"]
+    B --> B1["{세부 1}"]
+    B --> B2["{세부 2}"]
+    C --> C1["{세부 3}"]
+    C --> C2["{세부 4}"]
 ```
 
 ## 숫자로 보는 예시

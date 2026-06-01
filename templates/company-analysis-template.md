@@ -1,12 +1,12 @@
 ---
 title: "{기업명} 기업분석, 초보자가 봐야 할 핵심 포인트"
-seo_title: "{기업명} 기업분석 초보자 가이드"
+seo_title: "{기업명} 기업분석 완벽 정리 — 초보자가 봐야 할 핵심 포인트"
 category: "company-analysis"
 topic: "{industry}"
 level: 10
 difficulty: "intermediate"
 language: "ko"
-status: "draft"
+status: "review"
 diagram_required: true
 table_required: true
 tags:
@@ -14,7 +14,13 @@ tags:
   - 기업분석
   - {산업}
   - 주식초보
+  - {산업}주
 last_reviewed: "YYYY-MM-DD"
+content_type: "concept"
+source_policy: "hypothetical"
+review_status: "reviewed"
+search_intent: "{기업명} 기업분석을 어떻게 하는지 알고 싶다"
+primary_keyword: "{기업명} 기업분석"
 ---
 
 # {기업명} 기업분석, 초보자가 봐야 할 핵심 포인트

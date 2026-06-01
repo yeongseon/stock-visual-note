@@ -22,7 +22,7 @@ content/stock-terms/ko/
 └── level-10-company-analysis/     # 투자전략·기업분석 (10개)
 ```
 
-현재 **101개 글 작성 완료** (개념 100 + 데이터 실습 1, Level 1~10, status: draft)
+현재 **101개 글 작성 완료** (개념 100 + 데이터 실습 1, Level 1~10, status: review)
 
 ## 콘텐츠 로드맵
 
@@ -76,16 +76,16 @@ Python 코드 + pykrx 데이터로 개념을 실제 주식 데이터에서 확�
 
 | 레벨 | 글 수 | status | review_status |
 |------|-------|--------|---------------|
-| Level 1 (기본) | 10 | draft | needs_review |
-| Level 2 (매매) | 10 | draft | needs_review |
-| Level 3 (재무제표) | 10 | draft | needs_review |
-| Level 4 (비율) | 10 | draft | needs_review |
-| Level 5 (밸류에이션) | 11 | draft | needs_review |
-| Level 6 (배당) | 10 | draft | needs_review |
-| Level 7 (공시) | 10 | draft | needs_review |
-| Level 8 (실적) | 10 | draft | needs_review |
-| Level 9 (전략) | 10 | draft | needs_review |
-| Level 10 (기업분석) | 10 | draft | needs_review |
+| Level 1 (기본) | 10 | review | reviewed |
+| Level 2 (매매) | 10 | review | reviewed |
+| Level 3 (재무제표) | 10 | review | reviewed |
+| Level 4 (비율) | 10 | review | reviewed |
+| Level 5 (밸류에이션) | 11 | review | reviewed |
+| Level 6 (배당) | 10 | review | reviewed |
+| Level 7 (공시) | 10 | review | reviewed |
+| Level 8 (실적) | 10 | review | reviewed |
+| Level 9 (전략) | 10 | review | reviewed |
+| Level 10 (기업분석) | 10 | review | reviewed |
 
 ## 학습 경로
 
