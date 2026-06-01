@@ -27,9 +27,7 @@ tags:
 last_reviewed: "YYYY-MM-DD"
 analysis_type: "data-practice"
 review_status: "needs_review"
-search_intent:
-  - "{용어} Python 계산 방법"
-  - "{용어} 실제 데이터 확인"
+search_intent: "{용어} Python 계산 방법"
 primary_keyword: "{용어}"
 ---
 

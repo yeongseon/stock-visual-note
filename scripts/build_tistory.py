@@ -130,10 +130,18 @@ def markdown_to_html(body: str) -> str:
 
 def fallback_convert(body: str) -> str:
     """Minimal markdown-to-HTML without external libraries."""
+    # Convert markdown links [text](path.md) to <a> tags first
+    body = re.sub(
+        r"\[([^\]]+)\]\(([^)]*\.md)\)",
+        lambda m: f'<a href="{m.group(2)}">{m.group(1)}</a>',
+        body,
+    )
+
     lines = body.split("\n")
     html_lines = []
     in_code = False
     in_table = False
+    in_list = False
 
     for line in lines:
         # Code blocks
@@ -153,13 +161,25 @@ def fallback_convert(body: str) -> str:
 
         # Headings
         if line.startswith("## "):
+            if in_list:
+                html_lines.append("</ul>")
+                in_list = False
             html_lines.append(f"<h2>{line[3:]}</h2>")
         elif line.startswith("# "):
+            if in_list:
+                html_lines.append("</ul>")
+                in_list = False
             html_lines.append(f"<h1>{line[2:]}</h1>")
         elif line.startswith("### "):
+            if in_list:
+                html_lines.append("</ul>")
+                in_list = False
             html_lines.append(f"<h3>{line[4:]}</h3>")
         # Table rows
         elif line.startswith("|"):
+            if in_list:
+                html_lines.append("</ul>")
+                in_list = False
             if "|---" in line or "| ---" in line:
                 continue
             cells = [c.strip() for c in line.split("|")[1:-1]]
@@ -174,14 +194,29 @@ def fallback_convert(body: str) -> str:
                 html_lines.append("</table>")
                 in_table = False
             if line.startswith("> "):
+                if in_list:
+                    html_lines.append("</ul>")
+                    in_list = False
                 html_lines.append(f"<blockquote>{line[2:]}</blockquote>")
             elif line.startswith("- "):
+                if not in_list:
+                    html_lines.append("<ul>")
+                    in_list = True
                 html_lines.append(f"<li>{line[2:]}</li>")
             elif line.strip():
+                if in_list:
+                    html_lines.append("</ul>")
+                    in_list = False
                 html_lines.append(f"<p>{line}</p>")
+            else:
+                if in_list:
+                    html_lines.append("</ul>")
+                    in_list = False
 
     if in_table:
         html_lines.append("</table>")
+    if in_list:
+        html_lines.append("</ul>")
 
     return "\n".join(html_lines)
 
@@ -232,8 +267,9 @@ def main():
         "--dry-run", action="store_true", help="Preview without writing files"
     )
     parser.add_argument(
-        "--publish", action="store_true",
-        help="Publish mode: fail if mmdc is not installed (no client-side fallback)"
+        "--publish",
+        action="store_true",
+        help="Publish mode: fail if mmdc is not installed (no client-side fallback)",
     )
     args = parser.parse_args()
 
