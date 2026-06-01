@@ -61,6 +61,7 @@ VALID_TOPICS = [
 VALID_STATUSES = ["draft", "review", "published"]
 VALID_DIFFICULTIES = ["beginner", "intermediate", "advanced"]
 VALID_CONTENT_TYPES = ["concept", "data-practice"]
+VALID_CATEGORIES = ["stock-terms", "company-analysis"]
 VALID_SOURCE_POLICIES = ["hypothetical", "cited"]
 VALID_ANALYSIS_TYPES = ["concept", "data-practice"]
 VALID_REVIEW_STATUSES = ["needs_review", "reviewed", "approved"]
@@ -158,6 +159,8 @@ def validate_file(filepath: Path, content_root: Path) -> tuple[list[str], list[s
             errors.append(f"Missing field: {field}")
 
     # Validate field values
+    if fm.get("category") and fm["category"] not in VALID_CATEGORIES:
+        errors.append(f"Invalid category: {fm['category']}")
     if fm.get("topic") and fm["topic"] not in VALID_TOPICS:
         errors.append(f"Invalid topic: {fm['topic']}")
     if fm.get("status") and fm["status"] not in VALID_STATUSES:
@@ -174,8 +177,8 @@ def validate_file(filepath: Path, content_root: Path) -> tuple[list[str], list[s
         errors.append(f"Invalid analysis_type: {fm['analysis_type']}")
     if fm.get("review_status") and fm["review_status"] not in VALID_REVIEW_STATUSES:
         errors.append(f"Invalid review_status: {fm['review_status']}")
-    if fm.get("tags") and not (3 <= len(fm["tags"]) <= 7):
-        errors.append(f"Expected 3-7 tags, got {len(fm['tags'])}")
+    if fm.get("tags") and len(fm["tags"]) != 5:
+        errors.append(f"Expected exactly 5 tags, got {len(fm['tags'])}")
     if fm.get("level") and not (1 <= fm["level"] <= 10):
         errors.append(f"Level out of range: {fm['level']}")
     if fm.get("description") and len(fm["description"]) > 120:

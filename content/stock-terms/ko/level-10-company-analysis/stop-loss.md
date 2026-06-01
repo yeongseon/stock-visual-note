@@ -3,7 +3,7 @@ id: 97
 slug: stop-loss
 title: "손절(Stop Loss)"
 seo_title: "손절 뜻 – 손실을 인정하는 기준이 필요한 이유"
-category: 투자전략·기업분석 연결
+category: stock-terms
 topic: company-analysis
 level: 10
 difficulty: intermediate

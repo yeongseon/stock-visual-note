@@ -41,10 +41,10 @@ def test_build_dry_run():
     """Build --dry-run doesn't write files."""
     with tempfile.TemporaryDirectory() as tmp:
         result = run_build("--all", "--output-dir", tmp, "--dry-run")
-        # If --dry-run not implemented yet, just verify it doesn't crash badly
+        assert result.returncode == 0, f"Dry-run failed:\n{result.stderr}"
         html_files = list(Path(tmp).glob("*.html"))
-        # Either no files (dry-run works) or returncode indicates unrecognized arg
-        assert result.returncode == 0 or "unrecognized" in result.stderr or html_files
+        assert len(html_files) == 0, f"Dry-run should not write files, found {len(html_files)}"
+        assert "Built" in result.stdout
 
 
 if __name__ == "__main__":

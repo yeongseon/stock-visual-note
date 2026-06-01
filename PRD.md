@@ -32,7 +32,7 @@
 #### 공통 필드 (모든 글 필수)
 
 ```yaml
-id: number            # 글 번호 (1~500)
+id: number | string   # 글 번호 (1~500) 또는 데이터 실습용 문자열 ("dp-1")
 slug: string          # URL용 영문 식별자
 title: string         # 글 제목
 seo_title: string     # 검색 최적화 제목

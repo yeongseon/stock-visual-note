@@ -3,7 +3,7 @@ id: 98
 slug: dollar-cost-averaging
 title: "분할매수(Dollar Cost Averaging)"
 seo_title: "분할매수 뜻 – 한 번에 사지 않는 이유"
-category: 투자전략·기업분석 연결
+category: stock-terms
 topic: company-analysis
 level: 10
 difficulty: intermediate

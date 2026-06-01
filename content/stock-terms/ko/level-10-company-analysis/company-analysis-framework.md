@@ -3,7 +3,7 @@ id: 100
 slug: company-analysis-framework
 title: "기업분석 프레임워크(Company Analysis Framework)"
 seo_title: "기업분석 프레임워크 – 초보가 기업을 보는 순서"
-category: 투자전략·기업분석 연결
+category: stock-terms
 topic: company-analysis
 level: 10
 difficulty: intermediate

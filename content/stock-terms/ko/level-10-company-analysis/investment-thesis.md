@@ -3,7 +3,7 @@ id: 99
 slug: investment-thesis
 title: "투자 아이디어(Investment Thesis)"
 seo_title: "투자 아이디어 뜻 – 왜 이 기업을 보는지 정리하는 법"
-category: 투자전략·기업분석 연결
+category: stock-terms
 topic: company-analysis
 level: 10
 difficulty: intermediate
