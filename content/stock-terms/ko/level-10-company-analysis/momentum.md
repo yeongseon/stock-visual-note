@@ -2,7 +2,7 @@
 id: 93
 slug: momentum
 title: "모멘텀 뜻 — 주가를 움직이는 힘 또는 계기"
-seo_title: "모멘텀이란? 주가를 움직이는 동력을 이해하는 법"
+seo_title: "모멘텀 완벽 정리 — 주가를 움직이는 동력의 종류와 활용법"
 category: stock-terms
 topic: company-analysis
 level: 10
@@ -10,7 +10,7 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [모멘텀, 실적모멘텀, 주가추세, 카탈리스트, 상승동력]
-last_reviewed: "2026-05-31"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "모멘텀은 주가가 움직이는 동력이나 계기를 뜻합니다. 실적·이벤트·수급 모멘텀의 차이를 그림과 표로 설명합니다."

@@ -2,7 +2,7 @@
 id: dp-1
 slug: "per-data-practice"
 title: "PER을 Python으로 계산해보기"
-seo_title: "PER Python 계산 – pykrx로 삼성전자 PER 직접 구하기"
+seo_title: "PER Python 계산 완벽 정리 — pykrx로 삼성전자 PER 직접 구하기"
 description: "PER을 실제 주식 데이터와 Python 코드로 계산하고 해석하는 방법을 설명합니다."
 category: stock-terms
 topic: "valuation"
@@ -24,10 +24,10 @@ tags:
   - EPS
   - 밸류에이션
   - 데이터분석
-last_reviewed: "2025-05-31"
+last_reviewed: "2026-06-01"
 analysis_type: "data-practice"
 review_status: "needs_review"
-search_intent: "기업 가치평가 방법"
+search_intent: "PER을 Python으로 직접 계산하는 방법이 궁금하다"
 primary_keyword: "PER"
 ---
 
@@ -118,7 +118,7 @@ print(f"EPS: {latest['EPS']:,.0f}원")
 
 직접 계산한 값과 pykrx 제공 값이 소수점 차이로 약간 다를 수 있습니다. 이는 EPS 산출 기준(연환산 vs 최근 4분기 합산)의 차이입니다.
 
-## 차트로 보기 (선택)
+### 차트로 보기 (선택)
 
 ```python
 # PER 추이 시각화

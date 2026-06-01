@@ -2,7 +2,7 @@
 id: 1
 slug: "stock"
 title: "주식 뜻, 회사의 일부를 산다는 의미"
-seo_title: "주식 뜻 쉽게 이해하기 — 초보자를 위한 그림 설명"
+seo_title: "주식 완벽 정리 — 초보자를 위한 그림과 숫자로 이해하는 주식의 본질"
 category: "stock-terms"
 topic: "basic"
 level: 1
@@ -15,7 +15,7 @@ tags:
   - 주식용어
   - 주식초보
   - 기업분석
-last_reviewed: "2026-05-31"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "주식이란 회사의 소유권을 나눈 조각입니다. 주식의 뜻과 의미를 그림·표로 쉽게 설명합니다."

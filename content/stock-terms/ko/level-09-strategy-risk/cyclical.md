@@ -2,7 +2,7 @@
 id: 85
 slug: cyclical
 title: "시클리컬 뜻"
-seo_title: "시클리컴 완벽 정리 — 업황 사이클을 타는 기업의 투자법"
+seo_title: "시클리컬 완벽 정리 — 업황 사이클을 타는 기업의 투자법"
 category: stock-terms
 topic: strategy-risk
 level: 9
@@ -13,10 +13,10 @@ tags: [시클리컬, 사이클, 업황순환, 경기순환, 시황]
 last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
-description: "시클리컴의 뜻, 사이클 위치 판단법, PER 역설 현상을 설명합니다."
+description: "시클리컬의 뜻, 사이클 위치 판단법, PER 역설 현상을 설명합니다."
 analysis_type: "concept"
 review_status: "needs_review"
-search_intent: "시클리컴이 뭔지, 업황 사이클을 타는 기업에 언제 투자해야 하는지 알고 싶다"
+search_intent: "시클리컬이 뭔지, 업황 사이클을 타는 기업에 언제 투자해야 하는지 알고 싶다"
 primary_keyword: "시클리컬"
 ---
 

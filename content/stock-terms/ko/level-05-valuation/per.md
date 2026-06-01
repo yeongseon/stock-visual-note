@@ -2,7 +2,7 @@
 id: 41
 slug: per
 title: "PER 뜻 — 이익 대비 주가가 몇 배인가"
-seo_title: "PER(주가수익비율)이란? 계산법·해석·활용까지 쉽게 설명"
+seo_title: "PER 완벽 정리 — 계산법·해석·업종별 활용까지 한 번에"
 category: stock-terms
 topic: valuation
 level: 5
@@ -10,7 +10,7 @@ difficulty: beginner
 language: ko
 status: draft
 tags: [PER, 주가수익비율, EPS, 밸류에이션, 저평가]
-last_reviewed: "2026-05-31"
+last_reviewed: "2026-06-01"
 content_type: "concept"
 source_policy: "hypothetical"
 description: "PER(주가수익비율)은 주가÷EPS로 계산하며, 이익 대비 주가 수준을 보여주는 핵심 밸류에이션 지표입니다."
