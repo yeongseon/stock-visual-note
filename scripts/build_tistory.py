@@ -87,19 +87,11 @@ def render_mermaid_svg(mermaid_code: str) -> str | None:
 
 
 def rewrite_md_links(html: str) -> str:
-    """Rewrite relative .md links to Tistory entry URLs.
+    """Strip internal .md links, keeping only the link text.
 
-    Pattern: href="../level-xx-topic/slug.md" -> href="/entry/slug"
+    Pattern: <a href="...slug.md">텍스트</a> -> 텍스트
     """
-
-    def replace_link(match):
-        full = match.group(0)
-        path = match.group(1)
-        # Extract slug from path like "../level-05-valuation/per.md"
-        slug = Path(path).stem
-        return full.replace(path, f"{TISTORY_BASE}/entry/{slug}")
-
-    return re.sub(r'href="([^"]*\.md)"', replace_link, html)
+    return re.sub(r'<a href="[^"]*\.md">([^<]+)</a>', r"\1", html)
 
 
 def markdown_to_html(body: str) -> str:

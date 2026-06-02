@@ -106,21 +106,17 @@ def test_fallback_link_conversion():
 
 
 def test_fallback_link_rewriting_integration():
-    """Full pipeline rewrites fallback-converted links to Tistory URLs."""
+    """Full pipeline strips internal .md links, keeping text only."""
     sys.path.insert(0, str(SCRIPTS_DIR))
     from build_tistory import fallback_convert, rewrite_md_links
 
     md = "- [주식](../level-01-basic/stock.md)\n- [채권](../level-02-price/bond.md)"
     html = fallback_convert(md)
     html = rewrite_md_links(html)
-    assert "stockvisualnote.tistory.com/entry/stock" in html, (
-        f"Link not rewritten: {html}"
-    )
-    assert "stockvisualnote.tistory.com/entry/bond" in html, (
-        f"Link not rewritten: {html}"
-    )
+    assert "주식" in html
+    assert "채권" in html
+    assert ".md" not in html
     assert "<ul>" in html
-
 
 if __name__ == "__main__":
     test_build_single_file()
